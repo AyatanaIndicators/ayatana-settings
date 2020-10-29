@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ayatana-settings 20.10.14\n"
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/issues\n"
-"POT-Creation-Date: 2020-10-14 23:15+0200\n"
+"POT-Creation-Date: 2020-10-29 13:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,12 +42,12 @@ msgid "Show the user list in the menu"
 msgstr ""
 
 #: data/usr/share/ayatana-settings/ayatana-settings.glade:225
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:430
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:501
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:549
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:643
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:691
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:835
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:431
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:503
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:552
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:647
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:696
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:841
 msgid "Enable this indicator on login"
 msgstr ""
 
@@ -55,87 +55,87 @@ msgstr ""
 msgid "Session"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:273
-msgid "Show the number of seconds in the indicator"
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:274
+msgid "Show the number of seconds on the panel"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:286
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:287
 msgid "Show the calendar in the menu"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:299
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:300
 msgid "Show week numbers in the calendar"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:312
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:313
 msgid "Show events in the menu"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:395
-msgid "Show the year in the indicator"
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:396
+msgid "Show the year on the panel"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:408
-msgid "Show the day of the week in the indicator"
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:409
+msgid "Show the day of the week on the panel"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:421
-msgid "Show the month and date in the indicator"
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:422
+msgid "Show the month and date on the panel"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:457
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:458
 msgid "Date and Time"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:482
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:484
 msgid "Allow setting the volume above 100%"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:528
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:530
 msgid "Sound"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:572
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:575
 msgid "Show percentage on the panel"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:585
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:588
 msgid "Show time on the panel"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:622
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:625
 msgid "Power"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:670
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:674
 msgid "Messages"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:718
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:723
 msgid "Bluetooth"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:743
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:749
 msgid "Maximum number of visible items"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:756
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:762
 msgid "Discard notifications by application name"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:801
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:807
 msgid "Add"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:815
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:821
 msgid "Remove"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:874
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:880
 msgid "column"
 msgstr ""
 
-#: data/usr/share/ayatana-settings/ayatana-settings.glade:904
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:910
 msgid "Notifications"
 msgstr ""
 
