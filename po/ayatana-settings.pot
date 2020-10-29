@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Robert Tari
+# This file is distributed under the same license as the ayatana-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ayatana-settings 20.10.14\n"
+"Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/issues\n"
+"POT-Creation-Date: 2020-10-14 23:15+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:139
+msgid "Show full user name on the panel"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:152
+msgid "Remove the Log Out item from the menu"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:165
+msgid "Suppress the Log Out, Restart and Shut Down confirmation"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:178
+msgid "Remove the Restart item from the menu"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:191
+msgid "Remove the Shut Down item from the menu"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:204
+msgid "Show the user list in the menu"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:225
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:430
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:501
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:549
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:643
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:691
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:835
+msgid "Enable this indicator on login"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:249
+msgid "Session"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:273
+msgid "Show the number of seconds in the indicator"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:286
+msgid "Show the calendar in the menu"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:299
+msgid "Show week numbers in the calendar"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:312
+msgid "Show events in the menu"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:395
+msgid "Show the year in the indicator"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:408
+msgid "Show the day of the week in the indicator"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:421
+msgid "Show the month and date in the indicator"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:457
+msgid "Date and Time"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:482
+msgid "Allow setting the volume above 100%"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:528
+msgid "Sound"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:572
+msgid "Show percentage on the panel"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:585
+msgid "Show time on the panel"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:622
+msgid "Power"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:670
+msgid "Messages"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:718
+msgid "Bluetooth"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:743
+msgid "Maximum number of visible items"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:756
+msgid "Discard notifications by application name"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:801
+msgid "Add"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:815
+msgid "Remove"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:874
+msgid "column"
+msgstr ""
+
+#: data/usr/share/ayatana-settings/ayatana-settings.glade:904
+msgid "Notifications"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-settings.desktop:3
+msgid "Indicators"
+msgstr ""
+
+#: data/usr/share/applications/ayatana-settings.desktop:4
+msgid "Ayatana Indicators Settings"
+msgstr ""

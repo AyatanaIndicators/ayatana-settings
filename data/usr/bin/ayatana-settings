@@ -1,0 +1,325 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+try:
+
+    import devpath
+    from ayatanasettings.appdata import APPDEBUG
+    APPDEBUG.append(True)
+
+except:
+
+    pass
+
+import gi
+
+gi.require_version('Gtk', '3.0')
+
+from gi.repository import Gtk, Gio
+from ayatanasettings.appdata import APPNAME
+from ayatanasettings.logger import logger
+from ayatanasettings.psutil import isRunning, isSystemd
+from ayatanasettings.builder import buildApp
+import configparser
+import gettext
+import os
+import pathlib
+import shutil
+import subprocess
+
+m_pTranslation = None
+
+try:
+    m_pTranslation = gettext.translation(APPNAME)
+except IOError:
+    m_pTranslation = gettext.NullTranslations()
+
+m_pTranslation.install()
+
+class AyatanaSettings:
+
+    def __init__(self):
+
+        if isRunning():
+
+            sys.exit(1)
+
+        buildApp(self)
+
+        self.bSystemd = isSystemd()
+        self.bInit = False
+        self.sDesktop = os.environ['XDG_CURRENT_DESKTOP']
+
+        # Session
+        if Gio.SettingsSchemaSource.get_default().lookup('org.ayatana.indicator.session', False):
+
+            self.pSettingsSession = Gio.Settings.new('org.ayatana.indicator.session')
+            self.pSettingsSession.bind('show-real-name-on-panel', self.pSwitchSessionShowName, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsSession.bind('suppress-logout-menuitem', self.pSwitchSessionRemoveLogOut, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsSession.bind('suppress-logout-restart-shutdown', self.pSwitchSessionSuppressConfirmation, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsSession.bind('suppress-restart-menuitem', self.pSwitchSessionRemoveRestart, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsSession.bind('suppress-shutdown-menuitem', self.pSwitchSessionRemoveShutDown, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsSession.bind('user-show-menu', self.pSwitchSessionShowUsers, 'active', Gio.SettingsBindFlags.DEFAULT)
+            bEnabled = self.isEnabled('session')
+            self.pCheckButtonSessionEnable.set_active(bEnabled)
+
+        else:
+
+            self.pLabelSession.set_sensitive(False)
+
+        # Date/Time
+        if Gio.SettingsSchemaSource.get_default().lookup('org.ayatana.indicator.datetime', False):
+
+            self.pSettingsDateTime = Gio.Settings.new('org.ayatana.indicator.datetime')
+            self.pSettingsDateTime.bind('show-calendar', self.pSwitchDatetimeShowCalendar, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsDateTime.bind('show-date', self.pSwitchDatetimeShowDate, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsDateTime.bind('show-day', self.pSwitchDatetimeShowDay, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsDateTime.bind('show-events', self.pSwitchDatetimeShowEvents, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsDateTime.bind('show-seconds', self.pSwitchDatetimeShowSeconds, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsDateTime.bind('show-week-numbers', self.pSwitchDatetimeShowWeekNumbers, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsDateTime.bind('show-year', self.pSwitchDatetimeShowYear, 'active', Gio.SettingsBindFlags.DEFAULT)
+            bEnabled = self.isEnabled('datetime')
+            self.pCheckButtonDatetimeEnable.set_active(bEnabled)
+
+        else:
+
+            self.pLabelDatetime.set_sensitive(False)
+
+        # Sound
+        if Gio.SettingsSchemaSource.get_default().lookup('org.ayatana.indicator.sound', False):
+
+            self.pSettingsSound = Gio.Settings.new('org.ayatana.indicator.sound')
+            self.pSettingsSound.bind('allow-amplified-volume', self.pSwitchSoundAllowAmplified, 'active', Gio.SettingsBindFlags.DEFAULT)
+            bEnabled = self.isEnabled('sound')
+            self.pCheckButtonSoundEnable.set_active(bEnabled)
+
+        else:
+
+            self.pLabelSound.set_sensitive(False)
+
+        # Power
+        if Gio.SettingsSchemaSource.get_default().lookup('org.ayatana.indicator.power', False):
+
+            self.pSettingsPower = Gio.Settings.new('org.ayatana.indicator.power')
+            self.pSettingsPower.bind('show-percentage', self.pSwitchPowerShowPercentage, 'active', Gio.SettingsBindFlags.DEFAULT)
+            self.pSettingsPower.bind('show-time', self.pSwitchPowerShowTime, 'active', Gio.SettingsBindFlags.DEFAULT)
+            bEnabled = self.isEnabled('power')
+            self.pCheckButtonPowerEnable.set_active(bEnabled)
+
+        else:
+
+            self.pLabelPower.set_sensitive(False)
+
+        # Messages
+        if Gio.SettingsSchemaSource.get_default().lookup('org.ayatana.indicator.messages', False):
+
+            bEnabled = self.isEnabled('messages')
+            self.pCheckButtonMessagesEnable.set_active(bEnabled)
+
+        else:
+
+            self.pLabelMessages.set_sensitive(False)
+
+        # Bluetooth
+        if Gio.SettingsSchemaSource.get_default().lookup('org.ayatana.indicator.bluetooth', False):
+
+            bEnabled = self.isEnabled('bluetooth')
+            self.pCheckButtonBluetoothEnable.set_active(bEnabled)
+
+        else:
+
+            self.pLabelBluetooth.set_sensitive(False)
+
+        # Notifications
+        if Gio.SettingsSchemaSource.get_default().lookup('org.ayatana.indicator.notifications', False):
+
+            self.pSettingsNotifications = Gio.Settings.new('org.ayatana.indicator.notifications')
+            nMaxItems = self.pSettingsNotifications.get_int('max-items')
+            self.pSpinButtonNotifications.set_value(nMaxItems)
+
+            for sFilter in self.pSettingsNotifications.get_strv('filter-list'):
+
+                self.pListStoreNotificationsFilters.append([sFilter]);
+
+            for sHint in self.pSettingsNotifications.get_strv('filter-list-hints'):
+
+                self.pListStoreNotificationsHints.append([sHint]);
+
+            self.pEntryCompletionNotifications = Gtk.EntryCompletion()
+            self.pEntryCompletionNotifications.set_model(self.pListStoreNotificationsHints)
+            self.pEntryCompletionNotifications.set_text_column(0)
+            self.pEntryCompletionNotifications.set_minimum_key_length(0)
+            self.pEntryNotifications.set_completion(self.pEntryCompletionNotifications)
+            bEnabled = self.isEnabled('notifications')
+            self.pCheckButtonNotificationsEnable.set_active(bEnabled)
+
+        else:
+
+            self.pLabelNotifications.set_sensitive(False)
+
+        self.bInit = True
+
+        Gtk.main()
+
+    def isEnabled(self, sIndicator):
+
+        bEnabled = True
+
+        '''
+        TODO: Fix systemd autostart first
+        if self.bSystemd:
+
+            bEnabled = subprocess.Popen('systemctl --user is-enabled ayatana-indicator-{}'.format(sIndicator), stdout = subprocess.PIPE, shell = True).communicate()[0].decode().strip() == 'enabled'
+
+        else:
+        '''
+
+        sPath = '~/.config/autostart/ayatana-indicator-{}.desktop'.format(sIndicator)
+        pPath = pathlib.Path(sPath).expanduser()
+
+        if pPath.exists():
+
+            pFile = pPath.open('r')
+            pParser = configparser.ConfigParser()
+            pParser.read_file(pFile)
+
+            if 'X-MATE-Autostart-enabled' in pParser['Desktop Entry']:
+
+                bEnabled = (pParser['Desktop Entry']['X-MATE-Autostart-enabled'] != 'false')
+
+            elif 'X-GNOME-Autostart-enabled' in pParser['Desktop Entry']:
+
+                bEnabled = (pParser['Desktop Entry']['X-GNOME-Autostart-enabled'] != 'false')
+
+            pFile.close()
+
+        return bEnabled
+
+    def onCheckButtonEnableToggled(self, pCheckButton):
+
+        if not self.bInit:
+
+            return
+
+        sIndicator = pCheckButton.get_name()
+
+        '''
+        TODO: Fix systemd autostart first
+        if self.bSystemd:
+
+            sAction = 'enable' if pCheckButton.get_active() else 'disable'
+            subprocess.Popen('systemctl --quiet --user {} ayatana-indicator-{}'.format(sAction, sIndicator), stdout = subprocess.PIPE, shell = True).communicate()
+
+        else:
+        '''
+
+        sPath = '~/.config/autostart/ayatana-indicator-{}.desktop'.format(sIndicator)
+        pPath = pathlib.Path(sPath).expanduser()
+
+        if not pPath.exists():
+
+            sPathIn = '/etc/xdg/autostart/ayatana-indicator-{}.desktop'.format(sIndicator)
+            shutil.copy(sPathIn, pPath)
+
+        pFile = pPath.open('r+')
+        pParser = configparser.ConfigParser()
+        pParser.optionxform = str
+        pParser.read_file(pFile)
+        sEnabled = 'true' if pCheckButton.get_active() else 'false'
+
+        if self.sDesktop == 'MATE':
+
+            pParser['Desktop Entry']['X-MATE-Autostart-enabled'] = sEnabled
+
+        else:
+
+            pParser['Desktop Entry']['X-GNOME-Autostart-enabled'] = sEnabled
+
+        pFile.seek(0)
+        pParser.write(pFile, False)
+        pFile.truncate()
+        pFile.close()
+
+    def onWindowDestroy(self, pWidget, pData = None):
+
+        Gtk.main_quit()
+
+    def onSpinButtonNotificationsValueChanged(self, pSpinButton):
+
+        nValue = pSpinButton.get_value_as_int()
+        self.pSettingsNotifications.set_int('max-items', nValue)
+
+    def onSpinButtonNotificationsChanged(self, pSpinButton):
+
+        sText = pSpinButton.get_text()
+
+        if not sText:
+
+            return
+
+        nNum = int(sText)
+        nNum = max(1, nNum)
+        nNum = min(nNum, 10)
+
+        if str(nNum) != sText:
+
+            pSpinButton.set_text(str(nNum))
+
+    def onButtonNotificationsAddClicked(self, pButton):
+
+        sText = self.pEntryNotifications.get_text().strip()
+
+        if sText:
+
+            bDuplicate = False;
+
+            for pRow in self.pListStoreNotificationsFilters:
+
+                if pRow[0] == sText:
+
+                    bDuplicate = True
+
+                    break
+
+            if not bDuplicate:
+
+                self.pListStoreNotificationsFilters.append([sText])
+                self.saveFilterList()
+
+        self.pEntryNotifications.set_text('')
+
+    def onButtonNotificationsRemoveClicked(self, pButton):
+
+        pSelection = self.pTreeViewNotifications.get_selection()
+        pIter = pSelection.get_selected()[1]
+
+        if pIter is not None:
+
+            self.pListStoreNotificationsFilters.remove(pIter)
+            self.saveFilterList()
+
+    def onEntryNotificationsFocusInEvent(self, pEntry, pEvent):
+
+        self.pListStoreNotificationsHints.clear()
+
+        for sHint in self.pSettingsNotifications.get_strv('filter-list-hints'):
+
+            self.pListStoreNotificationsHints.append([sHint])
+
+        pEntry.emit('changed')
+
+        return False
+
+    def saveFilterList(self):
+
+        lItems = []
+
+        for lRow in self.pListStoreNotificationsFilters:
+
+            lItems.append(lRow[0])
+
+        self.pSettingsNotifications.set_strv('filter-list', lItems)
+
+if __name__ == "__main__":
+
+    AyatanaSettings()

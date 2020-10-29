@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Indicators
+Comment=Ayatana Indicators Settings
+Categories=Settings;DesktopSettings;X-LXDE-Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+Exec=/usr/bin/ayatana-settings
+Icon=/usr/share/icons/hicolor/scalable/apps/ayatana-settings.svg
+Terminal=false
+Type=Application
+X-Ubuntu-Gettext-Domain=ayatana-settings
