@@ -1,0 +1,28 @@
+2020-11-07 16:12:56 +0100 Mike Gabriel
+
+	* release 20.10.14 (HEAD -> master, tag: 20.10.14)
+
+2020-11-07 16:11:50 +0100 Mike Gabriel (4609dd9)
+
+	* debian/control: Be happy with Python 3.6 (instead of 3.8).
+
+2020-11-07 15:49:33 +0100 Mike Gabriel (83be359)
+
+	* debian/source/format: Upstream DEBs need to be format 1.0.
+
+2020-10-30 03:23:49 +0100 Robert Tari (662c230)
+
+	* Fix debian files
+
+2020-10-29 13:23:56 +0100 Robert Tari (1582244)
+
+	* Update translation file
+
+2020-10-29 13:16:47 +0100 Robert Tari (c3f9ce6)
+
+	* Update README.md
+
+2020-10-29 12:41:30 +0100 Robert Tari (b8b2360)
+
+	* Initial commit
+
