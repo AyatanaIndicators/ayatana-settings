@@ -1,6 +1,38 @@
-2020-11-09 12:45:48 +0100 Mike Gabriel
+2020-11-09 13:44:44 +0100 Mike Gabriel
 
-	* release 20.11.09.1 (HEAD -> master, tag: 20.11.09.1)
+	* release 20.11.09.2 (HEAD -> master, tag: 20.11.09.2)
+
+2020-11-09 13:43:39 +0100 Mike Gabriel (56e9820)
+
+	* Merge branch 'tari01-pr/fix-desktop-file'
+
+2020-11-09 13:37:05 +0100 Robert Tari (a52a146)
+
+	* setup.py: Fix .dektop file generation
+
+2020-11-09 13:07:28 +0100 Mike Gabriel (7146d97)
+
+	* .gitignore: Need not be executable.
+
+2020-11-09 13:06:01 +0100 Mike Gabriel (ffbe03d)
+
+	* **/**: Remove x-bits from all files except the main executable and
+          setup.py (and debian/rules).
+
+2020-11-09 13:04:20 +0100 Mike Gabriel (5f84782)
+
+	* debian/rules: Don't drop data/locale/.gitkeep during dh_auto_clean
+          override.
+
+2020-11-09 13:02:10 +0100 Mike Gabriel (ae18dda)
+
+	* debian/rules: Fix dh_auto_clean override (wrong egg-info path,
+          remove ayatana-settings.desktop, fix locale's .mo file
+          location.
+
+2020-11-09 12:45:48 +0100 Mike Gabriel (ee0aef1)
+
+	* release 20.11.09.1 (tag: 20.11.09.1)
 
 2020-11-09 12:45:37 +0100 Mike Gabriel (94ea4fe)
 
