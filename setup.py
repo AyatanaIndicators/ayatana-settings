@@ -7,7 +7,7 @@ import os, polib, configparser
 
 m_lstDataFiles = []
 
-oFile = open('data/usr/share/applications/{}.desktop'.format(APPNAME), 'r+')
+oFile = open('data/applications/{}.desktop'.format(APPNAME), 'r+')
 oConfigParser = configparser.ConfigParser()
 oConfigParser.optionxform = str
 oConfigParser.read_file(oFile)
@@ -46,7 +46,7 @@ for strRoot, lstDirnames, lstFilenames in os.walk('po'):
 
         if strLocale != APPNAME:
 
-            strLocaleDir = 'data/usr/share/locale/' + strLocale + '/LC_MESSAGES/'
+            strLocaleDir = 'data/locale/' + strLocale + '/LC_MESSAGES/'
 
             if not os.path.isdir(strLocaleDir):
 
@@ -63,7 +63,9 @@ for strRoot, lstDirnames, lstFilenames in os.walk('data'):
             continue
 
         strPath = os.path.join(strRoot, strFilename)
-        m_lstDataFiles.append((os.path.dirname(strPath).lstrip('data'), [strPath]))
+        m_lstDataFiles.append(("share/{data}".format(data=os.path.dirname(strPath).replace('data/', '')), [strPath]))
+
+m_lstDataFiles.append(('bin/', ['ayatana-settings']))
 
 setup(
     name = APPNAME,
