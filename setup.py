@@ -91,5 +91,6 @@ setup(
     keywords = APPKEYWORDS,
     packages = [APPNAME.replace('-', '')],
     data_files = m_lstDataFiles,
+    install_requires = [ 'setuptools', ],
     platforms = 'UNIX'
     )
