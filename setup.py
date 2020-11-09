@@ -7,10 +7,10 @@ import os, polib, configparser
 
 m_lstDataFiles = []
 
-oFile = open('data/applications/{}.desktop'.format(APPNAME), 'r+')
+iFile = open('data/applications/{}.desktop.in'.format(APPNAME), 'r')
 oConfigParser = configparser.ConfigParser()
 oConfigParser.optionxform = str
-oConfigParser.read_file(oFile)
+oConfigParser.read_file(iFile)
 
 for strRoot, lstDirnames, lstFilenames in os.walk('po'):
 
@@ -34,7 +34,7 @@ for sSection in oConfigParser.sections():
 
     oConfigParser[sSection] = dict(sorted(oConfigParser[sSection].items(), key=lambda lParams: lParams[0]))
 
-oFile.seek(0)
+oFile = open('data/applications/{}.desktop'.format(APPNAME), 'w')
 oConfigParser.write(oFile, False)
 oFile.truncate
 
@@ -59,6 +59,10 @@ for strRoot, lstDirnames, lstFilenames in os.walk('data'):
     for strFilename in lstFilenames:
 
         if strFilename == '.gitkeep':
+
+            continue
+
+        elif strFilename == 'ayatana-settings.desktop.in':
 
             continue
 
