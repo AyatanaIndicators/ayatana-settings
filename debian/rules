@@ -6,7 +6,7 @@
 
 override_dh_auto_clean:
 	dh_auto_clean
-	rm -Rfv data/locale
+	rm -Rfv data/locale/*
 	rm -fv data/applications/ayatana-settings.desktop
 	rm -fv ayatana_settings.egg-info/PKG-INFO
 	rm -fv ayatana_settings.egg-info/SOURCES.txt
