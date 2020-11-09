@@ -11,6 +11,7 @@ iFile = open('data/applications/{}.desktop.in'.format(APPNAME), 'r')
 oConfigParser = configparser.ConfigParser()
 oConfigParser.optionxform = str
 oConfigParser.read_file(iFile)
+iFile.close()
 
 for strRoot, lstDirnames, lstFilenames in os.walk('po'):
 
@@ -36,7 +37,7 @@ for sSection in oConfigParser.sections():
 
 oFile = open('data/applications/{}.desktop'.format(APPNAME), 'w')
 oConfigParser.write(oFile, False)
-oFile.truncate
+oFile.close()
 
 for strRoot, lstDirnames, lstFilenames in os.walk('po'):
 
