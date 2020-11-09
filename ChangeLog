@@ -1,6 +1,32 @@
-2020-11-07 16:12:56 +0100 Mike Gabriel
+2020-11-09 12:45:48 +0100 Mike Gabriel
 
-	* release 20.10.14 (HEAD -> master, tag: 20.10.14)
+	* release 20.11.09.1 (HEAD -> master, tag: 20.11.09.1)
+
+2020-11-09 12:45:37 +0100 Mike Gabriel (94ea4fe)
+
+	* debian/control: Add Mike Gabriel to Uploaders: field.
+
+2020-11-09 12:40:01 +0100 Robert Tari (0856414)
+
+	* Merge branch 'sunweaver-pr/data-dir-improvements'
+
+2020-11-09 10:08:59 +0100 Mike Gabriel (ee119c4)
+
+	* data/applications/ayatana-settings.desktop: Don't in-file update
+          locale strings, rather use an input and an output file.
+
+2020-11-09 08:58:45 +0100 Mike Gabriel (d4f6f03)
+
+	* setup.py: Add install_requires key to setup() call.
+
+2020-11-09 08:55:58 +0100 Mike Gabriel (eefc611)
+
+	* data/: Don't mimick FHS in source tree. Use more commonly used
+          data/ tree structure.
+
+2020-11-07 16:12:56 +0100 Mike Gabriel (a66c41b)
+
+	* release 20.10.14 (tag: 20.10.14)
 
 2020-11-07 16:11:50 +0100 Mike Gabriel (4609dd9)
 
