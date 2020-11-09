@@ -6,4 +6,5 @@ Exec=/usr/bin/ayatana-settings
 Icon=/usr/share/icons/hicolor/scalable/apps/ayatana-settings.svg
 Terminal=false
 Type=Application
+Keywords=settings;indicators;ayatana;control;system;sound;notifications;datetime;events;messages;bluetooth;network;session;
 X-Ubuntu-Gettext-Domain=ayatana-settings
