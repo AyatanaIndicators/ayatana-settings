@@ -17,7 +17,7 @@ for strRoot, lstDirnames, lstFilenames in os.walk('po'):
 
     for strFilename in lstFilenames:
 
-        if strFilename.endswith('po'):
+        if strFilename.endswith('.po'):
 
             strLocale = os.path.splitext(strFilename)[0]
 
