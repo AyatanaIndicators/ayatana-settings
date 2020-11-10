@@ -17,7 +17,7 @@ for strRoot, lstDirnames, lstFilenames in os.walk('po'):
 
     for strFilename in lstFilenames:
 
-        if strFilename.endswith('po'):
+        if strFilename.endswith('.po'):
 
             strLocale = os.path.splitext(strFilename)[0]
 
@@ -43,17 +43,19 @@ for strRoot, lstDirnames, lstFilenames in os.walk('po'):
 
     for strFilename in lstFilenames:
 
-        strLocale = os.path.splitext(strFilename)[0]
+        if strFilename.endswith('.po'):
 
-        if strLocale != APPNAME:
+            strLocale = os.path.splitext(strFilename)[0]
 
-            strLocaleDir = 'data/locale/' + strLocale + '/LC_MESSAGES/'
+            if strLocale != APPNAME:
 
-            if not os.path.isdir(strLocaleDir):
+                strLocaleDir = 'data/locale/' + strLocale + '/LC_MESSAGES/'
 
-                os.makedirs(strLocaleDir)
+                if not os.path.isdir(strLocaleDir):
 
-            polib.pofile('po/' + strFilename).save_as_mofile(strLocaleDir + APPNAME + '.mo')
+                    os.makedirs(strLocaleDir)
+
+                polib.pofile('po/' + strFilename).save_as_mofile(strLocaleDir + APPNAME + '.mo')
 
 for strRoot, lstDirnames, lstFilenames in os.walk('data'):
 
