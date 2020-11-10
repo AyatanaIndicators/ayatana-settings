@@ -1,4 +1,4 @@
-ayatana-settings (20.11.09.2) unstable; urgency=medium
+ayatana-settings (20.11.09.2-0) unstable; urgency=medium
 
   * Upstream-provided Debian package for ayatana-settings.
     See upstream ChangeLog for recent changes.
