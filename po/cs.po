@@ -9,38 +9,40 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2020-11-10 14:01+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-11-13 18:28+0000\n"
+"Last-Translator: Milan Korecky <milan.korecky@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/ayatana-indicators/"
+"ayatana-settings/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
-msgstr ""
+msgstr "Zobrazit celé uživatelské jméno na panelu"
 
 #: data/ayatana-settings/ayatana-settings.glade:152
 msgid "Remove the Log Out item from the menu"
-msgstr ""
+msgstr "Odebrat z nabídky položku Odhlásit"
 
 #: data/ayatana-settings/ayatana-settings.glade:165
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr ""
+msgstr "Potlačte potvrzení odhlášení, restartujte a vypněte"
 
 #: data/ayatana-settings/ayatana-settings.glade:178
 msgid "Remove the Restart item from the menu"
-msgstr ""
+msgstr "Odeberte z nabídky položku Restartovat"
 
 #: data/ayatana-settings/ayatana-settings.glade:191
 msgid "Remove the Shut Down item from the menu"
-msgstr ""
+msgstr "Odebrat z nabídky položku Vypnout"
 
 #: data/ayatana-settings/ayatana-settings.glade:204
 msgid "Show the user list in the menu"
-msgstr ""
+msgstr "Zobrazit seznam uživatelů v nabídce"
 
 #: data/ayatana-settings/ayatana-settings.glade:225
 #: data/ayatana-settings/ayatana-settings.glade:431
@@ -50,100 +52,100 @@ msgstr ""
 #: data/ayatana-settings/ayatana-settings.glade:696
 #: data/ayatana-settings/ayatana-settings.glade:841
 msgid "Enable this indicator on login"
-msgstr ""
+msgstr "Aktivujte tento indikátor při přihlášení"
 
 #: data/ayatana-settings/ayatana-settings.glade:249
 msgid "Session"
-msgstr ""
+msgstr "Sezení"
 
 #: data/ayatana-settings/ayatana-settings.glade:274
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "Zobrazit počet sekund na panelu"
 
 #: data/ayatana-settings/ayatana-settings.glade:287
 msgid "Show the calendar in the menu"
-msgstr ""
+msgstr "Zobrazit kalendář v nabídce"
 
 #: data/ayatana-settings/ayatana-settings.glade:300
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "Zobrazit čísla týdnů v kalendáři"
 
 #: data/ayatana-settings/ayatana-settings.glade:313
 msgid "Show events in the menu"
-msgstr ""
+msgstr "Zobrazit události v nabídce"
 
 #: data/ayatana-settings/ayatana-settings.glade:396
 msgid "Show the year on the panel"
-msgstr ""
+msgstr "Zobrazit rok na panelu"
 
 #: data/ayatana-settings/ayatana-settings.glade:409
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "Zobrazit na panelu den v týdnu"
 
 #: data/ayatana-settings/ayatana-settings.glade:422
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "Zobrazit na panelu měsíc a datum"
 
 #: data/ayatana-settings/ayatana-settings.glade:458
 msgid "Date and Time"
-msgstr ""
+msgstr "Datum a čas"
 
 #: data/ayatana-settings/ayatana-settings.glade:484
 msgid "Allow setting the volume above 100%"
-msgstr ""
+msgstr "Povolit nastavení hlasitosti nad 100%"
 
 #: data/ayatana-settings/ayatana-settings.glade:530
 msgid "Sound"
-msgstr ""
+msgstr "Zvuk"
 
 #: data/ayatana-settings/ayatana-settings.glade:575
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "Zobrazit procento na panelu"
 
 #: data/ayatana-settings/ayatana-settings.glade:588
 msgid "Show time on the panel"
-msgstr ""
+msgstr "Zobrazit čas na panelu"
 
 #: data/ayatana-settings/ayatana-settings.glade:625
 msgid "Power"
-msgstr ""
+msgstr "Napájení"
 
 #: data/ayatana-settings/ayatana-settings.glade:674
 msgid "Messages"
-msgstr ""
+msgstr "Zprávy"
 
 #: data/ayatana-settings/ayatana-settings.glade:723
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: data/ayatana-settings/ayatana-settings.glade:749
 msgid "Maximum number of visible items"
-msgstr ""
+msgstr "Maximální počet viditelných položek"
 
 #: data/ayatana-settings/ayatana-settings.glade:762
 msgid "Discard notifications by application name"
-msgstr ""
+msgstr "Zahodit oznámení podle názvu aplikace"
 
 #: data/ayatana-settings/ayatana-settings.glade:807
 msgid "Add"
-msgstr ""
+msgstr "Přidat"
 
 #: data/ayatana-settings/ayatana-settings.glade:821
 msgid "Remove"
-msgstr ""
+msgstr "Odstranit"
 
 #: data/ayatana-settings/ayatana-settings.glade:880
 msgid "column"
-msgstr ""
+msgstr "sloupec"
 
 #: data/ayatana-settings/ayatana-settings.glade:910
 msgid "Notifications"
-msgstr ""
+msgstr "Oznámení"
 
 #: data/applications/ayatana-settings.desktop.in:3
 msgid "Indicators"
-msgstr ""
+msgstr "Indikátory"
 
 #: data/applications/ayatana-settings.desktop.in:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "Nastavení indikátorů Ayatana"
