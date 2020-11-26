@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2020-11-21 08:28+0000\n"
+"PO-Revision-Date: 2020-11-27 13:29+0000\n"
 "Last-Translator: Ács Zoltán <acszoltan111@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/hu/>\n"
@@ -31,18 +31,20 @@ msgstr "A kijelentkezés elem eltávolítása a menüből"
 #: data/ayatana-settings/ayatana-settings.glade:165
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
 msgstr ""
+"Kijelentkezés, újraindítás és leállítás megerősítő párbeszédpaneljének "
+"letiltása"
 
 #: data/ayatana-settings/ayatana-settings.glade:178
 msgid "Remove the Restart item from the menu"
-msgstr ""
+msgstr "Az újraindítás elem eltávolítása a menüből"
 
 #: data/ayatana-settings/ayatana-settings.glade:191
 msgid "Remove the Shut Down item from the menu"
-msgstr ""
+msgstr "A leállítás elem eltávolítása a menüből"
 
 #: data/ayatana-settings/ayatana-settings.glade:204
 msgid "Show the user list in the menu"
-msgstr ""
+msgstr "Felhasználólista megjelenítése a menüben"
 
 #: data/ayatana-settings/ayatana-settings.glade:225
 #: data/ayatana-settings/ayatana-settings.glade:431
@@ -52,7 +54,7 @@ msgstr ""
 #: data/ayatana-settings/ayatana-settings.glade:696
 #: data/ayatana-settings/ayatana-settings.glade:841
 msgid "Enable this indicator on login"
-msgstr ""
+msgstr "Indikátor engedélyezése bejelentkezéskor"
 
 #: data/ayatana-settings/ayatana-settings.glade:249
 msgid "Session"
@@ -60,7 +62,7 @@ msgstr "Munkamenet"
 
 #: data/ayatana-settings/ayatana-settings.glade:274
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "Másodpercek számának megjelenítése a panelen"
 
 #: data/ayatana-settings/ayatana-settings.glade:287
 msgid "Show the calendar in the menu"
@@ -68,7 +70,7 @@ msgstr "Naptár megjelenítése a menüben"
 
 #: data/ayatana-settings/ayatana-settings.glade:300
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "Hét számának megjelenítése a panelen"
 
 #: data/ayatana-settings/ayatana-settings.glade:313
 msgid "Show events in the menu"
@@ -80,11 +82,11 @@ msgstr "Év megjelenítése a panelen"
 
 #: data/ayatana-settings/ayatana-settings.glade:409
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "A hét napjának megjelenítése a panelen"
 
 #: data/ayatana-settings/ayatana-settings.glade:422
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "A hónap és a dátum megjelenítése a panelen"
 
 #: data/ayatana-settings/ayatana-settings.glade:458
 msgid "Date and Time"
@@ -92,7 +94,7 @@ msgstr "Dátum és idő"
 
 #: data/ayatana-settings/ayatana-settings.glade:484
 msgid "Allow setting the volume above 100%"
-msgstr ""
+msgstr "A hangerő 100% fölé állításának engedélyezése"
 
 #: data/ayatana-settings/ayatana-settings.glade:530
 msgid "Sound"
@@ -100,7 +102,7 @@ msgstr "Hang"
 
 #: data/ayatana-settings/ayatana-settings.glade:575
 msgid "Show percentage on the panel"
-msgstr "Sázalék megjelenítése a panelen"
+msgstr "Százalék megjelenítése a panelen"
 
 #: data/ayatana-settings/ayatana-settings.glade:588
 msgid "Show time on the panel"
@@ -108,7 +110,7 @@ msgstr "Idő megjelenítése a panelen"
 
 #: data/ayatana-settings/ayatana-settings.glade:625
 msgid "Power"
-msgstr ""
+msgstr "Energia"
 
 #: data/ayatana-settings/ayatana-settings.glade:674
 msgid "Messages"
@@ -144,8 +146,8 @@ msgstr "Értesítések"
 
 #: data/applications/ayatana-settings.desktop.in:3
 msgid "Indicators"
-msgstr ""
+msgstr "Indikátorok"
 
 #: data/applications/ayatana-settings.desktop.in:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "Ayatana indikátorok beállításai"
