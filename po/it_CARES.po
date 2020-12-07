@@ -9,17 +9,21 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-12-08 00:54+0000\n"
+"Last-Translator: Ksa VPN Net Sell <ksavpnnetsell@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-settings/it_CARES/>\n"
 "Language: it_CARES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
+#, fuzzy
 msgid "Show full user name on the panel"
-msgstr ""
+msgstr "anytakaload"
 
 #: data/ayatana-settings/ayatana-settings.glade:152
 msgid "Remove the Log Out item from the menu"
