@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2020-11-10 18:41+0000\n"
-"Last-Translator: mv87 <mv87@dismail.de>\n"
+"PO-Revision-Date: 2020-12-31 10:29+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/de/>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
@@ -26,11 +26,11 @@ msgstr "Zeige vollständigen Benutzernamen auf dem Panel"
 
 #: data/ayatana-settings/ayatana-settings.glade:152
 msgid "Remove the Log Out item from the menu"
-msgstr "Entferne den Logout-Eintrag aus dem Menü"
+msgstr "Entferne den Abmelden-Eintrag aus dem Menü"
 
 #: data/ayatana-settings/ayatana-settings.glade:165
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr "Unterdrücke die Bestätigung zum Logout, Neustart und Herunterfahren"
+msgstr "Unterdrücke die Bestätigung zum Abmelden, Neustart und Herunterfahren"
 
 #: data/ayatana-settings/ayatana-settings.glade:178
 msgid "Remove the Restart item from the menu"
@@ -52,7 +52,7 @@ msgstr "Zeige die Nutzerliste im Menü an"
 #: data/ayatana-settings/ayatana-settings.glade:696
 #: data/ayatana-settings/ayatana-settings.glade:841
 msgid "Enable this indicator on login"
-msgstr "Diesen Indikator beim Login aktivieren"
+msgstr "Diesen Indikator beim Anmelden aktivieren"
 
 #: data/ayatana-settings/ayatana-settings.glade:249
 msgid "Session"
@@ -92,7 +92,7 @@ msgstr "Datum und Uhrzeit"
 
 #: data/ayatana-settings/ayatana-settings.glade:484
 msgid "Allow setting the volume above 100%"
-msgstr "Erlaube, die Lautstärke über 100% zu setzen"
+msgstr "Erlaube, die Lautstärke über 100 % zu setzen"
 
 #: data/ayatana-settings/ayatana-settings.glade:530
 msgid "Sound"
