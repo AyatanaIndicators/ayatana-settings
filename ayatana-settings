@@ -157,6 +157,16 @@ class AyatanaSettings:
 
             self.pLabelNotifications.set_sensitive(False)
 
+        # Keyboard
+        if pathlib.Path('/etc/xdg/autostart/ayatana-indicator-keyboard.desktop').exists():
+
+            bEnabled = self.isEnabled('keyboard')
+            self.pCheckButtonKeyboardEnable.set_active(bEnabled)
+
+        else:
+
+            self.pLabelKeyboard.set_sensitive(False)
+
         self.bInit = True
 
         Gtk.main()
