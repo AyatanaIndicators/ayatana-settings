@@ -1,6 +1,213 @@
-2020-11-09 13:44:44 +0100 Mike Gabriel
+2021-01-28 16:50:41 +0100 Mike Gabriel
 
-	* release 20.11.09.2 (HEAD -> master, tag: 20.11.09.2)
+	* release 21.1.28 (HEAD -> master, tag: 21.1.28)
+
+2021-01-28 16:49:24 +0100 Mike Gabriel (72e2a0e)
+
+	* debian/copyright: Happy new year.
+
+2021-01-28 16:44:57 +0100 Mike Gabriel (ddd3529)
+
+	* Merge branch 'tari01-pr/add-keyboard'
+
+2021-01-25 19:46:37 +0100 Robert Tari (06b72f5)
+
+	* Add keyboard indicator
+
+2021-01-17 06:17:38 +0000 Kristjan Räts (2606783)
+
+	* Translated using Weblate (Estonian)
+
+2020-12-29 13:56:17 +0000 Wellington Terumi Uemura (2ff61a6)
+
+	* Translated using Weblate (Portuguese (Brazil))
+
+2020-12-30 03:18:19 +0000 J. Lavoie (75c36c5)
+
+	* Translated using Weblate (Italian)
+
+2020-12-30 09:58:11 +0000 J. Lavoie (1512c1a)
+
+	* Translated using Weblate (French (Canada))
+
+2020-12-30 02:55:06 +0000 J. Lavoie (dc2e45a)
+
+	* Translated using Weblate (French)
+
+2020-12-30 02:51:37 +0000 J. Lavoie (a4b64bb)
+
+	* Translated using Weblate (German)
+
+2020-12-23 01:59:56 +0000 Luna Jernberg (2887202)
+
+	* Translated using Weblate (Swedish)
+
+2020-12-07 20:28:39 +0000 Ksa VPN Net Sell (5f31530)
+
+	* Translated using Weblate (Italian)
+
+2020-12-02 02:08:29 +0000 Milo Ivir (8343a10)
+
+	* Translated using Weblate (Croatian)
+
+2020-11-26 13:26:23 +0000 Ács Zoltán (33e5936)
+
+	* Translated using Weblate (Hungarian)
+
+2020-11-23 11:16:45 +0000 Adolfo Jayme Barrientos (b5b3237)
+
+	* Translated using Weblate (Spanish)
+
+2020-11-20 08:26:30 +0000 Ács Zoltán (b840c92)
+
+	* Translated using Weblate (Hungarian)
+
+2020-11-17 21:00:25 +0000 Quentin PAGÈS (b16d3bc)
+
+	* Translated using Weblate (Occitan)
+
+2020-11-17 19:50:00 +0000 Moo (49bcb7d)
+
+	* Translated using Weblate (Lithuanian)
+
+2020-11-13 21:48:03 +0000 Ács Zoltán (38b00ae)
+
+	* Translated using Weblate (Hungarian)
+
+2020-11-12 18:14:54 +0000 Oğuz Ersen (8998809)
+
+	* Translated using Weblate (Turkish)
+
+2020-11-12 16:52:40 +0000 Anders Jonsson (cfa1424)
+
+	* Translated using Weblate (Swedish)
+
+2020-11-10 23:33:33 +0000 Allan Nordhøy (0933cea)
+
+	* Translated using Weblate (Norwegian Bokmål)
+
+2020-11-11 08:23:43 +0000 Milan Korecky (6613678)
+
+	* Translated using Weblate (Czech)
+
+2020-11-11 12:27:43 +0100 Weblate (944d42d)
+
+	* Added translation using Weblate (Italian)
+
+2020-11-11 12:27:39 +0100 Weblate (7a87d12)
+
+	* Added translation using Weblate (Tamil (Sri Lanka))
+
+2020-11-11 12:27:35 +0100 Weblate (f484db3)
+
+	* Added translation using Weblate (Manx)
+
+2020-11-11 12:27:27 +0100 Weblate (d6532f7)
+
+	* Added translation using Weblate (Afar)
+
+2020-11-11 12:27:24 +0100 Weblate (071e3e7)
+
+	* Added translation using Weblate (Dhivehi)
+
+2020-11-11 12:27:21 +0100 Weblate (724667f)
+
+	* Added translation using Weblate (Venetian)
+
+2020-11-11 12:27:18 +0100 Weblate (cb59139)
+
+	* Added translation using Weblate (Nyanja)
+
+2020-11-11 12:27:15 +0100 Weblate (e30e108)
+
+	* Added translation using Weblate (Assamese)
+
+2020-11-11 12:27:11 +0100 Weblate (427ba9b)
+
+	* Added translation using Weblate (Wolof)
+
+2020-11-11 12:27:00 +0100 Weblate (51e9066)
+
+	* Added translation using Weblate (Kashubian)
+
+2020-11-11 12:26:57 +0100 Weblate (81efd37)
+
+	* Added translation using Weblate (Macedonian)
+
+2020-11-11 12:26:54 +0100 Weblate (4f471bc)
+
+	* Added translation using Weblate (Friulian)
+
+2020-11-11 12:26:51 +0100 Weblate (fe685f5)
+
+	* Added translation using Weblate (Tatar)
+
+2020-11-10 16:37:47 +0000 mv87 (d9a9203)
+
+	* Translated using Weblate (German)
+
+2020-11-10 17:08:37 +0100 Robert Tari (4823c65)
+
+	* Merge branch 'sunweaver-pr/bootstrap-locale'
+
+2020-11-10 16:25:20 +0100 Mike Gabriel (7b23a68)
+
+	* locale: Create empty translation files for all languages listed in
+          po/LINGUAS.
+
+2020-11-10 16:24:50 +0100 Mike Gabriel (1627659)
+
+	* po/LINGUAS: Add list of to-be-translated-to languages.
+
+2020-11-10 16:30:25 +0100 Mike Gabriel (5e3c0ac)
+
+	* setup.py: Only translate .po files in po/ subdir (ignore e.g. the
+          LINGUAS file).
+
+2020-11-10 16:29:54 +0100 Mike Gabriel (dca874f)
+
+	* setup.py: Translation files end with '.po', not just 'po'.
+
+2020-11-10 16:24:15 +0100 Mike Gabriel (7798341)
+
+	* po/ayatana-settings.pot: Update translation template after recent
+          file movals in this project.
+
+2020-11-10 16:23:48 +0100 Mike Gabriel (3437c27)
+
+	* locale: Add scripts update-pot.sh and update-po.sh.
+
+2020-11-10 08:18:22 +0100 Mike Gabriel (af0f603)
+
+	* debian/changelog: Append '-0 to package version. Assure that
+          official DEB is always preferred over the upstream DEB
+          unless APT pinning is in places and prefers the upstream
+          repo.
+
+2020-11-09 15:04:00 +0100 Robert Tari (05d8f0d)
+
+	* Merge branch 'sunweaver-pr/keywords-key-in-desktop-file'
+
+2020-11-09 13:58:11 +0100 Mike Gabriel (0dae747)
+
+	* data/man/man1/ayatana-settings.1: Add man page.
+
+2020-11-09 15:00:20 +0100 Robert Tari (2592409)
+
+	* Merge branch 'sunweaver-pr/add-man-page'
+
+2020-11-09 14:16:03 +0100 Mike Gabriel (27ed544)
+
+	* data/applications/ayatana-settings.desktop.in: Add Keywords= entry
+          in .desktop file.
+
+2020-11-09 13:58:11 +0100 Mike Gabriel (27f214b)
+
+	* data/man/man1/ayatana-settings.1: Add man page.
+
+2020-11-09 13:44:44 +0100 Mike Gabriel (1842a2b)
+
+	* release 20.11.09.2 (tag: 20.11.09.2)
 
 2020-11-09 13:43:39 +0100 Mike Gabriel (56e9820)
 
