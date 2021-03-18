@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2021-02-08 12:50+0000\n"
+"PO-Revision-Date: 2021-03-18 17:29+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/id/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
@@ -56,96 +56,96 @@ msgstr ""
 
 #: data/ayatana-settings/ayatana-settings.glade:249
 msgid "Session"
-msgstr ""
+msgstr "Sesi"
 
 #: data/ayatana-settings/ayatana-settings.glade:274
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "Tampilkan jumlah detik pada panel"
 
 #: data/ayatana-settings/ayatana-settings.glade:287
 msgid "Show the calendar in the menu"
-msgstr ""
+msgstr "Tampilkan kalender pada menu"
 
 #: data/ayatana-settings/ayatana-settings.glade:300
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "Tampilkan nomor minggu di kalender"
 
 #: data/ayatana-settings/ayatana-settings.glade:313
 msgid "Show events in the menu"
-msgstr ""
+msgstr "Tampilkan acara di menu"
 
 #: data/ayatana-settings/ayatana-settings.glade:396
 msgid "Show the year on the panel"
-msgstr ""
+msgstr "Tampilkan tahun pada panel"
 
 #: data/ayatana-settings/ayatana-settings.glade:409
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "Tampilkan hari dalam seminggu di panel"
 
 #: data/ayatana-settings/ayatana-settings.glade:422
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "Tampilkan bulan dan tanggal pada panel"
 
 #: data/ayatana-settings/ayatana-settings.glade:458
 msgid "Date and Time"
-msgstr ""
+msgstr "Tanggal dan Waktu"
 
 #: data/ayatana-settings/ayatana-settings.glade:484
 msgid "Allow setting the volume above 100%"
-msgstr ""
+msgstr "Izinkan pengaturan volume di atas 100%"
 
 #: data/ayatana-settings/ayatana-settings.glade:530
 msgid "Sound"
-msgstr ""
+msgstr "Suara"
 
 #: data/ayatana-settings/ayatana-settings.glade:575
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "Tampilkan persen pada panel"
 
 #: data/ayatana-settings/ayatana-settings.glade:588
 msgid "Show time on the panel"
-msgstr ""
+msgstr "Tampilkan waktu pada panel"
 
 #: data/ayatana-settings/ayatana-settings.glade:625
 msgid "Power"
-msgstr ""
+msgstr "Daya"
 
 #: data/ayatana-settings/ayatana-settings.glade:674
 msgid "Messages"
-msgstr ""
+msgstr "Pesan"
 
 #: data/ayatana-settings/ayatana-settings.glade:723
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: data/ayatana-settings/ayatana-settings.glade:749
 msgid "Maximum number of visible items"
-msgstr ""
+msgstr "Jumlah maksimum item yang terlihat"
 
 #: data/ayatana-settings/ayatana-settings.glade:762
 msgid "Discard notifications by application name"
-msgstr ""
+msgstr "Buang pemberitahuan berdasarkan nama aplikasi"
 
 #: data/ayatana-settings/ayatana-settings.glade:807
 msgid "Add"
-msgstr ""
+msgstr "Tambah"
 
 #: data/ayatana-settings/ayatana-settings.glade:821
 msgid "Remove"
-msgstr ""
+msgstr "Hapus"
 
 #: data/ayatana-settings/ayatana-settings.glade:880
 msgid "column"
-msgstr ""
+msgstr "kolom"
 
 #: data/ayatana-settings/ayatana-settings.glade:910
 msgid "Notifications"
-msgstr ""
+msgstr "Pemberitahuan"
 
 #: data/applications/ayatana-settings.desktop.in:3
 msgid "Indicators"
-msgstr ""
+msgstr "Indikator"
 
 #: data/applications/ayatana-settings.desktop.in:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "Pengaturan Indikator Ayatana"
