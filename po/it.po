@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2021-11-07 16:51+0000\n"
-"Last-Translator: Michele <miguel2000@livecom.it>\n"
+"PO-Revision-Date: 2021-11-11 18:51+0000\n"
+"Last-Translator: Daniele Tricoli <eriol@mornie.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/it/>\n"
 "Language: it\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
-msgstr "Mostra il nome utene completo nel pannello"
+msgstr "Mostra il nome utente completo nel pannello"
 
 #: data/ayatana-settings/ayatana-settings.glade:152
 msgid "Remove the Log Out item from the menu"
@@ -62,11 +62,11 @@ msgstr "Sessione"
 
 #: data/ayatana-settings/ayatana-settings.glade:274
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "Mostra il numero di secondi nel pannello"
 
 #: data/ayatana-settings/ayatana-settings.glade:287
 msgid "Show the calendar in the menu"
-msgstr ""
+msgstr "Mostra il calendario nel menu"
 
 #: data/ayatana-settings/ayatana-settings.glade:300
 msgid "Show week numbers in the calendar"
@@ -74,15 +74,15 @@ msgstr ""
 
 #: data/ayatana-settings/ayatana-settings.glade:313
 msgid "Show events in the menu"
-msgstr ""
+msgstr "Mostra gli eventi nel menu"
 
 #: data/ayatana-settings/ayatana-settings.glade:396
 msgid "Show the year on the panel"
-msgstr ""
+msgstr "Mostra l'anno nel pannello"
 
 #: data/ayatana-settings/ayatana-settings.glade:409
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "Mostra il giorno della settimana nel pannello"
 
 #: data/ayatana-settings/ayatana-settings.glade:422
 msgid "Show the month and date on the panel"
@@ -138,7 +138,7 @@ msgstr "Rimuovi"
 
 #: data/ayatana-settings/ayatana-settings.glade:880
 msgid "column"
-msgstr ""
+msgstr "colonna"
 
 #: data/ayatana-settings/ayatana-settings.glade:910
 msgid "Notifications"
