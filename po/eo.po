@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2021-11-20 00:50+0000\n"
+"PO-Revision-Date: 2021-11-21 01:52+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/eo/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
-msgstr ""
+msgstr "Montri la plenan nomon de la uzanto sur la panelo"
 
 #: data/ayatana-settings/ayatana-settings.glade:152
 msgid "Remove the Log Out item from the menu"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: data/ayatana-settings/ayatana-settings.glade:204
 msgid "Show the user list in the menu"
-msgstr ""
+msgstr "Montri la liston de uzantoj en la menuo"
 
 #: data/ayatana-settings/ayatana-settings.glade:225
 #: data/ayatana-settings/ayatana-settings.glade:431
@@ -60,7 +60,7 @@ msgstr "Seanco"
 
 #: data/ayatana-settings/ayatana-settings.glade:274
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "Montri la nombron de sekundoj sur la panelo"
 
 #: data/ayatana-settings/ayatana-settings.glade:287
 msgid "Show the calendar in the menu"
@@ -76,15 +76,15 @@ msgstr "Montri eventojn en la menuo"
 
 #: data/ayatana-settings/ayatana-settings.glade:396
 msgid "Show the year on the panel"
-msgstr "Montri la jaron en la panelo"
+msgstr "Montri la jaron sur la panelo"
 
 #: data/ayatana-settings/ayatana-settings.glade:409
 msgid "Show the day of the week on the panel"
-msgstr "Montri la tagon de la semajno en la panelo"
+msgstr "Montri la tagon de la semajno sur la panelo"
 
 #: data/ayatana-settings/ayatana-settings.glade:422
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "Montri la monaton kaj la daton sur la panelo"
 
 #: data/ayatana-settings/ayatana-settings.glade:458
 msgid "Date and Time"
@@ -100,11 +100,11 @@ msgstr "Sono"
 
 #: data/ayatana-settings/ayatana-settings.glade:575
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "Montri elcenton sur la panelo"
 
 #: data/ayatana-settings/ayatana-settings.glade:588
 msgid "Show time on the panel"
-msgstr ""
+msgstr "Montri la tempon sur la panelo"
 
 #: data/ayatana-settings/ayatana-settings.glade:625
 msgid "Power"
@@ -148,4 +148,4 @@ msgstr "Indikiloj"
 
 #: data/applications/ayatana-settings.desktop.in:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "Agordoj pri Ayatana-Indikiloj"
