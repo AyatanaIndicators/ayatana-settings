@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2021-10-05 13:13+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"PO-Revision-Date: 2022-01-23 15:54+0000\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/sv/>\n"
 "Language: sv\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
@@ -64,11 +64,11 @@ msgstr ""
 
 #: data/ayatana-settings/ayatana-settings.glade:287
 msgid "Show the calendar in the menu"
-msgstr ""
+msgstr "Visa kalendern i menyn"
 
 #: data/ayatana-settings/ayatana-settings.glade:300
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "Visa veckonummer i kalendern"
 
 #: data/ayatana-settings/ayatana-settings.glade:313
 msgid "Show events in the menu"
@@ -140,7 +140,7 @@ msgstr "kolumn"
 
 #: data/ayatana-settings/ayatana-settings.glade:910
 msgid "Notifications"
-msgstr ""
+msgstr "Aviseringar"
 
 #: data/applications/ayatana-settings.desktop.in:3
 msgid "Indicators"
