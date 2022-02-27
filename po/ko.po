@@ -9,38 +9,40 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2020-11-10 14:01+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-01 11:59+0000\n"
+"Last-Translator: 이정희 <daemul72@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-settings/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
-msgstr ""
+msgstr "패널에 전체 사용자 이름 표시"
 
 #: data/ayatana-settings/ayatana-settings.glade:152
 msgid "Remove the Log Out item from the menu"
-msgstr ""
+msgstr "메뉴에서 로그아웃 항목 제거"
 
 #: data/ayatana-settings/ayatana-settings.glade:165
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr ""
+msgstr "로그아웃, 재시작 및 종료 확인 안 함"
 
 #: data/ayatana-settings/ayatana-settings.glade:178
 msgid "Remove the Restart item from the menu"
-msgstr ""
+msgstr "메뉴에서 다시 시작 항목 제거"
 
 #: data/ayatana-settings/ayatana-settings.glade:191
 msgid "Remove the Shut Down item from the menu"
-msgstr ""
+msgstr "메뉴에서 시스템 종료 항목 제거"
 
 #: data/ayatana-settings/ayatana-settings.glade:204
 msgid "Show the user list in the menu"
-msgstr ""
+msgstr "메뉴에 사용자 목록 표시"
 
 #: data/ayatana-settings/ayatana-settings.glade:225
 #: data/ayatana-settings/ayatana-settings.glade:431
@@ -50,100 +52,100 @@ msgstr ""
 #: data/ayatana-settings/ayatana-settings.glade:696
 #: data/ayatana-settings/ayatana-settings.glade:841
 msgid "Enable this indicator on login"
-msgstr ""
+msgstr "로그인 시 이 표시기 활성화"
 
 #: data/ayatana-settings/ayatana-settings.glade:249
 msgid "Session"
-msgstr ""
+msgstr "세션"
 
 #: data/ayatana-settings/ayatana-settings.glade:274
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "패널에 초 수 표시"
 
 #: data/ayatana-settings/ayatana-settings.glade:287
 msgid "Show the calendar in the menu"
-msgstr ""
+msgstr "메뉴에 달력 표시"
 
 #: data/ayatana-settings/ayatana-settings.glade:300
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "달력에 주 번호 표시"
 
 #: data/ayatana-settings/ayatana-settings.glade:313
 msgid "Show events in the menu"
-msgstr ""
+msgstr "메뉴에 이벤트 표시"
 
 #: data/ayatana-settings/ayatana-settings.glade:396
 msgid "Show the year on the panel"
-msgstr ""
+msgstr "패널에 연도 표시"
 
 #: data/ayatana-settings/ayatana-settings.glade:409
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "패널에 요일 표시"
 
 #: data/ayatana-settings/ayatana-settings.glade:422
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "패널에 달과 날짜 표시"
 
 #: data/ayatana-settings/ayatana-settings.glade:458
 msgid "Date and Time"
-msgstr ""
+msgstr "날짜 및 시간"
 
 #: data/ayatana-settings/ayatana-settings.glade:484
 msgid "Allow setting the volume above 100%"
-msgstr ""
+msgstr "음량을 100% 이상으로 설정 허용"
 
 #: data/ayatana-settings/ayatana-settings.glade:530
 msgid "Sound"
-msgstr ""
+msgstr "사운드"
 
 #: data/ayatana-settings/ayatana-settings.glade:575
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "패널에 백분율 표시"
 
 #: data/ayatana-settings/ayatana-settings.glade:588
 msgid "Show time on the panel"
-msgstr ""
+msgstr "패널에 시간 표시"
 
 #: data/ayatana-settings/ayatana-settings.glade:625
 msgid "Power"
-msgstr ""
+msgstr "전원"
 
 #: data/ayatana-settings/ayatana-settings.glade:674
 msgid "Messages"
-msgstr ""
+msgstr "메시지"
 
 #: data/ayatana-settings/ayatana-settings.glade:723
 msgid "Bluetooth"
-msgstr ""
+msgstr "블루투스"
 
 #: data/ayatana-settings/ayatana-settings.glade:749
 msgid "Maximum number of visible items"
-msgstr ""
+msgstr "표시되는 항목의 최대 개수"
 
 #: data/ayatana-settings/ayatana-settings.glade:762
 msgid "Discard notifications by application name"
-msgstr ""
+msgstr "응용프로그램 이름별 알림 무시"
 
 #: data/ayatana-settings/ayatana-settings.glade:807
 msgid "Add"
-msgstr ""
+msgstr "추가"
 
 #: data/ayatana-settings/ayatana-settings.glade:821
 msgid "Remove"
-msgstr ""
+msgstr "제거"
 
 #: data/ayatana-settings/ayatana-settings.glade:880
 msgid "column"
-msgstr ""
+msgstr "열"
 
 #: data/ayatana-settings/ayatana-settings.glade:910
 msgid "Notifications"
-msgstr ""
+msgstr "알림"
 
 #: data/applications/ayatana-settings.desktop.in:3
 msgid "Indicators"
-msgstr ""
+msgstr "표시기"
 
 #: data/applications/ayatana-settings.desktop.in:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "Ayatana 표시기 설정"
