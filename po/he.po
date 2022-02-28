@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2021-08-13 06:33+0000\n"
+"PO-Revision-Date: 2022-03-01 11:59+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/he/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
@@ -26,23 +26,23 @@ msgstr "להציג בלוח את שם המשתמש במלואו"
 
 #: data/ayatana-settings/ayatana-settings.glade:152
 msgid "Remove the Log Out item from the menu"
-msgstr ""
+msgstr "הסרת פריט היציאה מהתפריט"
 
 #: data/ayatana-settings/ayatana-settings.glade:165
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr ""
+msgstr "הדחקת אישורי היציאה, ההפעלה מחדש והכיבוי"
 
 #: data/ayatana-settings/ayatana-settings.glade:178
 msgid "Remove the Restart item from the menu"
-msgstr ""
+msgstr "הסרת פריט ההפעלה מחדש מהתפריט"
 
 #: data/ayatana-settings/ayatana-settings.glade:191
 msgid "Remove the Shut Down item from the menu"
-msgstr ""
+msgstr "הסרת פריט הכיבוי מהתפריט"
 
 #: data/ayatana-settings/ayatana-settings.glade:204
 msgid "Show the user list in the menu"
-msgstr ""
+msgstr "הצגת רשימת המשתמשים בתפריט"
 
 #: data/ayatana-settings/ayatana-settings.glade:225
 #: data/ayatana-settings/ayatana-settings.glade:431
@@ -52,47 +52,47 @@ msgstr ""
 #: data/ayatana-settings/ayatana-settings.glade:696
 #: data/ayatana-settings/ayatana-settings.glade:841
 msgid "Enable this indicator on login"
-msgstr ""
+msgstr "הפעלת המחוון הזה עם הכניסה"
 
 #: data/ayatana-settings/ayatana-settings.glade:249
 msgid "Session"
-msgstr ""
+msgstr "הפעלה"
 
 #: data/ayatana-settings/ayatana-settings.glade:274
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "הצגת מספר השניות על הלוח"
 
 #: data/ayatana-settings/ayatana-settings.glade:287
 msgid "Show the calendar in the menu"
-msgstr ""
+msgstr "הצגת לוח השנה בתפריט"
 
 #: data/ayatana-settings/ayatana-settings.glade:300
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "הצגת מספרי השבועות בלוח השנה"
 
 #: data/ayatana-settings/ayatana-settings.glade:313
 msgid "Show events in the menu"
-msgstr ""
+msgstr "הצגת אירועים בתפריט"
 
 #: data/ayatana-settings/ayatana-settings.glade:396
 msgid "Show the year on the panel"
-msgstr ""
+msgstr "הצגת השנה בלוח"
 
 #: data/ayatana-settings/ayatana-settings.glade:409
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "הצגת היום בשבוע בלוח"
 
 #: data/ayatana-settings/ayatana-settings.glade:422
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "הצגת החודש והתאריך בלוח"
 
 #: data/ayatana-settings/ayatana-settings.glade:458
 msgid "Date and Time"
-msgstr ""
+msgstr "תאריך ושעה"
 
 #: data/ayatana-settings/ayatana-settings.glade:484
 msgid "Allow setting the volume above 100%"
-msgstr ""
+msgstr "לאפשר הגברת עצמת השמע מעבר ל־100%"
 
 #: data/ayatana-settings/ayatana-settings.glade:530
 msgid "Sound"
@@ -100,52 +100,52 @@ msgstr "צליל"
 
 #: data/ayatana-settings/ayatana-settings.glade:575
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "הצגת אחוזים בלוח"
 
 #: data/ayatana-settings/ayatana-settings.glade:588
 msgid "Show time on the panel"
-msgstr ""
+msgstr "הצגת השעה בלוח"
 
 #: data/ayatana-settings/ayatana-settings.glade:625
 msgid "Power"
-msgstr ""
+msgstr "הפעלה"
 
 #: data/ayatana-settings/ayatana-settings.glade:674
 msgid "Messages"
-msgstr ""
+msgstr "הודעות"
 
 #: data/ayatana-settings/ayatana-settings.glade:723
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: data/ayatana-settings/ayatana-settings.glade:749
 msgid "Maximum number of visible items"
-msgstr ""
+msgstr "מספר הפריטים הגלויים המרבי"
 
 #: data/ayatana-settings/ayatana-settings.glade:762
 msgid "Discard notifications by application name"
-msgstr ""
+msgstr "הדחקת התראות לפי שם יישום"
 
 #: data/ayatana-settings/ayatana-settings.glade:807
 msgid "Add"
-msgstr ""
+msgstr "הוספה"
 
 #: data/ayatana-settings/ayatana-settings.glade:821
 msgid "Remove"
-msgstr ""
+msgstr "הסרה"
 
 #: data/ayatana-settings/ayatana-settings.glade:880
 msgid "column"
-msgstr ""
+msgstr "עמודה"
 
 #: data/ayatana-settings/ayatana-settings.glade:910
 msgid "Notifications"
-msgstr ""
+msgstr "התראות"
 
 #: data/applications/ayatana-settings.desktop.in:3
 msgid "Indicators"
-msgstr ""
+msgstr "מחוונים"
 
 #: data/applications/ayatana-settings.desktop.in:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "הגדרות מחוונים של Ayatana"
