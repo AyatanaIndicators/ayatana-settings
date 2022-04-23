@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2022-04-23 12:18+0000\n"
+"PO-Revision-Date: 2022-04-23 13:36+0000\n"
 "Last-Translator: Sergii Horichenko <m@sgg.im>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/ru/>\n"
@@ -39,11 +39,11 @@ msgstr "Убрать из меню пункт Перезагрузки"
 
 #: data/ayatana-settings/ayatana-settings.glade:191
 msgid "Remove the Shut Down item from the menu"
-msgstr ""
+msgstr "Убрать из меню пункт Завершения работы"
 
 #: data/ayatana-settings/ayatana-settings.glade:204
 msgid "Show the user list in the menu"
-msgstr ""
+msgstr "Показать в меню список пользователей"
 
 #: data/ayatana-settings/ayatana-settings.glade:225
 #: data/ayatana-settings/ayatana-settings.glade:431
@@ -53,100 +53,100 @@ msgstr ""
 #: data/ayatana-settings/ayatana-settings.glade:696
 #: data/ayatana-settings/ayatana-settings.glade:841
 msgid "Enable this indicator on login"
-msgstr ""
+msgstr "Включить этот индикатор при входе в систему"
 
 #: data/ayatana-settings/ayatana-settings.glade:249
 msgid "Session"
-msgstr ""
+msgstr "Сеанс"
 
 #: data/ayatana-settings/ayatana-settings.glade:274
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "Показать на панели количество секунд"
 
 #: data/ayatana-settings/ayatana-settings.glade:287
 msgid "Show the calendar in the menu"
-msgstr ""
+msgstr "Показать календарь в меню"
 
 #: data/ayatana-settings/ayatana-settings.glade:300
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "Показать в календаре номера недель"
 
 #: data/ayatana-settings/ayatana-settings.glade:313
 msgid "Show events in the menu"
-msgstr ""
+msgstr "Показать события в меню"
 
 #: data/ayatana-settings/ayatana-settings.glade:396
 msgid "Show the year on the panel"
-msgstr ""
+msgstr "Показать на панели год"
 
 #: data/ayatana-settings/ayatana-settings.glade:409
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "Показать на панели день недели"
 
 #: data/ayatana-settings/ayatana-settings.glade:422
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "Показать на панели месяц и дату"
 
 #: data/ayatana-settings/ayatana-settings.glade:458
 msgid "Date and Time"
-msgstr ""
+msgstr "Дата и время"
 
 #: data/ayatana-settings/ayatana-settings.glade:484
 msgid "Allow setting the volume above 100%"
-msgstr ""
+msgstr "Разрешить установку громкости выше 100%"
 
 #: data/ayatana-settings/ayatana-settings.glade:530
 msgid "Sound"
-msgstr ""
+msgstr "Звук"
 
 #: data/ayatana-settings/ayatana-settings.glade:575
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "Показать процент на панели"
 
 #: data/ayatana-settings/ayatana-settings.glade:588
 msgid "Show time on the panel"
-msgstr ""
+msgstr "Показать время на панели"
 
 #: data/ayatana-settings/ayatana-settings.glade:625
 msgid "Power"
-msgstr ""
+msgstr "Питание"
 
 #: data/ayatana-settings/ayatana-settings.glade:674
 msgid "Messages"
-msgstr ""
+msgstr "Сообщения"
 
 #: data/ayatana-settings/ayatana-settings.glade:723
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: data/ayatana-settings/ayatana-settings.glade:749
 msgid "Maximum number of visible items"
-msgstr ""
+msgstr "Максимальное количество видимых элементов"
 
 #: data/ayatana-settings/ayatana-settings.glade:762
 msgid "Discard notifications by application name"
-msgstr ""
+msgstr "Отклонять уведомления по имени приложения"
 
 #: data/ayatana-settings/ayatana-settings.glade:807
 msgid "Add"
-msgstr ""
+msgstr "Добавить"
 
 #: data/ayatana-settings/ayatana-settings.glade:821
 msgid "Remove"
-msgstr ""
+msgstr "Удалить"
 
 #: data/ayatana-settings/ayatana-settings.glade:880
 msgid "column"
-msgstr ""
+msgstr "столбец"
 
 #: data/ayatana-settings/ayatana-settings.glade:910
 msgid "Notifications"
-msgstr ""
+msgstr "Уведомления"
 
 #: data/applications/ayatana-settings.desktop.in:3
 msgid "Indicators"
-msgstr ""
+msgstr "Индикаторы"
 
 #: data/applications/ayatana-settings.desktop.in:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "Настройки Ayatana Indicators"
