@@ -48,7 +48,10 @@ class AyatanaSettings:
 
         self.bSystemd = isSystemd()
         self.bInit = False
-        self.sDesktop = os.environ['XDG_CURRENT_DESKTOP']
+        try:
+            self.sDesktop = os.environ['XDG_CURRENT_DESKTOP']
+        except KeyError:
+            self.sDesktop = ""
 
         # Session
         if Gio.SettingsSchemaSource.get_default().lookup('org.ayatana.indicator.session', False):
