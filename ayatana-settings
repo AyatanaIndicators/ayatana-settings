@@ -226,7 +226,12 @@ class AyatanaSettings:
         else:
         '''
 
-        sPath = '~/.config/autostart/ayatana-indicator-{}.desktop'.format(sIndicator)
+        sAutostartFolder = '~/.config/autostart'
+        pAutostartFolder = pathlib.Path(sAutostartFolder).expanduser()
+        if not pAutostartFolder.exists():
+            pAutostartFolder.mkdir(parents=True)
+
+        sPath = '{autostart}/ayatana-indicator-{indicator}.desktop'.format(autostart=sAutostartFolder, indicator=sIndicator)
         pPath = pathlib.Path(sPath).expanduser()
 
         if not pPath.exists():
