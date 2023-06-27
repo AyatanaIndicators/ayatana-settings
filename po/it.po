@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2021-11-11 18:51+0000\n"
-"Last-Translator: Daniele Tricoli <eriol@mornie.org>\n"
+"PO-Revision-Date: 2023-06-27 10:56+0000\n"
+"Last-Translator: Sylke Vicious <silkevicious@tuta.io>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/it/>\n"
 "Language: it\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
@@ -52,9 +52,8 @@ msgstr "Mostra la lista di utenti nel menu"
 #: data/ayatana-settings/ayatana-settings.glade:647
 #: data/ayatana-settings/ayatana-settings.glade:696
 #: data/ayatana-settings/ayatana-settings.glade:841
-#, fuzzy
 msgid "Enable this indicator on login"
-msgstr "Abilita questo indicatore al login"
+msgstr "Abilita questo indicatore all'accesso"
 
 #: data/ayatana-settings/ayatana-settings.glade:249
 msgid "Session"
@@ -70,7 +69,7 @@ msgstr "Mostra il calendario nel menu"
 
 #: data/ayatana-settings/ayatana-settings.glade:300
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "Mostra i numeri della settimana nel calendario"
 
 #: data/ayatana-settings/ayatana-settings.glade:313
 msgid "Show events in the menu"
@@ -86,7 +85,7 @@ msgstr "Mostra il giorno della settimana nel pannello"
 
 #: data/ayatana-settings/ayatana-settings.glade:422
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "Mostra il mese e la data sul pannello"
 
 #: data/ayatana-settings/ayatana-settings.glade:458
 msgid "Date and Time"
@@ -94,19 +93,19 @@ msgstr "Data e ora"
 
 #: data/ayatana-settings/ayatana-settings.glade:484
 msgid "Allow setting the volume above 100%"
-msgstr ""
+msgstr "Consenti di impostare il volume oltre il 100%"
 
 #: data/ayatana-settings/ayatana-settings.glade:530
 msgid "Sound"
-msgstr ""
+msgstr "Suono"
 
 #: data/ayatana-settings/ayatana-settings.glade:575
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "Mostra la percentuale sul pannello"
 
 #: data/ayatana-settings/ayatana-settings.glade:588
 msgid "Show time on the panel"
-msgstr ""
+msgstr "Mostra l'ora sul pannello"
 
 #: data/ayatana-settings/ayatana-settings.glade:625
 msgid "Power"
