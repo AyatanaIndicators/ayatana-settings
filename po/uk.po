@@ -9,17 +9,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2022-04-23 12:18+0000\n"
-"Last-Translator: Sergii Horichenko <m@sgg.im>\n"
+"PO-Revision-Date: 2023-09-10 23:27+0000\n"
+"Last-Translator: Serhii Horichenko <m@sgg.im>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
@@ -133,7 +133,7 @@ msgstr "Додати"
 
 #: data/ayatana-settings/ayatana-settings.glade:821
 msgid "Remove"
-msgstr "Видалити"
+msgstr "Вилучити"
 
 #: data/ayatana-settings/ayatana-settings.glade:880
 msgid "column"
