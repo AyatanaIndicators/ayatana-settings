@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.38.2 -->
+<!-- Generated with glade 3.40.0 -->
 <interface domain="ayatana-settings">
   <requires lib="gtk+" version="3.24"/>
   <object class="GtkListStore" id="ListStoreNotificationsFilters">
@@ -74,6 +74,11 @@
                   <object class="GtkSwitch" id="SwitchSessionShowName">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchSessionShowName-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Show full user name on the panel</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -84,6 +89,11 @@
                   <object class="GtkSwitch" id="SwitchSessionRemoveLogOut">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchSessionRemoveLogOut-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Remove the Log Out item from the menu</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -94,6 +104,11 @@
                   <object class="GtkSwitch" id="SwitchSessionSuppressConfirmation">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchSessionSuppressConfirmation-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Suppress the Log Out, Restart and Shut Down confirmation</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -104,6 +119,11 @@
                   <object class="GtkSwitch" id="SwitchSessionRemoveRestart">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchSessionRemoveRestart-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Remove the Restart item from the menu</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -114,6 +134,11 @@
                   <object class="GtkSwitch" id="SwitchSessionRemoveShutDown">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchSessionRemoveShutDown-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Remove the Shut Down item from the menu</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -124,6 +149,11 @@
                   <object class="GtkSwitch" id="SwitchSessionShowUsers">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchSessionShowUsers-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Show the user list in the menu</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -322,6 +352,11 @@
                   <object class="GtkSwitch" id="SwitchDatetimeShowYear">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchDatetimeShowYear-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Show the year on the panel</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -332,6 +367,11 @@
                   <object class="GtkSwitch" id="SwitchDatetimeShowDate">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchDatetimeShowDate-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Show the month and date on the panel</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -342,6 +382,11 @@
                   <object class="GtkSwitch" id="SwitchDatetimeShowDay">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchDatetimeShowDay-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Show the day of the week on the panel</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -352,6 +397,11 @@
                   <object class="GtkSwitch" id="SwitchDatetimeShowSeconds">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchDatetimeShowSeconds-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Show the number of seconds on the panel</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -362,6 +412,11 @@
                   <object class="GtkSwitch" id="SwitchDatetimeShowCalendar">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchDatetimeShowCalendar-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Show the calendar in the menu</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -372,6 +427,11 @@
                   <object class="GtkSwitch" id="SwitchDatetimeShowWeekNumbers">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchDatetimeShowWeekNumbers-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Show week numbers in the calendar</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -382,6 +442,11 @@
                   <object class="GtkSwitch" id="SwitchDatetimeShowEvents">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchDatetimeShowEvents-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Show events in the menu</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -494,6 +559,11 @@
                   <object class="GtkSwitch" id="SwitchSoundAllowAmplified">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchSoundAllowAmplified-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Allow setting the volume above 100%</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -599,6 +669,11 @@
                   <object class="GtkSwitch" id="SwitchPowerShowPercentage">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchPowerShowPercentage-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Show percentage on the panel</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -609,6 +684,11 @@
                   <object class="GtkSwitch" id="SwitchPowerShowTime">
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SwitchPowerShowTime-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Show time on the panel</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
@@ -786,6 +866,11 @@
                     <property name="numeric">True</property>
                     <signal name="changed" handler="onSpinButtonNotificationsChanged" swapped="no"/>
                     <signal name="value-changed" handler="onSpinButtonNotificationsValueChanged" swapped="no"/>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="SpinButtonNotifications-atkobject">
+                        <property name="AtkObject::accessible-description" translatable="yes">Maximum number of visible items</property>
+                      </object>
+                    </child>
                   </object>
                   <packing>
                     <property name="left-attach">1</property>
