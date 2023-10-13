@@ -1,293 +1,436 @@
-2021-01-28 16:50:41 +0100 Mike Gabriel
+2023-10-13 Mike Gabriel
 
-	* release 21.1.28 (HEAD -> master, tag: 21.1.28)
+        * release 23.10.13 (HEAD -> main, tag: 23.10.13)
 
-2021-01-28 16:49:24 +0100 Mike Gabriel (72e2a0e)
+2023-10-11 Mike Gabriel
 
-	* debian/copyright: Happy new year.
+        * po/: Update translation files. (ff2a7f9)
 
-2021-01-28 16:44:57 +0100 Mike Gabriel (ddd3529)
+2023-09-11 Mike Gabriel
 
-	* Merge branch 'tari01-pr/add-keyboard'
+        * Merge branch 'tari01-pr/a11y-fix' (0d998de)
 
-2021-01-25 19:46:37 +0100 Robert Tari (06b72f5)
+2023-09-11 Robert Tari
 
-	* Add keyboard indicator
+        * data/ayatana-settings/ayatana-settings.glade: Add a11y button
+          descriptions (a7303c4)
 
-2021-01-17 06:17:38 +0000 Kristjan Räts (2606783)
+2023-09-10 Serhii Horichenko
 
-	* Translated using Weblate (Estonian)
+        * Translated using Weblate (Ukrainian) (f3d2f6a)
 
-2020-12-29 13:56:17 +0000 Wellington Terumi Uemura (2ff61a6)
+2023-09-10 Mike Gabriel
 
-	* Translated using Weblate (Portuguese (Brazil))
+        * Merge branch 'tari01-pr/color-scheme' (131021a)
 
-2020-12-30 03:18:19 +0000 J. Lavoie (75c36c5)
+2023-07-07 Robert Tari
 
-	* Translated using Weblate (Italian)
+        * ayatana-settings: Add colour scheme handler (7e8cbee)
 
-2020-12-30 09:58:11 +0000 J. Lavoie (1512c1a)
+2023-08-20 Sabri Ünal
 
-	* Translated using Weblate (French (Canada))
+        * Translated using Weblate (Turkish) (672eade)
 
-2020-12-30 02:55:06 +0000 J. Lavoie (dc2e45a)
+2023-07-30 Eryk Michalak
 
-	* Translated using Weblate (French)
+        * Translated using Weblate (Polish) (b96eb70)
 
-2020-12-30 02:51:37 +0000 J. Lavoie (a4b64bb)
+2023-06-27 Sylke Vicious
 
-	* Translated using Weblate (German)
+        * Translated using Weblate (Italian) (bdbc352)
+        * Translated using Weblate (Italian) (3962cf6)
 
-2020-12-23 01:59:56 +0000 Luna Jernberg (2887202)
+2023-03-15 Heimen Stoffels
 
-	* Translated using Weblate (Swedish)
+        * Translated using Weblate (Dutch) (bd6bafa)
 
-2020-12-07 20:28:39 +0000 Ksa VPN Net Sell (5f31530)
+2023-02-21 Robert Tari
 
-	* Translated using Weblate (Italian)
+        * Merge branch 'sunweaver-pr/create-config-autostart-if-nonexistent'
+          (3359a17)
 
-2020-12-02 02:08:29 +0000 Milo Ivir (8343a10)
+2023-01-06 Andy Chiang
 
-	* Translated using Weblate (Croatian)
+        * Translated using Weblate (Chinese (Simplified) (zh_LATN@pinyin))
+          (b1e0651)
 
-2020-11-26 13:26:23 +0000 Ács Zoltán (33e5936)
+2022-10-01 Mubarek Seyd Juhar
 
-	* Translated using Weblate (Hungarian)
+        * Translated using Weblate (Tigrinya) (f95248d)
 
-2020-11-23 11:16:45 +0000 Adolfo Jayme Barrientos (b5b3237)
+2023-02-21 Mike Gabriel
 
-	* Translated using Weblate (Spanish)
+        * ayatana-settings: Create ~/.config/autostart folder if it does not
+          yet exist. (d23a109)
 
-2020-11-20 08:26:30 +0000 Ács Zoltán (b840c92)
+2023-01-06 Andy Chiang
 
-	* Translated using Weblate (Hungarian)
+        * Translated using Weblate (Chinese (Simplified) (zh_LATN@pinyin))
+          (f87fd52)
 
-2020-11-17 21:00:25 +0000 Quentin PAGÈS (b16d3bc)
+2022-10-01 Mubarek Seyd Juhar
 
-	* Translated using Weblate (Occitan)
+        * Translated using Weblate (Tigrinya) (762fbd2)
 
-2020-11-17 19:50:00 +0000 Moo (49bcb7d)
+2022-09-13 Robert Tari
 
-	* Translated using Weblate (Lithuanian)
+        * Merge branch 'sunweaver-pr/tolerate-nonset-XDG-CURRENT-DESKTOP'
+          (9ab79ee)
 
-2020-11-13 21:48:03 +0000 Ács Zoltán (38b00ae)
+2022-09-08 Mike Gabriel
 
-	* Translated using Weblate (Hungarian)
+        * ayatana-settings: Don't fail if XDG_CURRENT_DESKTOP is not set.
+          (e268112)
 
-2020-11-12 18:14:54 +0000 Oğuz Ersen (8998809)
+2022-07-22 Boyuan Yang
 
-	* Translated using Weblate (Turkish)
+        * Translated using Weblate (Chinese (Simplified)) (4f23916)
 
-2020-11-12 16:52:40 +0000 Anders Jonsson (cfa1424)
+2022-07-15 Mike Gabriel
 
-	* Translated using Weblate (Swedish)
+        * Merge branch 'varlesh-main' (5e1690c)
 
-2020-11-10 23:33:33 +0000 Allan Nordhøy (0933cea)
+2022-07-05 Alexey Varfolomeev
 
-	* Translated using Weblate (Norwegian Bokmål)
+        * Themed launcher icon #16 (9fcd1fe)
 
-2020-11-11 08:23:43 +0000 Milan Korecky (6613678)
+2022-07-14 Teitei
 
-	* Translated using Weblate (Czech)
+        * Translated using Weblate (Burmese) (72cd745)
 
-2020-11-11 12:27:43 +0100 Weblate (944d42d)
+2022-05-07 Rondy Andersson
 
-	* Added translation using Weblate (Italian)
+        * Translated using Weblate (Swedish) (086b145)
 
-2020-11-11 12:27:39 +0100 Weblate (7a87d12)
+2022-04-23 Sergii Horichenko
 
-	* Added translation using Weblate (Tamil (Sri Lanka))
+        * Translated using Weblate (Russian) (3bb618a)
+        * Translated using Weblate (Ukrainian) (ed5c63f)
+        * Translated using Weblate (Russian) (64234c7)
+        * Translated using Weblate (Ukrainian) (f9c240f)
 
-2020-11-11 12:27:35 +0100 Weblate (f484db3)
+2022-03-29 Quentin PAGÈS
 
-	* Added translation using Weblate (Manx)
+        * Translated using Weblate (Occitan) (3a98caa)
 
-2020-11-11 12:27:27 +0100 Weblate (d6532f7)
+2022-02-27 이정희
 
-	* Added translation using Weblate (Afar)
+        * Translated using Weblate (Korean) (3d44208)
 
-2020-11-11 12:27:24 +0100 Weblate (071e3e7)
+2022-02-28 Yaron Shahrabani
 
-	* Added translation using Weblate (Dhivehi)
+        * Translated using Weblate (Hebrew) (5d61d3a)
 
-2020-11-11 12:27:21 +0100 Weblate (724667f)
+2022-02-25 Reza Almanda
 
-	* Added translation using Weblate (Venetian)
+        * Translated using Weblate (Indonesian) (691401a)
 
-2020-11-11 12:27:18 +0100 Weblate (cb59139)
+2022-01-24 Eric
 
-	* Added translation using Weblate (Nyanja)
+        * Translated using Weblate (Chinese (Simplified)) (d7c58fa)
 
-2020-11-11 12:27:15 +0100 Weblate (e30e108)
+2022-01-22 Anders Jonsson
 
-	* Added translation using Weblate (Assamese)
+        * Translated using Weblate (Swedish) (e1aef5a)
 
-2020-11-11 12:27:11 +0100 Weblate (427ba9b)
+2022-01-02 ssantos
 
-	* Added translation using Weblate (Wolof)
+        * Translated using Weblate (Portuguese) (9c1e66b)
 
-2020-11-11 12:27:00 +0100 Weblate (51e9066)
+2021-11-23 phlostically
 
-	* Added translation using Weblate (Kashubian)
+        * Translated using Weblate (Esperanto) (0987cc5)
 
-2020-11-11 12:26:57 +0100 Weblate (81efd37)
+2021-11-22 phlostically
 
-	* Added translation using Weblate (Macedonian)
+        * Translated using Weblate (Esperanto) (f3b9e5a)
 
-2020-11-11 12:26:54 +0100 Weblate (4f471bc)
+2021-11-20 phlostically
 
-	* Added translation using Weblate (Friulian)
+        * Translated using Weblate (Esperanto) (ce12bc8)
 
-2020-11-11 12:26:51 +0100 Weblate (fe685f5)
+2021-11-18 phlostically
 
-	* Added translation using Weblate (Tatar)
+        * Translated using Weblate (Esperanto) (96ca060)
 
-2020-11-10 16:37:47 +0000 mv87 (d9a9203)
+2021-11-16 Phil Clifford
 
-	* Translated using Weblate (German)
+        * Translated using Weblate (Gaelic) (d379f65)
 
-2020-11-10 17:08:37 +0100 Robert Tari (4823c65)
+2021-11-10 Daniele Tricoli
 
-	* Merge branch 'sunweaver-pr/bootstrap-locale'
+        * Translated using Weblate (Italian) (9b13f02)
 
-2020-11-10 16:25:20 +0100 Mike Gabriel (7b23a68)
+2021-11-09 Joan CiberSheep
 
-	* locale: Create empty translation files for all languages listed in
-          po/LINGUAS.
+        * Translated using Weblate (Catalan) (7c81dd1)
 
-2020-11-10 16:24:50 +0100 Mike Gabriel (1627659)
+2021-11-05 Andrej Shadura
 
-	* po/LINGUAS: Add list of to-be-translated-to languages.
+        * Translated using Weblate (Slovak) (211553c)
 
-2020-11-10 16:30:25 +0100 Mike Gabriel (5e3c0ac)
+2021-11-04 Michele
 
-	* setup.py: Only translate .po files in po/ subdir (ignore e.g. the
-          LINGUAS file).
+        * Translated using Weblate (Italian) (604e76e)
 
-2020-11-10 16:29:54 +0100 Mike Gabriel (dca874f)
+2021-11-03 ElectrifiedSpeed
 
-	* setup.py: Translation files end with '.po', not just 'po'.
+        * Translated using Weblate (Macedonian) (3528635)
 
-2020-11-10 16:24:15 +0100 Mike Gabriel (7798341)
+2021-10-20 Robert Tari
 
-	* po/ayatana-settings.pot: Update translation template after recent
-          file movals in this project.
+        * Merge branch 'FreaxMATE/resize' (0c58b69)
 
-2020-11-10 16:23:48 +0100 Mike Gabriel (3437c27)
+2021-10-20 Konstantin Unruh
 
-	* locale: Add scripts update-pot.sh and update-po.sh.
+        * fix window movement on resize action (9707b47)
 
-2020-11-10 08:18:22 +0100 Mike Gabriel (af0f603)
+2021-10-05 Luna Jernberg
 
-	* debian/changelog: Append '-0 to package version. Assure that
+        * Translated using Weblate (Swedish) (35bd38f)
+
+2021-09-23 Wellington Terumi Uemura
+
+        * Translated using Weblate (Portuguese (Brazil)) (be5e252)
+
+2021-08-28 Weblate
+
+        * Added translation using Weblate (Kurdish (Southern)) (041dbf4)
+        * Added translation using Weblate (Kurdish (Northern)) (394d59d)
+
+2021-08-12 Yaron Shahrabani
+
+        * Translated using Weblate (Hebrew) (fdfd7aa)
+
+2021-07-15 Boyuan Yang
+
+        * Translated using Weblate (Chinese (Simplified)) (f6a23de)
+
+2021-06-10 tianzi
+
+        * Translated using Weblate (Chinese (Simplified)) (6f547dd)
+
+2021-05-22 Yaron Shahrabani
+
+        * Translated using Weblate (Hebrew) (de57836)
+
+2021-05-06 Adolfo Jayme Barrientos
+
+        * Translated using Weblate (Catalan) (f2a64aa)
+
+2021-05-01 Tomáš Marný
+
+        * Translated using Weblate (Czech) (ff3138e)
+
+2021-04-15 Boyuan Yang
+
+        * Translated using Weblate (Chinese (Simplified)) (a087059)
+
+2021-03-29 Weblate
+
+        * Added translation using Weblate (Chinese (Simplified)
+          (zh_LATN@pinyin)) (f30438d)
+
+2021-03-18 Reza Almanda
+
+        * Translated using Weblate (Indonesian) (8dbc649)
+
+2021-02-07 Reza Almanda
+
+        * Translated using Weblate (Indonesian) (9d263c7)
+
+2021-02-01 Robert Tari
+
+        * Merge branch 'sunweaver-pr/fix-man-page-section' (f73c468)
+
+2021-02-01 Mike Gabriel
+
+        * man page: The man page header says 'section 8', but the file is
+          like a 'section 1' man page. Fix the filename and its
+          location's foldername. (a38637e)
+
+2021-01-28 Mike Gabriel
+
+        * release 21.1.28 (c569ebc) (tag: 21.1.28)
+        * debian/copyright: Happy new year. (72e2a0e)
+        * Merge branch 'tari01-pr/add-keyboard' (ddd3529)
+
+2021-01-25 Robert Tari
+
+        * Add keyboard indicator (06b72f5)
+
+2021-01-17 Kristjan Räts
+
+        * Translated using Weblate (Estonian) (2606783)
+
+2020-12-29 Wellington Terumi Uemura
+
+        * Translated using Weblate (Portuguese (Brazil)) (2ff61a6)
+
+2020-12-30 J. Lavoie
+
+        * Translated using Weblate (Italian) (75c36c5)
+        * Translated using Weblate (French (Canada)) (1512c1a)
+        * Translated using Weblate (French) (dc2e45a)
+        * Translated using Weblate (German) (a4b64bb)
+
+2020-12-23 Luna Jernberg
+
+        * Translated using Weblate (Swedish) (2887202)
+
+2020-12-07 Ksa VPN Net Sell
+
+        * Translated using Weblate (Italian) (5f31530)
+
+2020-12-02 Milo Ivir
+
+        * Translated using Weblate (Croatian) (8343a10)
+
+2020-11-26 Ács Zoltán
+
+        * Translated using Weblate (Hungarian) (33e5936)
+
+2020-11-23 Adolfo Jayme Barrientos
+
+        * Translated using Weblate (Spanish) (b5b3237)
+
+2020-11-20 Ács Zoltán
+
+        * Translated using Weblate (Hungarian) (b840c92)
+
+2020-11-17 Quentin PAGÈS
+
+        * Translated using Weblate (Occitan) (b16d3bc)
+
+2020-11-17 Moo
+
+        * Translated using Weblate (Lithuanian) (49bcb7d)
+
+2020-11-13 Ács Zoltán
+
+        * Translated using Weblate (Hungarian) (38b00ae)
+
+2020-11-12 Oğuz Ersen
+
+        * Translated using Weblate (Turkish) (8998809)
+
+2020-11-12 Anders Jonsson
+
+        * Translated using Weblate (Swedish) (cfa1424)
+
+2020-11-10 Allan Nordhøy
+
+        * Translated using Weblate (Norwegian Bokmål) (0933cea)
+
+2020-11-11 Milan Korecky
+
+        * Translated using Weblate (Czech) (6613678)
+
+2020-11-11 Weblate
+
+        * Added translation using Weblate (Italian) (944d42d)
+        * Added translation using Weblate (Tamil (Sri Lanka)) (7a87d12)
+        * Added translation using Weblate (Manx) (f484db3)
+        * Added translation using Weblate (Afar) (d6532f7)
+        * Added translation using Weblate (Dhivehi) (071e3e7)
+        * Added translation using Weblate (Venetian) (724667f)
+        * Added translation using Weblate (Nyanja) (cb59139)
+        * Added translation using Weblate (Assamese) (e30e108)
+        * Added translation using Weblate (Wolof) (427ba9b)
+        * Added translation using Weblate (Kashubian) (51e9066)
+        * Added translation using Weblate (Macedonian) (81efd37)
+        * Added translation using Weblate (Friulian) (4f471bc)
+        * Added translation using Weblate (Tatar) (fe685f5)
+
+2020-11-10 mv87
+
+        * Translated using Weblate (German) (d9a9203)
+
+2020-11-10 Robert Tari
+
+        * Merge branch 'sunweaver-pr/bootstrap-locale' (4823c65)
+
+2020-11-10 Mike Gabriel
+
+        * locale: Create empty translation files for all languages listed in
+          po/LINGUAS. (7b23a68)
+        * po/LINGUAS: Add list of to-be-translated-to languages. (1627659)
+        * setup.py: Only translate .po files in po/ subdir (ignore e.g. the
+          LINGUAS file). (5e3c0ac)
+        * setup.py: Translation files end with '.po', not just 'po'.
+          (dca874f)
+        * po/ayatana-settings.pot: Update translation template after recent
+          file movals in this project. (7798341)
+        * locale: Add scripts update-pot.sh and update-po.sh. (3437c27)
+        * debian/changelog: Append '-0 to package version. Assure that
           official DEB is always preferred over the upstream DEB
           unless APT pinning is in places and prefers the upstream
-          repo.
+          repo. (af0f603)
 
-2020-11-09 15:04:00 +0100 Robert Tari (05d8f0d)
+2020-11-09 Robert Tari
 
-	* Merge branch 'sunweaver-pr/keywords-key-in-desktop-file'
+        * Merge branch 'sunweaver-pr/keywords-key-in-desktop-file' (05d8f0d)
 
-2020-11-09 13:58:11 +0100 Mike Gabriel (0dae747)
+2020-11-09 Mike Gabriel
 
-	* data/man/man1/ayatana-settings.1: Add man page.
+        * data/man/man1/ayatana-settings.1: Add man page. (0dae747)
 
-2020-11-09 15:00:20 +0100 Robert Tari (2592409)
+2020-11-09 Robert Tari
 
-	* Merge branch 'sunweaver-pr/add-man-page'
+        * Merge branch 'sunweaver-pr/add-man-page' (2592409)
 
-2020-11-09 14:16:03 +0100 Mike Gabriel (27ed544)
+2020-11-09 Mike Gabriel
 
-	* data/applications/ayatana-settings.desktop.in: Add Keywords= entry
-          in .desktop file.
+        * data/applications/ayatana-settings.desktop.in: Add Keywords= entry
+          in .desktop file. (27ed544)
+        * data/man/man1/ayatana-settings.1: Add man page. (27f214b)
+        * release 20.11.09.2 (1842a2b) (tag: 20.11.09.2)
+        * Merge branch 'tari01-pr/fix-desktop-file' (56e9820)
 
-2020-11-09 13:58:11 +0100 Mike Gabriel (27f214b)
+2020-11-09 Robert Tari
 
-	* data/man/man1/ayatana-settings.1: Add man page.
+        * setup.py: Fix .dektop file generation (a52a146)
 
-2020-11-09 13:44:44 +0100 Mike Gabriel (1842a2b)
+2020-11-09 Mike Gabriel
 
-	* release 20.11.09.2 (tag: 20.11.09.2)
-
-2020-11-09 13:43:39 +0100 Mike Gabriel (56e9820)
-
-	* Merge branch 'tari01-pr/fix-desktop-file'
-
-2020-11-09 13:37:05 +0100 Robert Tari (a52a146)
-
-	* setup.py: Fix .dektop file generation
-
-2020-11-09 13:07:28 +0100 Mike Gabriel (7146d97)
-
-	* .gitignore: Need not be executable.
-
-2020-11-09 13:06:01 +0100 Mike Gabriel (ffbe03d)
-
-	* **/**: Remove x-bits from all files except the main executable and
-          setup.py (and debian/rules).
-
-2020-11-09 13:04:20 +0100 Mike Gabriel (5f84782)
-
-	* debian/rules: Don't drop data/locale/.gitkeep during dh_auto_clean
-          override.
-
-2020-11-09 13:02:10 +0100 Mike Gabriel (ae18dda)
-
-	* debian/rules: Fix dh_auto_clean override (wrong egg-info path,
+        * .gitignore: Need not be executable. (7146d97)
+        **/**: Remove x-bits from all files except the main executable and
+          setup.py (and debian/rules). (ffbe03d)
+        * debian/rules: Don't drop data/locale/.gitkeep during dh_auto_clean
+          override. (5f84782)
+        * debian/rules: Fix dh_auto_clean override (wrong egg-info path,
           remove ayatana-settings.desktop, fix locale's .mo file
-          location.
+          location. (ae18dda)
+        * release 20.11.09.1 (ee0aef1) (tag: 20.11.09.1)
+        * debian/control: Add Mike Gabriel to Uploaders: field. (94ea4fe)
 
-2020-11-09 12:45:48 +0100 Mike Gabriel (ee0aef1)
+2020-11-09 Robert Tari
 
-	* release 20.11.09.1 (tag: 20.11.09.1)
+        * Merge branch 'sunweaver-pr/data-dir-improvements' (0856414)
 
-2020-11-09 12:45:37 +0100 Mike Gabriel (94ea4fe)
+2020-11-09 Mike Gabriel
 
-	* debian/control: Add Mike Gabriel to Uploaders: field.
-
-2020-11-09 12:40:01 +0100 Robert Tari (0856414)
-
-	* Merge branch 'sunweaver-pr/data-dir-improvements'
-
-2020-11-09 10:08:59 +0100 Mike Gabriel (ee119c4)
-
-	* data/applications/ayatana-settings.desktop: Don't in-file update
+        * data/applications/ayatana-settings.desktop: Don't in-file update
           locale strings, rather use an input and an output file.
+          (ee119c4)
+        * setup.py: Add install_requires key to setup() call. (d4f6f03)
+        * data/: Don't mimick FHS in source tree. Use more commonly used
+          data/ tree structure. (eefc611)
 
-2020-11-09 08:58:45 +0100 Mike Gabriel (d4f6f03)
+2020-11-07 Mike Gabriel
 
-	* setup.py: Add install_requires key to setup() call.
+        * release 20.10.14 (a66c41b) (tag: 20.10.14)
+        * debian/control: Be happy with Python 3.6 (instead of 3.8).
+          (4609dd9)
+        * debian/source/format: Upstream DEBs need to be format 1.0.
+          (83be359)
 
-2020-11-09 08:55:58 +0100 Mike Gabriel (eefc611)
+2020-10-30 Robert Tari
 
-	* data/: Don't mimick FHS in source tree. Use more commonly used
-          data/ tree structure.
+        * Fix debian files (662c230)
 
-2020-11-07 16:12:56 +0100 Mike Gabriel (a66c41b)
+2020-10-29 Robert Tari
 
-	* release 20.10.14 (tag: 20.10.14)
-
-2020-11-07 16:11:50 +0100 Mike Gabriel (4609dd9)
-
-	* debian/control: Be happy with Python 3.6 (instead of 3.8).
-
-2020-11-07 15:49:33 +0100 Mike Gabriel (83be359)
-
-	* debian/source/format: Upstream DEBs need to be format 1.0.
-
-2020-10-30 03:23:49 +0100 Robert Tari (662c230)
-
-	* Fix debian files
-
-2020-10-29 13:23:56 +0100 Robert Tari (1582244)
-
-	* Update translation file
-
-2020-10-29 13:16:47 +0100 Robert Tari (c3f9ce6)
-
-	* Update README.md
-
-2020-10-29 12:41:30 +0100 Robert Tari (b8b2360)
-
-	* Initial commit
-
+        * Update translation file (1582244)
+        * Update README.md (c3f9ce6)
+        * Initial commit (b8b2360)

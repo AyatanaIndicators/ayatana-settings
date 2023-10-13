@@ -1,3 +1,10 @@
+ayatana-settings (23.10.13-0) unstable; urgency=medium
+
+  * Upstream-provided Debian package for ayatana-settings.
+    See upstream ChangeLog for recent changes.
+
+ -- Mike Gabriel <mike.gabriel@das-netzwerkteam.de>  Fri, 13 Oct 2023 08:29:20 +0200
+
 ayatana-settings (21.1.28-0) unstable; urgency=medium
 
   * Upstream-provided Debian package for ayatana-settings.

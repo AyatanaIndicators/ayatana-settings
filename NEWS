@@ -1,0 +1,39 @@
+Overview of changes in ayatana-settings 23.10.13
+
+  - man page: The man page header says 'section 8', but the file is
+    like a 'section 1' man page. Fix the filename and its location's
+    foldername.
+  - Fix window movement on resize action.
+  - Themed launcher icon.
+  - ayatana-settings: Don't fail if XDG_CURRENT_DESKTOP is not set.
+  - ayatana-settings: Create ~/.config/autostart folder if it does not
+    yet exist.
+  - ayatana-settings: Add colour scheme handler.
+  - data/ayatana-settings/ayatana-settings.glade: Add a11y button
+    descriptions.
+  - Translation updates.
+
+Overview of changes in ayatana-settings 21.1.28
+
+  - data/man/man1/ayatana-settings.1: Add man page.
+  - locale: Add scripts update-pot.sh and update-po.sh.
+  - Add keyboard indicator.
+
+Overview of changes in ayatana-settings 20.11.09.2
+
+  - setup.py: Fix .desktop file generation.
+
+Overview of changes in ayatana-settings 20.11.09.1
+
+  - data/applications/ayatana-settings.desktop: Don't in-file update
+    locale strings, rather use an input and an output file.
+  - setup.py: Add install_requires key to setup() call.
+  - data/: Don't mimick FHS in source tree. Use more commonly used
+    data/ tree structure.
+
+Overview of changes in ayatana-settings 20.10.14
+
+  - Initial release.
+  - Update README.md.
+  - Update translation file.
+  - Add debian/ packaging folder.
