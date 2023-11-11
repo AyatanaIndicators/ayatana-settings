@@ -45,14 +45,22 @@ class AyatanaSettings:
             sys.exit(1)
 
         buildApp(self)
+        pSource = Gio.SettingsSchemaSource.get_default ()
+        pSchema = pSource.lookup ('org.gnome.desktop.interface', False);
 
-        self.pGnomeSettings = Gio.Settings.new ('org.gnome.desktop.interface')
-        self.pGnomeSettings.connect ('changed::color-scheme', self.onColorSchemeChanged)
-        self.onColorSchemeChanged (self.pGnomeSettings, 'color-scheme')
+        if pSchema:
+
+            bFound = pSchema.has_key ('color-scheme')
+
+            if bFound:
+
+                self.pGnomeSettings = Gio.Settings.new ('org.gnome.desktop.interface')
+                self.pGnomeSettings.connect ('changed::color-scheme', self.onColorSchemeChanged)
+                self.onColorSchemeChanged (self.pGnomeSettings, 'color-scheme')
 
         self.bSystemd = isSystemd()
         self.bInit = False
-        
+
         try:
             self.sDesktop = os.environ['XDG_CURRENT_DESKTOP']
         except KeyError:
