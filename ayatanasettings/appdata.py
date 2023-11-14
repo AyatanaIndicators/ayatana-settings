@@ -3,7 +3,7 @@
 
 APPNAME = 'ayatana-settings'
 APPEXECUTABLE='/usr/bin/ayatana-settings'
-APPVERSION = '23.10.13'
+APPVERSION = '23.11.14'
 APPSHOWSETTINGS = 201014
 APPYEAR = '2020'
 APPTITLE = 'Ayatana Indicators Settings'

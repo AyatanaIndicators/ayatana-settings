@@ -1,3 +1,8 @@
+Overview of changes in ayatana-settings 23.11.14
+
+  - ayatana-settings: Handle missing
+    org.gnome.desktop.interface::color-scheme.
+
 Overview of changes in ayatana-settings 23.10.13
 
   - man page: The man page header says 'section 8', but the file is
