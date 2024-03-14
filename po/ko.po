@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2022-03-01 11:59+0000\n"
+"PO-Revision-Date: 2024-03-15 15:01+0000\n"
 "Last-Translator: 이정희 <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/ko/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
@@ -30,7 +30,7 @@ msgstr "메뉴에서 로그아웃 항목 제거"
 
 #: data/ayatana-settings/ayatana-settings.glade:165
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr "로그아웃, 재시작 및 종료 확인 안 함"
+msgstr "로그아웃, 재시작 및 컴퓨터 끄기 확인 표시 안함"
 
 #: data/ayatana-settings/ayatana-settings.glade:178
 msgid "Remove the Restart item from the menu"
@@ -38,7 +38,7 @@ msgstr "메뉴에서 다시 시작 항목 제거"
 
 #: data/ayatana-settings/ayatana-settings.glade:191
 msgid "Remove the Shut Down item from the menu"
-msgstr "메뉴에서 시스템 종료 항목 제거"
+msgstr "메뉴에서 컴퓨터 끄기 항목 제거"
 
 #: data/ayatana-settings/ayatana-settings.glade:204
 msgid "Show the user list in the menu"
@@ -52,7 +52,7 @@ msgstr "메뉴에 사용자 목록 표시"
 #: data/ayatana-settings/ayatana-settings.glade:696
 #: data/ayatana-settings/ayatana-settings.glade:841
 msgid "Enable this indicator on login"
-msgstr "로그인 시 이 표시기 활성화"
+msgstr "로그인 시 이 표시도구 활성화"
 
 #: data/ayatana-settings/ayatana-settings.glade:249
 msgid "Session"
@@ -144,8 +144,8 @@ msgstr "알림"
 
 #: data/applications/ayatana-settings.desktop.in:3
 msgid "Indicators"
-msgstr "표시기"
+msgstr "표시도구"
 
 #: data/applications/ayatana-settings.desktop.in:4
 msgid "Ayatana Indicators Settings"
-msgstr "Ayatana 표시기 설정"
+msgstr "Ayatana 표시도구 설정"
