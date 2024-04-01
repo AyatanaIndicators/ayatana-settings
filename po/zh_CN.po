@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2020-11-10 14:01+0100\n"
-"PO-Revision-Date: 2022-07-23 17:14+0000\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"PO-Revision-Date: 2024-04-01 22:37+0000\n"
+"Last-Translator: 复予 <clonewith@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
@@ -80,11 +80,11 @@ msgstr "在面板上显示年份"
 
 #: data/ayatana-settings/ayatana-settings.glade:409
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "在面板上显示星期"
 
 #: data/ayatana-settings/ayatana-settings.glade:422
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "在面板上显示月份与日期"
 
 #: data/ayatana-settings/ayatana-settings.glade:458
 msgid "Date and Time"
@@ -100,11 +100,11 @@ msgstr "声音"
 
 #: data/ayatana-settings/ayatana-settings.glade:575
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "在面板上显示百分比"
 
 #: data/ayatana-settings/ayatana-settings.glade:588
 msgid "Show time on the panel"
-msgstr ""
+msgstr "在面板上显示时间"
 
 #: data/ayatana-settings/ayatana-settings.glade:625
 msgid "Power"
@@ -112,7 +112,7 @@ msgstr "电源"
 
 #: data/ayatana-settings/ayatana-settings.glade:674
 msgid "Messages"
-msgstr ""
+msgstr "消息"
 
 #: data/ayatana-settings/ayatana-settings.glade:723
 msgid "Bluetooth"
@@ -124,19 +124,19 @@ msgstr "最大可见项目数"
 
 #: data/ayatana-settings/ayatana-settings.glade:762
 msgid "Discard notifications by application name"
-msgstr ""
+msgstr "按应用名屏蔽通知"
 
 #: data/ayatana-settings/ayatana-settings.glade:807
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #: data/ayatana-settings/ayatana-settings.glade:821
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: data/ayatana-settings/ayatana-settings.glade:880
 msgid "column"
-msgstr ""
+msgstr "列"
 
 #: data/ayatana-settings/ayatana-settings.glade:910
 msgid "Notifications"
@@ -148,4 +148,4 @@ msgstr "指示器"
 
 #: data/applications/ayatana-settings.desktop.in:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "Ayatana 指示器设置"
