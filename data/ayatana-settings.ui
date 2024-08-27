@@ -1,0 +1,1017 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.90.4 -->
+<interface>
+  <!-- interface-name ayatana-settings.ui -->
+  <requires lib="gio" version="2.44"/>
+  <requires lib="gtk" version="4.14"/>
+  <object class="GtkAdjustment" id="adjustmentNotificationsMaxItems">
+    <property name="lower">1</property>
+    <property name="page-increment">1</property>
+    <property name="step-increment">1</property>
+    <property name="upper">10</property>
+  </object>
+  <object class="GtkWindow" id="window">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="hexpand">1</property>
+        <property name="margin-bottom">10</property>
+        <property name="margin-end">10</property>
+        <property name="margin-start">10</property>
+        <property name="margin-top">10</property>
+        <property name="orientation">vertical</property>
+        <property name="vexpand">1</property>
+        <child>
+          <object class="GtkNotebook">
+            <property name="focusable">1</property>
+            <property name="hexpand">1</property>
+            <property name="tab-pos">left</property>
+            <property name="vexpand">1</property>
+            <child>
+              <object class="GtkNotebookPage" id="NotebookPageSession">
+                <property name="child">
+                  <object class="GtkGrid">
+                    <property name="column-spacing">10</property>
+                    <property name="hexpand">1</property>
+                    <property name="margin-bottom">10</property>
+                    <property name="margin-end">10</property>
+                    <property name="margin-start">10</property>
+                    <property name="margin-top">10</property>
+                    <property name="row-spacing">10</property>
+                    <property name="vexpand">1</property>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchSessionShowName">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Show full user name on the panel</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchSessionRemoveLogOut">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Remove the Log Out item from the menu</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">1</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchSessionSuppressConfirmation">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Suppress the Log Out, Restart and Shut Down confirmation</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">2</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchSessionRemoveRestart">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Remove the Restart item from the menu</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">3</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchSessionRemoveShutDown">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Remove the Shut Down item from the menu</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">4</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchSessionShowUsers">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Show the user list in the menu</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">5</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Show full user name on the panel</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Remove the Log Out item from the menu</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">1</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Suppress the Log Out, Restart and Shut Down confirmation</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">2</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Remove the Restart item from the menu</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">3</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Remove the Shut Down item from the menu</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">4</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Show the user list in the menu</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">5</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkToggleButton" id="ToggleButtonSessionEnable">
+                        <property name="focusable">1</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Enable this indicator on login</property>
+                        <property name="name">session</property>
+                        <property name="valign">end</property>
+                        <property name="vexpand">1</property>
+                        <signal name="toggled" handler="onToggleButtonEnableToggled"/>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="column-span">2</property>
+                          <property name="row">6</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+                <property name="tab">
+                  <object class="GtkBox">
+                    <child>
+                      <object class="GtkImage">
+                        <property name="icon-name">ayatana-settings-session</property>
+                        <property name="pixel-size">24</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="label" translatable="yes">Session</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkNotebookPage" id="NotebookPageDatetime">
+                <property name="child">
+                  <object class="GtkGrid">
+                    <property name="column-spacing">10</property>
+                    <property name="hexpand">1</property>
+                    <property name="margin-bottom">10</property>
+                    <property name="margin-end">10</property>
+                    <property name="margin-start">10</property>
+                    <property name="margin-top">10</property>
+                    <property name="row-spacing">10</property>
+                    <property name="vexpand">1</property>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Show the number of seconds on the panel</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">3</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Show the calendar in the menu</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">4</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Show week numbers in the calendar</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">5</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Show events in the menu</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">6</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchDatetimeShowYear">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Show the year on the panel</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchDatetimeShowDate">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Show the month and date on the panel</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">1</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchDatetimeShowDay">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Show the day of the week on the panel</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">2</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchDatetimeShowSeconds">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Show the number of seconds on the panel</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">3</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchDatetimeShowCalendar">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Show the calendar in the menu</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">4</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchDatetimeShowWeekNumbers">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Show week numbers in the calendar</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">5</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchDatetimeShowEvents">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Show events in the menu</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">6</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Show the year on the panel</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Show the day of the week on the panel</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">2</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Show the month and date on the panel</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">1</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkToggleButton" id="ToggleButtonDatetimeEnable">
+                        <property name="focusable">1</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Enable this indicator on login</property>
+                        <property name="name">datetime</property>
+                        <property name="valign">end</property>
+                        <property name="vexpand">1</property>
+                        <signal name="toggled" handler="onToggleButtonEnableToggled"/>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="column-span">2</property>
+                          <property name="row">7</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+                <property name="tab">
+                  <object class="GtkBox">
+                    <child>
+                      <object class="GtkImage">
+                        <property name="icon-name">ayatana-settings-datetime</property>
+                        <property name="pixel-size">24</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="label" translatable="yes">Date and Time</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkNotebookPage" id="NotebookPageSound">
+                <property name="child">
+                  <object class="GtkGrid">
+                    <property name="column-spacing">10</property>
+                    <property name="hexpand">1</property>
+                    <property name="margin-bottom">10</property>
+                    <property name="margin-end">10</property>
+                    <property name="margin-start">10</property>
+                    <property name="margin-top">10</property>
+                    <property name="row-spacing">10</property>
+                    <property name="vexpand">1</property>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Allow setting the volume above 100%</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchSoundAllowAmplified">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Allow setting the volume above 100%</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkToggleButton" id="ToggleButtonSoundEnable">
+                        <property name="focusable">1</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Enable this indicator on login</property>
+                        <property name="name">sound</property>
+                        <property name="valign">end</property>
+                        <property name="vexpand">1</property>
+                        <signal name="toggled" handler="onToggleButtonEnableToggled"/>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="column-span">2</property>
+                          <property name="row">1</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+                <property name="tab">
+                  <object class="GtkBox">
+                    <child>
+                      <object class="GtkImage">
+                        <property name="icon-name">multimedia-volume-control</property>
+                        <property name="pixel-size">24</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="label" translatable="yes">Sound</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkNotebookPage" id="NotebookPagePower">
+                <property name="child">
+                  <object class="GtkGrid">
+                    <property name="column-spacing">10</property>
+                    <property name="hexpand">1</property>
+                    <property name="margin-bottom">10</property>
+                    <property name="margin-end">10</property>
+                    <property name="margin-start">10</property>
+                    <property name="margin-top">10</property>
+                    <property name="row-spacing">10</property>
+                    <property name="vexpand">1</property>
+                    <child>
+                      <object class="GtkToggleButton" id="ToggleButtonPowerEnable">
+                        <property name="focusable">1</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Enable this indicator on login</property>
+                        <property name="name">power</property>
+                        <property name="valign">end</property>
+                        <property name="vexpand">1</property>
+                        <signal name="toggled" handler="onToggleButtonEnableToggled"/>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="column-span">2</property>
+                          <property name="row">2</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Show percentage on the panel</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Show time on the panel</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">1</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchPowerShowPercentage">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Show percentage on the panel</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="SwitchPowerShowTime">
+                        <property name="focusable">1</property>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Show time on the panel</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">1</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+                <property name="tab">
+                  <object class="GtkBox">
+                    <child>
+                      <object class="GtkImage">
+                        <property name="icon-name">battery</property>
+                        <property name="pixel-size">24</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="label" translatable="yes">Power</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkNotebookPage" id="NotebookPageMessages">
+                <property name="child">
+                  <object class="GtkGrid">
+                    <property name="column-spacing">10</property>
+                    <property name="hexpand">1</property>
+                    <property name="margin-bottom">10</property>
+                    <property name="margin-end">10</property>
+                    <property name="margin-start">10</property>
+                    <property name="margin-top">10</property>
+                    <property name="row-spacing">10</property>
+                    <property name="vexpand">1</property>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">6</property>
+                        <property name="valign">start</property>
+                        <child>
+                          <object class="GtkImage">
+                            <property name="icon-name">dialog-information-symbolic</property>
+                            <property name="icon-size">large</property>
+                            <property name="use-fallback">True</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="label" translatable="yes">This indicator has no settings</property>
+                          </object>
+                        </child>
+                        <style>
+                          <class name="info"/>
+                        </style>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkToggleButton" id="ToggleButtonMessagesEnable">
+                        <property name="focusable">1</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Enable this indicator on login</property>
+                        <property name="name">messages</property>
+                        <property name="valign">end</property>
+                        <property name="vexpand">1</property>
+                        <signal name="toggled" handler="onToggleButtonEnableToggled"/>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+                <property name="tab">
+                  <object class="GtkBox">
+                    <child>
+                      <object class="GtkImage">
+                        <property name="icon-name">mail-unread</property>
+                        <property name="pixel-size">24</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="label" translatable="yes">Messages</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkNotebookPage" id="NotebookPageBluetooth">
+                <property name="child">
+                  <object class="GtkGrid">
+                    <property name="column-spacing">10</property>
+                    <property name="hexpand">1</property>
+                    <property name="margin-bottom">10</property>
+                    <property name="margin-end">10</property>
+                    <property name="margin-start">10</property>
+                    <property name="margin-top">10</property>
+                    <property name="row-spacing">10</property>
+                    <property name="vexpand">1</property>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">6</property>
+                        <property name="valign">start</property>
+                        <child>
+                          <object class="GtkImage">
+                            <property name="icon-name">dialog-information-symbolic</property>
+                            <property name="icon-size">large</property>
+                            <property name="use-fallback">True</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="label" translatable="yes">This indicator has no settings</property>
+                          </object>
+                        </child>
+                        <style>
+                          <class name="info"/>
+                        </style>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkToggleButton" id="ToggleButtonBluetoothEnable">
+                        <property name="focusable">1</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Enable this indicator on login</property>
+                        <property name="name">bluetooth</property>
+                        <property name="valign">end</property>
+                        <property name="vexpand">1</property>
+                        <signal name="toggled" handler="onToggleButtonEnableToggled"/>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+                <property name="tab">
+                  <object class="GtkBox">
+                    <child>
+                      <object class="GtkImage">
+                        <property name="icon-name">bluetooth</property>
+                        <property name="pixel-size">24</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="label" translatable="yes">Bluetooth</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkNotebookPage" id="NotebookPageNotifications">
+                <property name="child">
+                  <object class="GtkGrid">
+                    <property name="column-spacing">10</property>
+                    <property name="hexpand">1</property>
+                    <property name="margin-bottom">10</property>
+                    <property name="margin-end">10</property>
+                    <property name="margin-start">10</property>
+                    <property name="margin-top">10</property>
+                    <property name="row-spacing">10</property>
+                    <property name="vexpand">1</property>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Maximum number of visible items</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="halign">end</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Discard notifications by application name</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">1</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSpinButton" id="SpinButtonNotifications">
+                        <property name="adjustment">adjustmentNotificationsMaxItems</property>
+                        <property name="focusable">1</property>
+                        <property name="max-width-chars">2</property>
+                        <property name="numeric">1</property>
+                        <property name="snap-to-ticks">1</property>
+                        <property name="update-policy">if-valid</property>
+                        <property name="width-chars">2</property>
+                        <signal name="value-changed" handler="onSpinButtonNotificationsValueChanged"/>
+                        <!-- Custom object fragments -->
+                        <accessibility>
+                          <property name="description" translatable="1">Maximum number of visible items</property>
+                        </accessibility>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkGrid">
+                        <property name="column-spacing">5</property>
+                        <child>
+                          <object class="GtkEntry" id="EntryNotifications">
+                            <property name="focusable">1</property>
+                            <layout>
+                              <property name="column">0</property>
+                              <property name="row">0</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkButton" id="ButtonNotificationsAdd">
+                            <property name="focusable">1</property>
+                            <property name="receives-default">1</property>
+                            <signal name="clicked" handler="onButtonNotificationsAddClicked"/>
+                            <child>
+                              <object class="GtkBox">
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">list-add</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label" translatable="yes">Add</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <!-- Custom object fragments -->
+                            <accessibility>
+                              <property name="description" translatable="1">Add application to list</property>
+                            </accessibility>
+                            <layout>
+                              <property name="column">1</property>
+                              <property name="row">0</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkButton" id="ButtonNotificationsRemove">
+                            <property name="focusable">1</property>
+                            <property name="receives-default">1</property>
+                            <signal name="clicked" handler="onButtonNotificationsRemoveClicked"/>
+                            <child>
+                              <object class="GtkBox">
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">list-remove</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label" translatable="yes">Remove</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <!-- Custom object fragments -->
+                            <accessibility>
+                              <property name="description" translatable="1">Remove application from list</property>
+                            </accessibility>
+                            <layout>
+                              <property name="column">2</property>
+                              <property name="row">0</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">2</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkToggleButton" id="ToggleButtonNotificationsEnable">
+                        <property name="focusable">1</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Enable this indicator on login</property>
+                        <property name="name">notifications</property>
+                        <property name="valign">end</property>
+                        <property name="vexpand">1</property>
+                        <signal name="toggled" handler="onToggleButtonEnableToggled"/>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="column-span">2</property>
+                          <property name="row">3</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkScrolledWindow">
+                        <property name="child">
+                          <object class="GtkListView" id="ListViewNotifications">
+                            <property name="model">
+                              <object class="GtkSingleSelection" id="SingleSelectionNotifications">
+                                <property name="model">
+                                  <object class="GtkStringList" id="StringListNotificationsFilters"/>
+                                </property>
+                              </object>
+                            </property>
+                          </object>
+                        </property>
+                        <property name="focusable">1</property>
+                        <property name="min-content-height">200</property>
+                        <property name="propagate-natural-height">1</property>
+                        <style>
+                          <class name="frame"/>
+                        </style>
+                        <layout>
+                          <property name="column">1</property>
+                          <property name="row">1</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+                <property name="tab">
+                  <object class="GtkBox">
+                    <child>
+                      <object class="GtkImage">
+                        <property name="icon-name">ayatana-settings-notifications</property>
+                        <property name="pixel-size">24</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="label" translatable="yes">Notifications</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkNotebookPage" id="NotebookPageKeyboard">
+                <property name="child">
+                  <object class="GtkGrid">
+                    <property name="column-spacing">10</property>
+                    <property name="hexpand">1</property>
+                    <property name="margin-bottom">10</property>
+                    <property name="margin-end">10</property>
+                    <property name="margin-start">10</property>
+                    <property name="margin-top">10</property>
+                    <property name="row-spacing">10</property>
+                    <property name="vexpand">1</property>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">6</property>
+                        <property name="valign">start</property>
+                        <child>
+                          <object class="GtkImage">
+                            <property name="icon-name">dialog-information-symbolic</property>
+                            <property name="icon-size">large</property>
+                            <property name="use-fallback">True</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="label" translatable="yes">This indicator has no settings</property>
+                          </object>
+                        </child>
+                        <style>
+                          <class name="info"/>
+                        </style>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkToggleButton" id="ToggleButtonKeyboardEnable">
+                        <property name="focusable">1</property>
+                        <property name="hexpand">1</property>
+                        <property name="label" translatable="yes">Enable this indicator on login</property>
+                        <property name="name">keyboard</property>
+                        <property name="valign">end</property>
+                        <property name="vexpand">1</property>
+                        <signal name="toggled" handler="onToggleButtonEnableToggled"/>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+                <property name="tab">
+                  <object class="GtkBox">
+                    <child>
+                      <object class="GtkImage">
+                        <property name="icon-name">preferences-desktop-keyboard</property>
+                        <property name="pixel-size">24</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="label" translatable="yes">Keyboard</property>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </property>
+    <property name="height-request">480</property>
+    <property name="icon-name">ayatana-settings</property>
+    <property name="title" translatable="yes">Ayatana Settings</property>
+    <property name="width-request">640</property>
+    <child type="titlebar">
+      <object class="GtkHeaderBar"/>
+    </child>
+  </object>
+  <object class="GtkStringList" id="StringListNotificationsHints"/>
+</interface>

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ayatana-settings 20.11.09.2\n"
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
-"POT-Creation-Date: 2020-11-10 14:01+0100\n"
+"POT-Creation-Date: 2024-08-27 14:40+0200\n"
 "PO-Revision-Date: 2020-11-10 14:01+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,132 +18,138 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/ayatana-settings/ayatana-settings.glade:139
+#: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:152
+#: data/ayatana-settings.ui:134
 msgid "Remove the Log Out item from the menu"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:165
+#: data/ayatana-settings.ui:145
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:178
+#: data/ayatana-settings.ui:156
 msgid "Remove the Restart item from the menu"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:191
+#: data/ayatana-settings.ui:167
 msgid "Remove the Shut Down item from the menu"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:204
+#: data/ayatana-settings.ui:178
 msgid "Show the user list in the menu"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:225
-#: data/ayatana-settings/ayatana-settings.glade:431
-#: data/ayatana-settings/ayatana-settings.glade:503
-#: data/ayatana-settings/ayatana-settings.glade:552
-#: data/ayatana-settings/ayatana-settings.glade:647
-#: data/ayatana-settings/ayatana-settings.glade:696
-#: data/ayatana-settings/ayatana-settings.glade:841
+#: data/ayatana-settings.ui:189 data/ayatana-settings.ui:404
+#: data/ayatana-settings.ui:475 data/ayatana-settings.ui:522
+#: data/ayatana-settings.ui:642 data/ayatana-settings.ui:713
+#: data/ayatana-settings.ui:877 data/ayatana-settings.ui:974
 msgid "Enable this indicator on login"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:249
+#: data/ayatana-settings.ui:213
 msgid "Session"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:274
+#: data/ayatana-settings.ui:236
 msgid "Show the number of seconds on the panel"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:287
+#: data/ayatana-settings.ui:247
 msgid "Show the calendar in the menu"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:300
+#: data/ayatana-settings.ui:258
 msgid "Show week numbers in the calendar"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:313
+#: data/ayatana-settings.ui:269
 msgid "Show events in the menu"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:396
+#: data/ayatana-settings.ui:371
 msgid "Show the year on the panel"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:409
+#: data/ayatana-settings.ui:382
 msgid "Show the day of the week on the panel"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:422
+#: data/ayatana-settings.ui:393
 msgid "Show the month and date on the panel"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:458
+#: data/ayatana-settings.ui:428
 msgid "Date and Time"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:484
+#: data/ayatana-settings.ui:451
 msgid "Allow setting the volume above 100%"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:530
+#: data/ayatana-settings.ui:499
 msgid "Sound"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:575
+#: data/ayatana-settings.ui:538
 msgid "Show percentage on the panel"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:588
+#: data/ayatana-settings.ui:549
 msgid "Show time on the panel"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:625
+#: data/ayatana-settings.ui:594
 msgid "Power"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:674
+#: data/ayatana-settings.ui:626 data/ayatana-settings.ui:697
+#: data/ayatana-settings.ui:958
+msgid "This indicator has no settings"
+msgstr ""
+
+#: data/ayatana-settings.ui:665
 msgid "Messages"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:723
+#: data/ayatana-settings.ui:736
 msgid "Bluetooth"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:749
+#: data/ayatana-settings.ui:759
 msgid "Maximum number of visible items"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:762
+#: data/ayatana-settings.ui:770
 msgid "Discard notifications by application name"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:807
+#: data/ayatana-settings.ui:823
 msgid "Add"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:821
+#: data/ayatana-settings.ui:852
 msgid "Remove"
 msgstr ""
 
-#: data/ayatana-settings/ayatana-settings.glade:880
-msgid "column"
-msgstr ""
-
-#: data/ayatana-settings/ayatana-settings.glade:910
+#: data/ayatana-settings.ui:926
 msgid "Notifications"
 msgstr ""
 
-#: data/applications/ayatana-settings.desktop.in:3
+#: data/ayatana-settings.ui:997
+msgid "Keyboard"
+msgstr ""
+
+#: data/ayatana-settings.ui:1010
+msgid "Ayatana Settings"
+msgstr ""
+
+#: data/ayatana-settings.desktop.intl:3
 msgid "Indicators"
 msgstr ""
 
-#: data/applications/ayatana-settings.desktop.in:4
+#: data/ayatana-settings.desktop.intl:4
 msgid "Ayatana Indicators Settings"
 msgstr ""
