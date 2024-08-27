@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+    <gresource prefix="/org/ayatana/ayatana-settings">
+        <file compressed="true">ayatana-settings.ui</file>
+    </gresource>
+</gresources>

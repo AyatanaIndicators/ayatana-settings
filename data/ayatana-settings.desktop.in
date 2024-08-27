@@ -1,10 +1,9 @@
 [Desktop Entry]
-Name=Indicators
-Comment=Ayatana Indicators Settings
+_Name=Indicators
+_Comment=Ayatana Indicators Settings
 Categories=Settings;DesktopSettings;X-LXDE-Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
-Exec=/usr/bin/ayatana-settings
+Exec=@CMAKE_INSTALL_FULL_BINDIR@/ayatana-settings
 Icon=ayatana-settings
 Terminal=false
 Type=Application
 Keywords=settings;indicators;ayatana;control;system;sound;notifications;datetime;events;messages;bluetooth;network;session;
-X-Ubuntu-Gettext-Domain=ayatana-settings
