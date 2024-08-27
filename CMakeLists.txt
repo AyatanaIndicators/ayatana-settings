@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 3.13)
-project (ayatana-settings VERSION 23.11.14 LANGUAGES C)
+project (ayatana-settings VERSION 24.8.0 LANGUAGES C)
 
 if (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
     SET (CMAKE_INSTALL_PREFIX "/usr" CACHE PATH "..." FORCE)
