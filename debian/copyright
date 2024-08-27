@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Ayatana Settings
 Upstream-Contact: Robert Tari <robert@tari.in>
 Source: https://github.com/AyatanaIndicators/ayatana-settings
@@ -7,14 +7,12 @@ Files: *
 Copyright: 2020-2021, Robert Tari <robert@tari.in>
 License: GPL-3+
 
-Files: po/*.po
-License: GPL-3+
-
 Files: debian/*
 Copyright: 2020-2021, Robert Tari <robert@tari.in>
+  2024, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
 License: GPL-3+
 
-License: GPL-3.0+
+License: GPL-3+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
