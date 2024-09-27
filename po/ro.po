@@ -19,125 +19,128 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
 
-#: data/ayatana-settings.ui:123
+#: data/ayatana-settings/ayatana-settings.glade:139
 msgid "Show full user name on the panel"
-msgstr ""
+msgstr "Afișează numele complet al utilizatorului în panou"
 
-#: data/ayatana-settings.ui:134
+#: data/ayatana-settings/ayatana-settings.glade:152
 msgid "Remove the Log Out item from the menu"
-msgstr ""
+msgstr "Eliminați elementul «Deconectare» din meniu"
 
-#: data/ayatana-settings.ui:145
+#: data/ayatana-settings/ayatana-settings.glade:165
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr ""
+msgstr "Suprimarea confirmării de deconectare, repornire și oprire"
 
-#: data/ayatana-settings.ui:156
+#: data/ayatana-settings/ayatana-settings.glade:178
 msgid "Remove the Restart item from the menu"
-msgstr ""
+msgstr "Eliminați elementul «Repornire» din meniu"
 
-#: data/ayatana-settings.ui:167
+#: data/ayatana-settings/ayatana-settings.glade:191
 msgid "Remove the Shut Down item from the menu"
-msgstr ""
+msgstr "Eliminați elementul «Oprire» din meniu"
 
-#: data/ayatana-settings.ui:178
+#: data/ayatana-settings/ayatana-settings.glade:204
 msgid "Show the user list in the menu"
-msgstr ""
+msgstr "Afișează lista de utilizatori în meniu"
 
-#: data/ayatana-settings.ui:189 data/ayatana-settings.ui:404
-#: data/ayatana-settings.ui:475 data/ayatana-settings.ui:522
-#: data/ayatana-settings.ui:642 data/ayatana-settings.ui:713
-#: data/ayatana-settings.ui:877 data/ayatana-settings.ui:974
+#: data/ayatana-settings/ayatana-settings.glade:225
+#: data/ayatana-settings/ayatana-settings.glade:431
+#: data/ayatana-settings/ayatana-settings.glade:503
+#: data/ayatana-settings/ayatana-settings.glade:552
+#: data/ayatana-settings/ayatana-settings.glade:647
+#: data/ayatana-settings/ayatana-settings.glade:696
+#: data/ayatana-settings/ayatana-settings.glade:841
 msgid "Enable this indicator on login"
-msgstr ""
+msgstr "Activează acest indicator la conectare"
 
-#: data/ayatana-settings.ui:213
+#: data/ayatana-settings/ayatana-settings.glade:249
 msgid "Session"
-msgstr ""
+msgstr "Sesiune"
 
-#: data/ayatana-settings.ui:236
+#: data/ayatana-settings/ayatana-settings.glade:274
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "Afișează numărul de secunde pe panou"
 
-#: data/ayatana-settings.ui:247
+#: data/ayatana-settings/ayatana-settings.glade:287
 msgid "Show the calendar in the menu"
-msgstr ""
+msgstr "Afișează calendarul în meniu"
 
-#: data/ayatana-settings.ui:258
+#: data/ayatana-settings/ayatana-settings.glade:300
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "Afișează numerele săptămânilor în calendar"
 
-#: data/ayatana-settings.ui:269
+#: data/ayatana-settings/ayatana-settings.glade:313
 msgid "Show events in the menu"
-msgstr ""
+msgstr "Afișează evenimentele în meniu"
 
-#: data/ayatana-settings.ui:371
+#: data/ayatana-settings/ayatana-settings.glade:396
 msgid "Show the year on the panel"
-msgstr ""
+msgstr "Afișează anul pe panou"
 
-#: data/ayatana-settings.ui:382
+#: data/ayatana-settings/ayatana-settings.glade:409
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "Afișează ziua săptămânii pe panou"
 
-#: data/ayatana-settings.ui:393
+#: data/ayatana-settings/ayatana-settings.glade:422
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "Afișează luna și data pe panou"
 
-#: data/ayatana-settings.ui:428
+#: data/ayatana-settings/ayatana-settings.glade:458
 msgid "Date and Time"
-msgstr ""
+msgstr "Data și ora"
 
-#: data/ayatana-settings.ui:451
+#: data/ayatana-settings/ayatana-settings.glade:484
 msgid "Allow setting the volume above 100%"
-msgstr ""
+msgstr "Permite reglarea volumului peste 100%"
 
-#: data/ayatana-settings.ui:499
+#: data/ayatana-settings/ayatana-settings.glade:530
 msgid "Sound"
-msgstr ""
+msgstr "Sunet"
 
-#: data/ayatana-settings.ui:538
+#: data/ayatana-settings/ayatana-settings.glade:575
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "Afișează procentul pe panou"
 
-#: data/ayatana-settings.ui:549
+#: data/ayatana-settings/ayatana-settings.glade:588
 msgid "Show time on the panel"
-msgstr ""
+msgstr "Afișează ora pe panou"
 
-#: data/ayatana-settings.ui:594
+#: data/ayatana-settings/ayatana-settings.glade:625
 msgid "Power"
-msgstr ""
+msgstr "Alimentare"
 
 #: data/ayatana-settings.ui:626 data/ayatana-settings.ui:697
 #: data/ayatana-settings.ui:958
 msgid "This indicator has no settings"
 msgstr ""
 
-#: data/ayatana-settings.ui:665
+#: data/ayatana-settings/ayatana-settings.glade:674
 msgid "Messages"
-msgstr ""
+msgstr "Mesaje"
 
-#: data/ayatana-settings.ui:736
+#: data/ayatana-settings/ayatana-settings.glade:723
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
-#: data/ayatana-settings.ui:759
+#: data/ayatana-settings/ayatana-settings.glade:749
 msgid "Maximum number of visible items"
-msgstr ""
+msgstr "Numărul maxim de elemente vizibile"
 
-#: data/ayatana-settings.ui:770
+#: data/ayatana-settings/ayatana-settings.glade:762
 msgid "Discard notifications by application name"
-msgstr ""
+msgstr "Elimină notificările după numele aplicației"
 
-#: data/ayatana-settings.ui:823
+#: data/ayatana-settings/ayatana-settings.glade:807
 msgid "Add"
-msgstr ""
+msgstr "Adaugă"
 
-#: data/ayatana-settings.ui:852
+#: data/ayatana-settings/ayatana-settings.glade:821
 msgid "Remove"
-msgstr ""
+msgstr "Elimină"
 
-#: data/ayatana-settings.ui:926
+#: data/ayatana-settings/ayatana-settings.glade:910
 msgid "Notifications"
-msgstr ""
+msgstr "Notificări"
 
 #: data/ayatana-settings.ui:997
 msgid "Keyboard"
@@ -147,10 +150,14 @@ msgstr ""
 msgid "Ayatana Settings"
 msgstr ""
 
-#: data/ayatana-settings.desktop.intl:3
+#: data/applications/ayatana-settings.desktop.in:3
 msgid "Indicators"
-msgstr ""
+msgstr "Indicatori"
 
-#: data/ayatana-settings.desktop.intl:4
+#: data/applications/ayatana-settings.desktop.in:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "Configurări ale indicatorilor Ayatana"
+
+#: data/ayatana-settings/ayatana-settings.glade:880
+msgid "column"
+msgstr "coloană"
