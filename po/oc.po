@@ -9,16 +9,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2022-03-30 19:07+0000\n"
+"PO-Revision-Date: 2024-10-01 14:16+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
-"Language-Team: Occitan <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-settings/oc/>\n"
+"Language-Team: Occitan <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-settings/oc/>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
@@ -110,7 +110,7 @@ msgstr "Energia"
 #: data/ayatana-settings.ui:626 data/ayatana-settings.ui:697
 #: data/ayatana-settings.ui:958
 msgid "This indicator has no settings"
-msgstr ""
+msgstr "Aqueste insicador a pas cap de paramètres"
 
 #: data/ayatana-settings.ui:665
 msgid "Messages"
@@ -142,11 +142,11 @@ msgstr "Notificacions"
 
 #: data/ayatana-settings.ui:997
 msgid "Keyboard"
-msgstr ""
+msgstr "Clavièr"
 
 #: data/ayatana-settings.ui:1010
 msgid "Ayatana Settings"
-msgstr ""
+msgstr "Paramètres Ayatana"
 
 #: data/ayatana-settings.desktop.intl:3
 msgid "Indicators"
