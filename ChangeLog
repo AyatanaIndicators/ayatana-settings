@@ -1,6 +1,26 @@
+2024-10-01 Mike Gabriel
+
+        * release 24.10.1 (HEAD -> main, tag: 24.10.1)
+
+2024-09-29 Oğuz Ersen
+
+        * Translated using Weblate (Turkish) (3e19c9d9)
+
+2024-09-30 Wellington Terumi Uemura
+
+        * Translated using Weblate (Portuguese (Brazil)) (0f3f3b8a)
+
+2024-09-29 gallegonovato
+
+        * Translated using Weblate (Spanish) (5adfa31d)
+
+2024-09-27 Remus-Gabriel Chelu
+
+        * Translated using Weblate (Romanian) (09bf6fc2)
+
 2024-08-27 Mike Gabriel
 
-        * release 24.8.27 (HEAD -> main, tag: 24.8.27)
+        * release 24.8.27 (dd1579a2) (tag: 24.8.27)
         * Merge branch 'pr/full-rewrite' (79853595)
         * Pre-release bump of software version. (1398450b)
         * debian/: Adjust DEB packaging to full rewrite. (69886ef4)

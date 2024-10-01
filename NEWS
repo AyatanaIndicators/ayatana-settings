@@ -1,3 +1,7 @@
+Overview of changes in ayatana-settings 24.10.1
+
+  - Translation updates.
+
 Overview of changes in ayatana-settings 24.8.27
 
   - Rewrite using C/CMake/Gtk4 and add some features/tweaks.
