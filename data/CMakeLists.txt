@@ -9,8 +9,7 @@ configure_file ("${CMAKE_CURRENT_SOURCE_DIR}/${CMAKE_PROJECT_NAME}.desktop.in" "
 intltool_merge_translations ("${CMAKE_PROJECT_NAME}.desktop.intl" "${CMAKE_PROJECT_NAME}.desktop" ALL UTF8)
 install (FILES "${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_PROJECT_NAME}.desktop" DESTINATION "${CMAKE_INSTALL_FULL_DATADIR}/applications")
 
-# icons/ContrastHigh/scalable/apps/ayatana-settings.svg
-# icons/hicolor/scalable/apps/ayatana-settings.svg
+# icons
 
 install (DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/icons" DESTINATION "${CMAKE_INSTALL_FULL_DATADIR}")
 
