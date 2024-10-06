@@ -75,18 +75,32 @@ static inline void application_onThemeChanged (GSettings *pSettings, const gchar
     if (bHighContrast && bDark)
     {
         g_object_set (pGtkSettings, "gtk-theme-name", "Default-hc-dark", NULL);
+        gboolean bExists = g_file_test ("/usr/share/icons/HighContrast/index.theme", G_FILE_TEST_EXISTS);
+
+        if (bExists)
+        {
+            g_object_set (pGtkSettings, "gtk-icon-theme-name", "HighContrast", NULL);
+        }
     }
     else if (bHighContrast)
     {
         g_object_set (pGtkSettings, "gtk-theme-name", "Default-hc", NULL);
+        gboolean bExists = g_file_test ("/usr/share/icons/HighContrast/index.theme", G_FILE_TEST_EXISTS);
+
+        if (bExists)
+        {
+            g_object_set (pGtkSettings, "gtk-icon-theme-name", "HighContrast", NULL);
+        }
     }
     else if (bDark)
     {
         gtk_settings_reset_property (pGtkSettings, "gtk-theme-name");
+        gtk_settings_reset_property (pGtkSettings, "gtk-icon-theme-name");
     }
     else
     {
         gtk_settings_reset_property (pGtkSettings, "gtk-theme-name");
+        gtk_settings_reset_property (pGtkSettings, "gtk-icon-theme-name");
     }
 
     g_object_set (pGtkSettings, "gtk-application-prefer-dark-theme", bDark, NULL);
