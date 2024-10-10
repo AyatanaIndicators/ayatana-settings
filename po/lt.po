@@ -9,17 +9,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2020-11-18 21:28+0000\n"
+"PO-Revision-Date: 2024-10-11 11:22+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
-"Language-Team: Lithuanian <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-settings/lt/>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-settings/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 4.4-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && ("
+"n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
@@ -112,7 +112,7 @@ msgstr "Maitinimas"
 #: data/ayatana-settings.ui:626 data/ayatana-settings.ui:697
 #: data/ayatana-settings.ui:958
 msgid "This indicator has no settings"
-msgstr ""
+msgstr "Šis indikatorius neturi nustatymų"
 
 #: data/ayatana-settings.ui:665
 msgid "Messages"
@@ -144,11 +144,11 @@ msgstr "Pranešimai"
 
 #: data/ayatana-settings.ui:997
 msgid "Keyboard"
-msgstr ""
+msgstr "Klaviatūra"
 
 #: data/ayatana-settings.ui:1010
 msgid "Ayatana Settings"
-msgstr ""
+msgstr "Ayatana nustatymai"
 
 #: data/ayatana-settings.desktop.intl:3
 msgid "Indicators"
