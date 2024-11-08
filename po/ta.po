@@ -9,146 +9,149 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2020-11-10 14:01+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-11-09 09:00+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/ayatana-indicators/"
+"ayatana-settings/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
-msgstr ""
+msgstr "பேனலில் முழு பயனர் பெயரைக் காட்டுங்கள்"
 
 #: data/ayatana-settings.ui:134
 msgid "Remove the Log Out item from the menu"
-msgstr ""
+msgstr "மெனுவிலிருந்து வெளியேறும் உருப்படியை அகற்றவும்"
 
 #: data/ayatana-settings.ui:145
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr ""
+msgstr "வெளியேறுவதை அடக்கவும், மறுதொடக்கம் செய்து உறுதிப்படுத்தலை மூடவும்"
 
 #: data/ayatana-settings.ui:156
 msgid "Remove the Restart item from the menu"
-msgstr ""
+msgstr "மெனுவிலிருந்து மறுதொடக்கம் உருப்படியை அகற்று"
 
 #: data/ayatana-settings.ui:167
 msgid "Remove the Shut Down item from the menu"
-msgstr ""
+msgstr "மெனுவிலிருந்து மூடப்பட்ட உருப்படியை அகற்றவும்"
 
 #: data/ayatana-settings.ui:178
 msgid "Show the user list in the menu"
-msgstr ""
+msgstr "பட்டியலில் பயனர் பட்டியலைக் காட்டு"
 
 #: data/ayatana-settings.ui:189 data/ayatana-settings.ui:404
 #: data/ayatana-settings.ui:475 data/ayatana-settings.ui:522
 #: data/ayatana-settings.ui:642 data/ayatana-settings.ui:713
 #: data/ayatana-settings.ui:877 data/ayatana-settings.ui:974
 msgid "Enable this indicator on login"
-msgstr ""
+msgstr "உள்நுழைவில் இந்த குறிகாட்டியை இயக்கவும்"
 
 #: data/ayatana-settings.ui:213
 msgid "Session"
-msgstr ""
+msgstr "அமர்வு"
 
 #: data/ayatana-settings.ui:236
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "பேனலில் விநாடிகளின் எண்ணிக்கையைக் காட்டுங்கள்"
 
 #: data/ayatana-settings.ui:247
 msgid "Show the calendar in the menu"
-msgstr ""
+msgstr "பட்டியலில் காலெண்டரைக் காட்டு"
 
 #: data/ayatana-settings.ui:258
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "காலெண்டரில் வார எண்களைக் காட்டு"
 
 #: data/ayatana-settings.ui:269
 msgid "Show events in the menu"
-msgstr ""
+msgstr "பட்டியலில் நிகழ்வுகளைக் காட்டு"
 
 #: data/ayatana-settings.ui:371
 msgid "Show the year on the panel"
-msgstr ""
+msgstr "பேனலில் ஆண்டைக் காட்டு"
 
 #: data/ayatana-settings.ui:382
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "குழுவில் வாரத்தின் நாளைக் காட்டு"
 
 #: data/ayatana-settings.ui:393
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "பேனலில் மாதம் மற்றும் தேதியைக் காட்டு"
 
 #: data/ayatana-settings.ui:428
 msgid "Date and Time"
-msgstr ""
+msgstr "தேதி மற்றும் நேரம்"
 
 #: data/ayatana-settings.ui:451
 msgid "Allow setting the volume above 100%"
-msgstr ""
+msgstr "அளவை 100% க்கு மேல் அமைக்க அனுமதிக்கவும்"
 
 #: data/ayatana-settings.ui:499
 msgid "Sound"
-msgstr ""
+msgstr "ஒலி"
 
 #: data/ayatana-settings.ui:538
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "பேனலில் சதவீதத்தைக் காட்டு"
 
 #: data/ayatana-settings.ui:549
 msgid "Show time on the panel"
-msgstr ""
+msgstr "பேனலில் நேரத்தைக் காட்டு"
 
 #: data/ayatana-settings.ui:594
 msgid "Power"
-msgstr ""
+msgstr "விசை"
 
 #: data/ayatana-settings.ui:626 data/ayatana-settings.ui:697
 #: data/ayatana-settings.ui:958
 msgid "This indicator has no settings"
-msgstr ""
+msgstr "இந்த குறிகாட்டிக்கு அமைப்புகள் இல்லை"
 
 #: data/ayatana-settings.ui:665
 msgid "Messages"
-msgstr ""
+msgstr "செய்திகள்"
 
 #: data/ayatana-settings.ui:736
 msgid "Bluetooth"
-msgstr ""
+msgstr "ஊடலை"
 
 #: data/ayatana-settings.ui:759
 msgid "Maximum number of visible items"
-msgstr ""
+msgstr "புலப்படும் உருப்படிகளின் அதிகபட்ச எண்ணிக்கை"
 
 #: data/ayatana-settings.ui:770
 msgid "Discard notifications by application name"
-msgstr ""
+msgstr "பயன்பாட்டு பெயரால் அறிவிப்புகளை நிராகரிக்கவும்"
 
 #: data/ayatana-settings.ui:823
 msgid "Add"
-msgstr ""
+msgstr "கூட்டு"
 
 #: data/ayatana-settings.ui:852
 msgid "Remove"
-msgstr ""
+msgstr "அகற்று"
 
 #: data/ayatana-settings.ui:926
 msgid "Notifications"
-msgstr ""
+msgstr "அறிவிப்புகள்"
 
 #: data/ayatana-settings.ui:997
 msgid "Keyboard"
-msgstr ""
+msgstr "விசைப்பலகை"
 
 #: data/ayatana-settings.ui:1010
 msgid "Ayatana Settings"
-msgstr ""
+msgstr "உரையாடல்"
 
 #: data/ayatana-settings.desktop.intl:3
 msgid "Indicators"
-msgstr ""
+msgstr "குறிகாட்டிகள்"
 
 #: data/ayatana-settings.desktop.intl:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "அயாதானா குறிகாட்டிகள் அமைப்புகள்"
