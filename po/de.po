@@ -9,16 +9,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2020-12-31 10:29+0000\n"
-"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-settings/de/>\n"
+"PO-Revision-Date: 2025-02-28 21:34+0000\n"
+"Last-Translator: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-settings/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
@@ -110,7 +110,7 @@ msgstr "Energie"
 #: data/ayatana-settings.ui:626 data/ayatana-settings.ui:697
 #: data/ayatana-settings.ui:958
 msgid "This indicator has no settings"
-msgstr ""
+msgstr "Dieser Indikator hat keine Einstellungen"
 
 #: data/ayatana-settings.ui:665
 msgid "Messages"
@@ -142,11 +142,11 @@ msgstr "Benachrichtigungen"
 
 #: data/ayatana-settings.ui:997
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastatur"
 
 #: data/ayatana-settings.ui:1010
 msgid "Ayatana Settings"
-msgstr ""
+msgstr "Ayatana Einstellungen"
 
 #: data/ayatana-settings.desktop.intl:3
 msgid "Indicators"
