@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2024-11-14 18:00+0000\n"
-"Last-Translator: Cleverson Cândido <optimuspraimu@gmail.com>\n"
+"PO-Revision-Date: 2025-03-30 16:01+0000\n"
+"Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/"
 "ayatana-indicators/ayatana-settings/pt/>\n"
 "Language: pt\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
-msgstr "Mostre o nome completo do utilizador no painel"
+msgstr "Mostre o nome de utilizador completo no painel"
 
 #: data/ayatana-settings.ui:134
 msgid "Remove the Log Out item from the menu"
-msgstr "Remova o item Sair do menu"
+msgstr "Remova o item Terminar Sessão do menu"
 
 #: data/ayatana-settings.ui:145
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr "Ignore a confirmação de Sair, Reiniciar e Desligar"
+msgstr "Ignore a confirmação de Terminar Sessão, Reiniciar e Desligar"
 
 #: data/ayatana-settings.ui:156
 msgid "Remove the Restart item from the menu"
@@ -49,7 +49,7 @@ msgstr "Mostre a lista dos utilizadores no menu"
 #: data/ayatana-settings.ui:642 data/ayatana-settings.ui:713
 #: data/ayatana-settings.ui:877 data/ayatana-settings.ui:974
 msgid "Enable this indicator on login"
-msgstr "Ative este indicador no login"
+msgstr "Ative este indicador na autenticação"
 
 #: data/ayatana-settings.ui:213
 msgid "Session"
@@ -57,7 +57,7 @@ msgstr "Sessão"
 
 #: data/ayatana-settings.ui:236
 msgid "Show the number of seconds on the panel"
-msgstr "Mostre a quantidade de segundos no painel"
+msgstr "Mostre o número de segundos no painel"
 
 #: data/ayatana-settings.ui:247
 msgid "Show the calendar in the menu"
