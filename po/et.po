@@ -9,16 +9,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2021-01-18 06:32+0000\n"
-"Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
-"Language-Team: Estonian <https://hosted.weblate.org/projects/ayatana-"
-"indicators/ayatana-settings/et/>\n"
+"PO-Revision-Date: 2025-05-08 10:03+0000\n"
+"Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
+"Language-Team: Estonian <https://hosted.weblate.org/projects/"
+"ayatana-indicators/ayatana-settings/et/>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
@@ -78,15 +78,15 @@ msgstr "Kuva aastaarv paneelil"
 
 #: data/ayatana-settings.ui:382
 msgid "Show the day of the week on the panel"
-msgstr "Kuva paneelil nädalapäev"
+msgstr "Kuva paneelil nädalapäeva"
 
 #: data/ayatana-settings.ui:393
 msgid "Show the month and date on the panel"
-msgstr "Kuva paneelil kuu ja päev"
+msgstr "Kuva paneelil kuud ja päeva"
 
 #: data/ayatana-settings.ui:428
 msgid "Date and Time"
-msgstr "Kuupäev ja aeg"
+msgstr "Kuupäev ja kellaaeg"
 
 #: data/ayatana-settings.ui:451
 msgid "Allow setting the volume above 100%"
@@ -98,11 +98,11 @@ msgstr "Heli"
 
 #: data/ayatana-settings.ui:538
 msgid "Show percentage on the panel"
-msgstr "Kuva paneelil protsent"
+msgstr "Kuva paneelil protsenti"
 
 #: data/ayatana-settings.ui:549
 msgid "Show time on the panel"
-msgstr "Kuva paneelil kellaaeg"
+msgstr "Kuva paneelil kellaaega"
 
 #: data/ayatana-settings.ui:594
 msgid "Power"
@@ -111,7 +111,7 @@ msgstr "Toide"
 #: data/ayatana-settings.ui:626 data/ayatana-settings.ui:697
 #: data/ayatana-settings.ui:958
 msgid "This indicator has no settings"
-msgstr ""
+msgstr "Sel indikaatoril pole seadistusi"
 
 #: data/ayatana-settings.ui:665
 msgid "Messages"
@@ -143,11 +143,11 @@ msgstr "Teated"
 
 #: data/ayatana-settings.ui:997
 msgid "Keyboard"
-msgstr ""
+msgstr "Klahvistik"
 
 #: data/ayatana-settings.ui:1010
 msgid "Ayatana Settings"
-msgstr ""
+msgstr "Ayatana seadistused"
 
 #: data/ayatana-settings.desktop.intl:3
 msgid "Indicators"
@@ -155,7 +155,7 @@ msgstr "Indikaatorid"
 
 #: data/ayatana-settings.desktop.intl:4
 msgid "Ayatana Indicators Settings"
-msgstr "Ayatana Indtkaatorite Seaded"
+msgstr "Ayatana indikaatorite seadistused"
 
 #~ msgid "column"
 #~ msgstr "veerg"
