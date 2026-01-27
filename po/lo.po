@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2025-11-15 03:51+0000\n"
+"PO-Revision-Date: 2026-01-28 00:35+0000\n"
 "Last-Translator: BoneNI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://hosted.weblate.org/projects/ayatana-indicators/"
 "ayatana-settings/lo/>\n"
@@ -18,78 +18,78 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
-msgstr ""
+msgstr "ສະແດງຊື່ເຕັມຜູ້ໃຊ້ໃນແຖບພາເນລ"
 
 #: data/ayatana-settings.ui:134
 msgid "Remove the Log Out item from the menu"
-msgstr ""
+msgstr "ເອົາລາຍການ ອອກຈາກລະບົບ ອອກຈາກເມນູ"
 
 #: data/ayatana-settings.ui:145
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr ""
+msgstr "ປິດການຢືນຢັນການອອກຈາກລະບົບ, ເລີ່ມລະບົບໃໝ່ ແລະ ປິດເຄື່ອງ"
 
 #: data/ayatana-settings.ui:156
 msgid "Remove the Restart item from the menu"
-msgstr ""
+msgstr "ເອົາລາຍການ ເລີ່ມລະບົບໃໝ່ ອອກຈາກເມນູ"
 
 #: data/ayatana-settings.ui:167
 msgid "Remove the Shut Down item from the menu"
-msgstr ""
+msgstr "ເອົາລາຍການ ປິດເຄື່ອງ ອອກຈາກເມນູ"
 
 #: data/ayatana-settings.ui:178
 msgid "Show the user list in the menu"
-msgstr ""
+msgstr "ສະແດງລາຍຊື່ຜູ້ໃຊ້ໃນເມນູ"
 
 #: data/ayatana-settings.ui:189 data/ayatana-settings.ui:404
 #: data/ayatana-settings.ui:475 data/ayatana-settings.ui:522
 #: data/ayatana-settings.ui:642 data/ayatana-settings.ui:713
 #: data/ayatana-settings.ui:877 data/ayatana-settings.ui:974
 msgid "Enable this indicator on login"
-msgstr ""
+msgstr "ເປີດໃຊ້ງານຕົວຊີ້ວັດນີ້ເມື່ອເຂົ້າສູ່ລະບົບ"
 
 #: data/ayatana-settings.ui:213
 msgid "Session"
-msgstr ""
+msgstr "ວາລະ"
 
 #: data/ayatana-settings.ui:236
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "ສະແດງວິນາທີໃນແຖບພາເນລ"
 
 #: data/ayatana-settings.ui:247
 msgid "Show the calendar in the menu"
-msgstr ""
+msgstr "ສະແດງປະຕິທິນໃນເມນູ"
 
 #: data/ayatana-settings.ui:258
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "ສະແດງເລກລຳດັບອາທິດໃນປະຕິທິນ"
 
 #: data/ayatana-settings.ui:269
 msgid "Show events in the menu"
-msgstr ""
+msgstr "ສະແດງເຫດການໃນເມນູ"
 
 #: data/ayatana-settings.ui:371
 msgid "Show the year on the panel"
-msgstr ""
+msgstr "ສະແດງປີໃນແຖບພາເນລ"
 
 #: data/ayatana-settings.ui:382
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "ສະແດງວັນໃນອາທິດໃນແຖບພາເນລ"
 
 #: data/ayatana-settings.ui:393
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "ສະແດງເດືອນ ແລະ ວັນທີໃນແຖບພາເນລ"
 
 #: data/ayatana-settings.ui:428
 msgid "Date and Time"
-msgstr ""
+msgstr "ວັນທີ ແລະ ເວລາ"
 
 #: data/ayatana-settings.ui:451
 msgid "Allow setting the volume above 100%"
-msgstr ""
+msgstr "ອະນຸຍາດໃຫ້ຕັ້ງລະດັບສຽງສູງກວ່າ 100%"
 
 #: data/ayatana-settings.ui:499
 msgid "Sound"
@@ -97,36 +97,36 @@ msgstr "ສຽງ"
 
 #: data/ayatana-settings.ui:538
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "ສະແດງເປີເຊັນໃນແຖບພາເນລ"
 
 #: data/ayatana-settings.ui:549
 msgid "Show time on the panel"
-msgstr ""
+msgstr "ສະແດງເວລາໃນແຖບພາເນລ"
 
 #: data/ayatana-settings.ui:594
 msgid "Power"
-msgstr ""
+msgstr "ພະລັງງານ"
 
 #: data/ayatana-settings.ui:626 data/ayatana-settings.ui:697
 #: data/ayatana-settings.ui:958
 msgid "This indicator has no settings"
-msgstr ""
+msgstr "ຕົວຊີ້ວັດນີ້ບໍ່ມີການຕັ້ງຄ່າ"
 
 #: data/ayatana-settings.ui:665
 msgid "Messages"
-msgstr ""
+msgstr "ຂໍ້ຄວາມ"
 
 #: data/ayatana-settings.ui:736
 msgid "Bluetooth"
-msgstr ""
+msgstr "ບລູທູດ"
 
 #: data/ayatana-settings.ui:759
 msgid "Maximum number of visible items"
-msgstr ""
+msgstr "ຈຳນວນລາຍການສູງສຸດທີ່ຈະສະແດງ"
 
 #: data/ayatana-settings.ui:770
 msgid "Discard notifications by application name"
-msgstr ""
+msgstr "ຍົກເລີກການແຈ້ງເຕືອນຕາມຊື່ແອັບພລິເຄຊັນ"
 
 #: data/ayatana-settings.ui:823
 msgid "Add"
@@ -138,7 +138,7 @@ msgstr "ລຶບອອກ"
 
 #: data/ayatana-settings.ui:926
 msgid "Notifications"
-msgstr ""
+msgstr "ການແຈ້ງເຕືອນ"
 
 #: data/ayatana-settings.ui:997
 msgid "Keyboard"
@@ -146,12 +146,12 @@ msgstr "ແປ້ນພິມ"
 
 #: data/ayatana-settings.ui:1010
 msgid "Ayatana Settings"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າ Ayatana"
 
 #: data/ayatana-settings.desktop.intl:3
 msgid "Indicators"
-msgstr ""
+msgstr "ຕົວຊີ້ວັດ"
 
 #: data/ayatana-settings.desktop.intl:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າຕົວຊີ້ວັດ Ayatana"
