@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2026-05-19 02:07+0000\n"
+"PO-Revision-Date: 2026-05-20 02:11+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/ayatana-"
 "indicators/ayatana-settings/id/>\n"
@@ -38,18 +38,18 @@ msgstr "Hapus item Restart dari menu"
 
 #: data/ayatana-settings.ui:167
 msgid "Remove the Shut Down item from the menu"
-msgstr ""
+msgstr "Hapus item Matikan dari menu"
 
 #: data/ayatana-settings.ui:178
 msgid "Show the user list in the menu"
-msgstr ""
+msgstr "Tampilkan daftar pengguna di menu"
 
 #: data/ayatana-settings.ui:189 data/ayatana-settings.ui:404
 #: data/ayatana-settings.ui:475 data/ayatana-settings.ui:522
 #: data/ayatana-settings.ui:642 data/ayatana-settings.ui:713
 #: data/ayatana-settings.ui:877 data/ayatana-settings.ui:974
 msgid "Enable this indicator on login"
-msgstr ""
+msgstr "Aktifkan indikator ini saat masuk"
 
 #: data/ayatana-settings.ui:213
 msgid "Session"
@@ -110,7 +110,7 @@ msgstr "Daya"
 #: data/ayatana-settings.ui:626 data/ayatana-settings.ui:697
 #: data/ayatana-settings.ui:958
 msgid "This indicator has no settings"
-msgstr ""
+msgstr "Indikator ini tidak memiliki pengaturan"
 
 #: data/ayatana-settings.ui:665
 msgid "Messages"
@@ -146,7 +146,7 @@ msgstr "Papan Ketik"
 
 #: data/ayatana-settings.ui:1010
 msgid "Ayatana Settings"
-msgstr ""
+msgstr "Pengaturan Ayatana"
 
 #: data/ayatana-settings.desktop.intl:3
 msgid "Indicators"
