@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2026-03-10 14:09+0000\n"
+"PO-Revision-Date: 2026-05-19 02:07+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/ayatana-"
 "indicators/ayatana-settings/id/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
@@ -126,7 +126,7 @@ msgstr "Jumlah maksimum item yang terlihat"
 
 #: data/ayatana-settings.ui:770
 msgid "Discard notifications by application name"
-msgstr "Buang pemberitahuan berdasarkan nama aplikasi"
+msgstr "Abaikan notifikasi berdasarkan nama aplikasi"
 
 #: data/ayatana-settings.ui:823
 msgid "Add"
@@ -138,7 +138,7 @@ msgstr "Hapus"
 
 #: data/ayatana-settings.ui:926
 msgid "Notifications"
-msgstr "Pemberitahuan"
+msgstr "Notifikasi"
 
 #: data/ayatana-settings.ui:997
 msgid "Keyboard"
