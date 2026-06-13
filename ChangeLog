@@ -1,501 +1,655 @@
+2026-06-13 Mike Gabriel
+
+        * Release 26.6.13 (HEAD -> main, tag: 26.6.13)
+
+2026-06-13 Grzegorz Szymaszek
+
+        * Translated using Weblate (Polish) (0983677)
+
+2026-06-13 Maciej Sopyło
+
+        * Translated using Weblate (Polish) (d743e8d)
+
+2026-06-13 Lorenzo Torracchi
+
+        * Translated using Weblate (Italian) (9cddb94)
+
+2026-05-19 Arif Budiman
+
+        * Translated using Weblate (Indonesian) (4185af8)
+        * Translated using Weblate (Indonesian) (c94c912)
+
+2026-03-18 Andi Chandler
+
+        * Translated using Weblate (English (United Kingdom)) (447410d)
+
+2026-03-15 BackSpec
+
+        * Translated using Weblate (Japanese) (689726f)
+
+2026-03-09 Arif Budiman
+
+        * Translated using Weblate (Indonesian) (a112418)
+
+2026-02-16 Arif Budiman
+
+        * Translated using Weblate (Indonesian) (d120b1f)
+
+2026-01-27 BoneNI
+
+        * Translated using Weblate (Lao) (f644522)
+
+2025-12-02 Daniel Frost
+
+        * Translated using Weblate (German) (8c3d972)
+
+2025-11-14 BoneNI
+
+        * Translated using Weblate (Lao) (522559a)
+
+2025-09-14 Milo Ivir
+
+        * Translated using Weblate (Croatian) (39fc0d4)
+
+2025-08-24 Ida Brenna
+
+        * Translated using Weblate (Norwegian Bokmål) (6c35330)
+
+2025-07-12 Alioc
+
+        * Translated using Weblate (Chinese (Simplified Han script))
+          (9bf47d4)
+
+2025-06-29 DP
+
+        * Translated using Weblate (Spanish) (3d1bf20)
+
+2025-05-07 Priit Jõerüüt
+
+        * Translated using Weblate (Estonian) (978b62c)
+
+2025-03-29 Manuela Silva
+
+        * Translated using Weblate (Portuguese) (73758b6)
+
+2025-03-12 Mike Gabriel
+
+        * Merge branch 'tari01-pr/use-high-contrast-icons' (fcec117)
+
+2024-10-06 Robert Tari
+
+        * src/gtk.h: Change icons when Gtk switches to high contrast mode
+          (b779154)
+
+2025-03-12 Mike Gabriel
+
+        * Merge branch 'tari01-pr/high-contrast-icons' (e6838de)
+
+2024-10-04 Robert Tari
+
+        * Provide both HighContrast and ContrastHigh icons (a196ee7)
+
+2025-03-05 Droit
+
+        * Translated using Weblate (Chinese (Simplified) (zh_LATN@pinyin))
+          (72af139)
+
+2025-02-28 Mike Gabriel
+
+        * Translated using Weblate (German) (6bb8801)
+
+2025-02-17 Temuri Doghonadze
+
+        * Translated using Weblate (Georgian) (ba39be1)
+
+2024-11-24 Steve
+
+        * Translated using Weblate (French) (4127c4c)
+
+2024-11-13 Cleverson Cândido
+
+        * Translated using Weblate (Portuguese) (6f1ae07)
+
+2024-11-08 தமிழ்நேரம்
+
+        * Translated using Weblate (Tamil) (1ced20a)
+
+2024-11-08 Jozef Mlich
+
+        * Translated using Weblate (Czech) (8aa9033)
+
+2024-10-30 hugoalh
+
+        * Translated using Weblate (Chinese (Traditional Han script))
+          (e447239)
+
+2024-10-29 Serhii Horichenko
+
+        * Translated using Weblate (Ukrainian) (60ba6ee)
+        * Translated using Weblate (Russian) (c1278f1)
+
+2024-10-27 Yaron Shahrabani
+
+        * Translated using Weblate (Hebrew) (deb177c)
+
+2024-10-10 Moo
+
+        * Translated using Weblate (Lithuanian) (f619a0c)
+
+2024-10-06 bittin1ddc447d824349b2
+
+        * Translated using Weblate (Swedish) (f7be3ae)
+
+2024-10-04 Remus-Gabriel Chelu
+
+        * Translated using Weblate (Romanian) (3507625)
+
+2024-09-30 Quentin PAGÈS
+
+        * Translated using Weblate (Occitan) (d03e72f)
+
+2024-09-30 Heimen Stoffels
+
+        * Translated using Weblate (Dutch) (3a71b80)
+
 2024-10-01 Mike Gabriel
 
-        * release 24.10.1 (HEAD -> main, tag: 24.10.1)
+        * release 24.10.1 (0692b40) (tag: 24.10.1)
 
 2024-09-29 Oğuz Ersen
 
-        * Translated using Weblate (Turkish) (3e19c9d9)
+        * Translated using Weblate (Turkish) (3e19c9d)
 
 2024-09-30 Wellington Terumi Uemura
 
-        * Translated using Weblate (Portuguese (Brazil)) (0f3f3b8a)
+        * Translated using Weblate (Portuguese (Brazil)) (0f3f3b8)
 
 2024-09-29 gallegonovato
 
-        * Translated using Weblate (Spanish) (5adfa31d)
+        * Translated using Weblate (Spanish) (5adfa31)
 
 2024-09-27 Remus-Gabriel Chelu
 
-        * Translated using Weblate (Romanian) (09bf6fc2)
+        * Translated using Weblate (Romanian) (09bf6fc)
 
 2024-08-27 Mike Gabriel
 
-        * release 24.8.27 (dd1579a2) (tag: 24.8.27)
-        * Merge branch 'pr/full-rewrite' (79853595)
-        * Pre-release bump of software version. (1398450b)
-        * debian/: Adjust DEB packaging to full rewrite. (69886ef4)
+        * release 24.8.27 (dd1579a) (tag: 24.8.27)
+        * Merge branch 'pr/full-rewrite' (7985359)
+        * Pre-release bump of software version. (1398450)
+        * debian/: Adjust DEB packaging to full rewrite. (69886ef)
 
 2024-08-27 Robert Tari
 
-        * Rewrite using C/CMake/Gtk4 and add some features/tweaks (269aa4c7)
+        * Rewrite using C/CMake/Gtk4 and add some features/tweaks (269aa4c)
 
 2024-08-13 umesaburo sagawa
 
-        * Translated using Weblate (Japanese) (4bfbd579)
+        * Translated using Weblate (Japanese) (4bfbd57)
 
 2024-05-31 hugoalh
 
-        * Translated using Weblate (Chinese (Traditional)) (c08c8fa7)
+        * Translated using Weblate (Chinese (Traditional)) (c08c8fa)
 
 2024-04-10 bittin1ddc447d824349b2
 
-        * Translated using Weblate (Swedish) (1723d530)
+        * Translated using Weblate (Swedish) (1723d53)
 
 2024-04-11 Wellington Terumi Uemura
 
-        * Translated using Weblate (Portuguese (Brazil)) (f4379672)
+        * Translated using Weblate (Portuguese (Brazil)) (f437967)
 
 2024-04-01 复予
 
-        * Translated using Weblate (Chinese (Simplified)) (cac0ef27)
+        * Translated using Weblate (Chinese (Simplified)) (cac0ef2)
 
 2024-03-14 이정희
 
-        * Translated using Weblate (Korean) (a5f31c24)
+        * Translated using Weblate (Korean) (a5f31c2)
 
 2023-11-14 Mike Gabriel
 
-        * release 23.11.14 (53775758) (tag: 23.11.14)
-        * Merge branch 'tari01-pr/missing-color-scheme' (9e2550b6)
+        * release 23.11.14 (5377575) (tag: 23.11.14)
+        * Merge branch 'tari01-pr/missing-color-scheme' (9e2550b)
 
 2023-11-11 Robert Tari
 
         * ayatana-settings: Handle missing
-          org.gnome.desktop.interface::color-scheme (23e2fd7d)
+          org.gnome.desktop.interface::color-scheme (23e2fd7)
 
 2023-10-13 Mike Gabriel
 
-        * release 23.10.13 (7b6fe13c) (tag: 23.10.13)
+        * release 23.10.13 (7b6fe13) (tag: 23.10.13)
 
 2023-10-11 Mike Gabriel
 
-        * po/: Update translation files. (ff2a7f90)
+        * po/: Update translation files. (ff2a7f9)
 
 2023-09-11 Mike Gabriel
 
-        * Merge branch 'tari01-pr/a11y-fix' (0d998de5)
+        * Merge branch 'tari01-pr/a11y-fix' (0d998de)
 
 2023-09-11 Robert Tari
 
         * data/ayatana-settings/ayatana-settings.glade: Add a11y button
-          descriptions (a7303c49)
+          descriptions (a7303c4)
 
 2023-09-10 Serhii Horichenko
 
-        * Translated using Weblate (Ukrainian) (f3d2f6a0)
+        * Translated using Weblate (Ukrainian) (f3d2f6a)
 
 2023-09-10 Mike Gabriel
 
-        * Merge branch 'tari01-pr/color-scheme' (131021a5)
+        * Merge branch 'tari01-pr/color-scheme' (131021a)
 
 2023-07-07 Robert Tari
 
-        * ayatana-settings: Add colour scheme handler (7e8cbeeb)
+        * ayatana-settings: Add colour scheme handler (7e8cbee)
 
 2023-08-20 Sabri Ünal
 
-        * Translated using Weblate (Turkish) (672eadef)
+        * Translated using Weblate (Turkish) (672eade)
 
 2023-07-30 Eryk Michalak
 
-        * Translated using Weblate (Polish) (b96eb705)
+        * Translated using Weblate (Polish) (b96eb70)
 
 2023-06-27 Sylke Vicious
 
-        * Translated using Weblate (Italian) (bdbc3529)
-        * Translated using Weblate (Italian) (3962cf62)
+        * Translated using Weblate (Italian) (bdbc352)
+        * Translated using Weblate (Italian) (3962cf6)
 
 2023-03-15 Heimen Stoffels
 
-        * Translated using Weblate (Dutch) (bd6bafa8)
+        * Translated using Weblate (Dutch) (bd6bafa)
 
 2023-02-21 Robert Tari
 
         * Merge branch 'sunweaver-pr/create-config-autostart-if-nonexistent'
-          (3359a177)
+          (3359a17)
 
 2023-01-06 Andy Chiang
 
         * Translated using Weblate (Chinese (Simplified) (zh_LATN@pinyin))
-          (b1e06518)
+          (b1e0651)
 
 2022-10-01 Mubarek Seyd Juhar
 
-        * Translated using Weblate (Tigrinya) (f95248d3)
+        * Translated using Weblate (Tigrinya) (f95248d)
 
 2023-02-21 Mike Gabriel
 
         * ayatana-settings: Create ~/.config/autostart folder if it does not
-          yet exist. (d23a1092)
+          yet exist. (d23a109)
 
 2023-01-06 Andy Chiang
 
         * Translated using Weblate (Chinese (Simplified) (zh_LATN@pinyin))
-          (f87fd523)
+          (f87fd52)
 
 2022-10-01 Mubarek Seyd Juhar
 
-        * Translated using Weblate (Tigrinya) (762fbd2e)
+        * Translated using Weblate (Tigrinya) (762fbd2)
 
 2022-09-13 Robert Tari
 
         * Merge branch 'sunweaver-pr/tolerate-nonset-XDG-CURRENT-DESKTOP'
-          (9ab79eeb)
+          (9ab79ee)
 
 2022-09-08 Mike Gabriel
 
         * ayatana-settings: Don't fail if XDG_CURRENT_DESKTOP is not set.
-          (e2681121)
+          (e268112)
 
 2022-07-22 Boyuan Yang
 
-        * Translated using Weblate (Chinese (Simplified)) (4f23916d)
+        * Translated using Weblate (Chinese (Simplified)) (4f23916)
 
 2022-07-15 Mike Gabriel
 
-        * Merge branch 'varlesh-main' (5e1690cd)
+        * Merge branch 'varlesh-main' (5e1690c)
 
 2022-07-05 Alexey Varfolomeev
 
-        * Themed launcher icon #16 (9fcd1feb)
+        * Themed launcher icon #16 (9fcd1fe)
 
 2022-07-14 Teitei
 
-        * Translated using Weblate (Burmese) (72cd7455)
+        * Translated using Weblate (Burmese) (72cd745)
 
 2022-05-07 Rondy Andersson
 
-        * Translated using Weblate (Swedish) (086b1457)
+        * Translated using Weblate (Swedish) (086b145)
 
 2022-04-23 Sergii Horichenko
 
-        * Translated using Weblate (Russian) (3bb618aa)
-        * Translated using Weblate (Ukrainian) (ed5c63fd)
-        * Translated using Weblate (Russian) (64234c7f)
-        * Translated using Weblate (Ukrainian) (f9c240f9)
+        * Translated using Weblate (Russian) (3bb618a)
+        * Translated using Weblate (Ukrainian) (ed5c63f)
+        * Translated using Weblate (Russian) (64234c7)
+        * Translated using Weblate (Ukrainian) (f9c240f)
 
 2022-03-29 Quentin PAGÈS
 
-        * Translated using Weblate (Occitan) (3a98caad)
+        * Translated using Weblate (Occitan) (3a98caa)
 
 2022-02-27 이정희
 
-        * Translated using Weblate (Korean) (3d44208b)
+        * Translated using Weblate (Korean) (3d44208)
 
 2022-02-28 Yaron Shahrabani
 
-        * Translated using Weblate (Hebrew) (5d61d3a7)
+        * Translated using Weblate (Hebrew) (5d61d3a)
 
 2022-02-25 Reza Almanda
 
-        * Translated using Weblate (Indonesian) (691401ab)
+        * Translated using Weblate (Indonesian) (691401a)
 
 2022-01-24 Eric
 
-        * Translated using Weblate (Chinese (Simplified)) (d7c58fa6)
+        * Translated using Weblate (Chinese (Simplified)) (d7c58fa)
 
 2022-01-22 Anders Jonsson
 
-        * Translated using Weblate (Swedish) (e1aef5a8)
+        * Translated using Weblate (Swedish) (e1aef5a)
 
 2022-01-02 ssantos
 
-        * Translated using Weblate (Portuguese) (9c1e66b8)
+        * Translated using Weblate (Portuguese) (9c1e66b)
 
 2021-11-23 phlostically
 
-        * Translated using Weblate (Esperanto) (0987cc52)
+        * Translated using Weblate (Esperanto) (0987cc5)
 
 2021-11-22 phlostically
 
-        * Translated using Weblate (Esperanto) (f3b9e5a9)
+        * Translated using Weblate (Esperanto) (f3b9e5a)
 
 2021-11-20 phlostically
 
-        * Translated using Weblate (Esperanto) (ce12bc8e)
+        * Translated using Weblate (Esperanto) (ce12bc8)
 
 2021-11-18 phlostically
 
-        * Translated using Weblate (Esperanto) (96ca060a)
+        * Translated using Weblate (Esperanto) (96ca060)
 
 2021-11-16 Phil Clifford
 
-        * Translated using Weblate (Gaelic) (d379f650)
+        * Translated using Weblate (Gaelic) (d379f65)
 
 2021-11-10 Daniele Tricoli
 
-        * Translated using Weblate (Italian) (9b13f02a)
+        * Translated using Weblate (Italian) (9b13f02)
 
 2021-11-09 Joan CiberSheep
 
-        * Translated using Weblate (Catalan) (7c81dd14)
+        * Translated using Weblate (Catalan) (7c81dd1)
 
 2021-11-05 Andrej Shadura
 
-        * Translated using Weblate (Slovak) (211553c6)
+        * Translated using Weblate (Slovak) (211553c)
 
 2021-11-04 Michele
 
-        * Translated using Weblate (Italian) (604e76e7)
+        * Translated using Weblate (Italian) (604e76e)
 
 2021-11-03 ElectrifiedSpeed
 
-        * Translated using Weblate (Macedonian) (3528635f)
+        * Translated using Weblate (Macedonian) (3528635)
 
 2021-10-20 Robert Tari
 
-        * Merge branch 'FreaxMATE/resize' (0c58b699)
+        * Merge branch 'FreaxMATE/resize' (0c58b69)
 
 2021-10-20 Konstantin Unruh
 
-        * fix window movement on resize action (9707b47f)
+        * fix window movement on resize action (9707b47)
 
 2021-10-05 Luna Jernberg
 
-        * Translated using Weblate (Swedish) (35bd38f9)
+        * Translated using Weblate (Swedish) (35bd38f)
 
 2021-09-23 Wellington Terumi Uemura
 
-        * Translated using Weblate (Portuguese (Brazil)) (be5e2526)
+        * Translated using Weblate (Portuguese (Brazil)) (be5e252)
 
 2021-08-28 Weblate
 
-        * Added translation using Weblate (Kurdish (Southern)) (041dbf4c)
-        * Added translation using Weblate (Kurdish (Northern)) (394d59d9)
+        * Added translation using Weblate (Kurdish (Southern)) (041dbf4)
+        * Added translation using Weblate (Kurdish (Northern)) (394d59d)
 
 2021-08-12 Yaron Shahrabani
 
-        * Translated using Weblate (Hebrew) (fdfd7aa7)
+        * Translated using Weblate (Hebrew) (fdfd7aa)
 
 2021-07-15 Boyuan Yang
 
-        * Translated using Weblate (Chinese (Simplified)) (f6a23ded)
+        * Translated using Weblate (Chinese (Simplified)) (f6a23de)
 
 2021-06-10 tianzi
 
-        * Translated using Weblate (Chinese (Simplified)) (6f547dd4)
+        * Translated using Weblate (Chinese (Simplified)) (6f547dd)
 
 2021-05-22 Yaron Shahrabani
 
-        * Translated using Weblate (Hebrew) (de578361)
+        * Translated using Weblate (Hebrew) (de57836)
 
 2021-05-06 Adolfo Jayme Barrientos
 
-        * Translated using Weblate (Catalan) (f2a64aa4)
+        * Translated using Weblate (Catalan) (f2a64aa)
 
 2021-05-01 Tomáš Marný
 
-        * Translated using Weblate (Czech) (ff3138e8)
+        * Translated using Weblate (Czech) (ff3138e)
 
 2021-04-15 Boyuan Yang
 
-        * Translated using Weblate (Chinese (Simplified)) (a087059e)
+        * Translated using Weblate (Chinese (Simplified)) (a087059)
 
 2021-03-29 Weblate
 
         * Added translation using Weblate (Chinese (Simplified)
-          (zh_LATN@pinyin)) (f30438d9)
+          (zh_LATN@pinyin)) (f30438d)
 
 2021-03-18 Reza Almanda
 
-        * Translated using Weblate (Indonesian) (8dbc6494)
+        * Translated using Weblate (Indonesian) (8dbc649)
 
 2021-02-07 Reza Almanda
 
-        * Translated using Weblate (Indonesian) (9d263c7a)
+        * Translated using Weblate (Indonesian) (9d263c7)
 
 2021-02-01 Robert Tari
 
-        * Merge branch 'sunweaver-pr/fix-man-page-section' (f73c468d)
+        * Merge branch 'sunweaver-pr/fix-man-page-section' (f73c468)
 
 2021-02-01 Mike Gabriel
 
         * man page: The man page header says 'section 8', but the file is
           like a 'section 1' man page. Fix the filename and its
-          location's foldername. (a38637e3)
+          location's foldername. (a38637e)
 
 2021-01-28 Mike Gabriel
 
-        * release 21.1.28 (c569ebc3) (tag: 21.1.28)
-        * debian/copyright: Happy new year. (72e2a0e1)
-        * Merge branch 'tari01-pr/add-keyboard' (ddd35290)
+        * release 21.1.28 (c569ebc) (tag: 21.1.28)
+        * debian/copyright: Happy new year. (72e2a0e)
+        * Merge branch 'tari01-pr/add-keyboard' (ddd3529)
 
 2021-01-25 Robert Tari
 
-        * Add keyboard indicator (06b72f50)
+        * Add keyboard indicator (06b72f5)
 
 2021-01-17 Kristjan Räts
 
-        * Translated using Weblate (Estonian) (26067833)
+        * Translated using Weblate (Estonian) (2606783)
 
 2020-12-29 Wellington Terumi Uemura
 
-        * Translated using Weblate (Portuguese (Brazil)) (2ff61a6f)
+        * Translated using Weblate (Portuguese (Brazil)) (2ff61a6)
 
 2020-12-30 J. Lavoie
 
-        * Translated using Weblate (Italian) (75c36c5e)
-        * Translated using Weblate (French (Canada)) (1512c1a1)
-        * Translated using Weblate (French) (dc2e45af)
-        * Translated using Weblate (German) (a4b64bb7)
+        * Translated using Weblate (Italian) (75c36c5)
+        * Translated using Weblate (French (Canada)) (1512c1a)
+        * Translated using Weblate (French) (dc2e45a)
+        * Translated using Weblate (German) (a4b64bb)
 
 2020-12-23 Luna Jernberg
 
-        * Translated using Weblate (Swedish) (28872026)
+        * Translated using Weblate (Swedish) (2887202)
 
 2020-12-07 Ksa VPN Net Sell
 
-        * Translated using Weblate (Italian) (5f31530b)
+        * Translated using Weblate (Italian) (5f31530)
 
 2020-12-02 Milo Ivir
 
-        * Translated using Weblate (Croatian) (8343a101)
+        * Translated using Weblate (Croatian) (8343a10)
 
 2020-11-26 Ács Zoltán
 
-        * Translated using Weblate (Hungarian) (33e59360)
+        * Translated using Weblate (Hungarian) (33e5936)
 
 2020-11-23 Adolfo Jayme Barrientos
 
-        * Translated using Weblate (Spanish) (b5b32371)
+        * Translated using Weblate (Spanish) (b5b3237)
 
 2020-11-20 Ács Zoltán
 
-        * Translated using Weblate (Hungarian) (b840c92e)
+        * Translated using Weblate (Hungarian) (b840c92)
 
 2020-11-17 Quentin PAGÈS
 
-        * Translated using Weblate (Occitan) (b16d3bc9)
+        * Translated using Weblate (Occitan) (b16d3bc)
 
 2020-11-17 Moo
 
-        * Translated using Weblate (Lithuanian) (49bcb7d7)
+        * Translated using Weblate (Lithuanian) (49bcb7d)
 
 2020-11-13 Ács Zoltán
 
-        * Translated using Weblate (Hungarian) (38b00aeb)
+        * Translated using Weblate (Hungarian) (38b00ae)
 
 2020-11-12 Oğuz Ersen
 
-        * Translated using Weblate (Turkish) (89988094)
+        * Translated using Weblate (Turkish) (8998809)
 
 2020-11-12 Anders Jonsson
 
-        * Translated using Weblate (Swedish) (cfa14246)
+        * Translated using Weblate (Swedish) (cfa1424)
 
 2020-11-10 Allan Nordhøy
 
-        * Translated using Weblate (Norwegian Bokmål) (0933cea6)
+        * Translated using Weblate (Norwegian Bokmål) (0933cea)
 
 2020-11-11 Milan Korecky
 
-        * Translated using Weblate (Czech) (6613678e)
+        * Translated using Weblate (Czech) (6613678)
 
 2020-11-11 Weblate
 
-        * Added translation using Weblate (Italian) (944d42d7)
-        * Added translation using Weblate (Tamil (Sri Lanka)) (7a87d125)
-        * Added translation using Weblate (Manx) (f484db30)
-        * Added translation using Weblate (Afar) (d6532f71)
-        * Added translation using Weblate (Dhivehi) (071e3e7a)
-        * Added translation using Weblate (Venetian) (724667fe)
-        * Added translation using Weblate (Nyanja) (cb59139c)
-        * Added translation using Weblate (Assamese) (e30e108e)
-        * Added translation using Weblate (Wolof) (427ba9b8)
-        * Added translation using Weblate (Kashubian) (51e90664)
-        * Added translation using Weblate (Macedonian) (81efd373)
-        * Added translation using Weblate (Friulian) (4f471bcc)
-        * Added translation using Weblate (Tatar) (fe685f58)
+        * Added translation using Weblate (Italian) (944d42d)
+        * Added translation using Weblate (Tamil (Sri Lanka)) (7a87d12)
+        * Added translation using Weblate (Manx) (f484db3)
+        * Added translation using Weblate (Afar) (d6532f7)
+        * Added translation using Weblate (Dhivehi) (071e3e7)
+        * Added translation using Weblate (Venetian) (724667f)
+        * Added translation using Weblate (Nyanja) (cb59139)
+        * Added translation using Weblate (Assamese) (e30e108)
+        * Added translation using Weblate (Wolof) (427ba9b)
+        * Added translation using Weblate (Kashubian) (51e9066)
+        * Added translation using Weblate (Macedonian) (81efd37)
+        * Added translation using Weblate (Friulian) (4f471bc)
+        * Added translation using Weblate (Tatar) (fe685f5)
 
 2020-11-10 mv87
 
-        * Translated using Weblate (German) (d9a92039)
+        * Translated using Weblate (German) (d9a9203)
 
 2020-11-10 Robert Tari
 
-        * Merge branch 'sunweaver-pr/bootstrap-locale' (4823c653)
+        * Merge branch 'sunweaver-pr/bootstrap-locale' (4823c65)
 
 2020-11-10 Mike Gabriel
 
         * locale: Create empty translation files for all languages listed in
-          po/LINGUAS. (7b23a689)
-        * po/LINGUAS: Add list of to-be-translated-to languages. (16276590)
+          po/LINGUAS. (7b23a68)
+        * po/LINGUAS: Add list of to-be-translated-to languages. (1627659)
         * setup.py: Only translate .po files in po/ subdir (ignore e.g. the
-          LINGUAS file). (5e3c0acf)
+          LINGUAS file). (5e3c0ac)
         * setup.py: Translation files end with '.po', not just 'po'.
-          (dca874f0)
+          (dca874f)
         * po/ayatana-settings.pot: Update translation template after recent
-          file movals in this project. (77983416)
-        * locale: Add scripts update-pot.sh and update-po.sh. (3437c270)
+          file movals in this project. (7798341)
+        * locale: Add scripts update-pot.sh and update-po.sh. (3437c27)
         * debian/changelog: Append '-0 to package version. Assure that
           official DEB is always preferred over the upstream DEB
           unless APT pinning is in places and prefers the upstream
-          repo. (af0f6035)
+          repo. (af0f603)
 
 2020-11-09 Robert Tari
 
-        * Merge branch 'sunweaver-pr/keywords-key-in-desktop-file' (05d8f0db)
+        * Merge branch 'sunweaver-pr/keywords-key-in-desktop-file' (05d8f0d)
 
 2020-11-09 Mike Gabriel
 
-        * data/man/man1/ayatana-settings.1: Add man page. (0dae7471)
+        * data/man/man1/ayatana-settings.1: Add man page. (0dae747)
 
 2020-11-09 Robert Tari
 
-        * Merge branch 'sunweaver-pr/add-man-page' (2592409c)
+        * Merge branch 'sunweaver-pr/add-man-page' (2592409)
 
 2020-11-09 Mike Gabriel
 
         * data/applications/ayatana-settings.desktop.in: Add Keywords= entry
-          in .desktop file. (27ed5447)
-        * data/man/man1/ayatana-settings.1: Add man page. (27f214bf)
-        * release 20.11.09.2 (1842a2b3) (tag: 20.11.09.2)
-        * Merge branch 'tari01-pr/fix-desktop-file' (56e98204)
+          in .desktop file. (27ed544)
+        * data/man/man1/ayatana-settings.1: Add man page. (27f214b)
+        * release 20.11.09.2 (1842a2b) (tag: 20.11.09.2)
+        * Merge branch 'tari01-pr/fix-desktop-file' (56e9820)
 
 2020-11-09 Robert Tari
 
-        * setup.py: Fix .dektop file generation (a52a146f)
+        * setup.py: Fix .dektop file generation (a52a146)
 
 2020-11-09 Mike Gabriel
 
-        * .gitignore: Need not be executable. (7146d97e)
+        * .gitignore: Need not be executable. (7146d97)
         **/**: Remove x-bits from all files except the main executable and
-          setup.py (and debian/rules). (ffbe03d2)
+          setup.py (and debian/rules). (ffbe03d)
         * debian/rules: Don't drop data/locale/.gitkeep during dh_auto_clean
-          override. (5f84782a)
+          override. (5f84782)
         * debian/rules: Fix dh_auto_clean override (wrong egg-info path,
           remove ayatana-settings.desktop, fix locale's .mo file
-          location. (ae18dda4)
-        * release 20.11.09.1 (ee0aef19) (tag: 20.11.09.1)
-        * debian/control: Add Mike Gabriel to Uploaders: field. (94ea4fec)
+          location. (ae18dda)
+        * release 20.11.09.1 (ee0aef1) (tag: 20.11.09.1)
+        * debian/control: Add Mike Gabriel to Uploaders: field. (94ea4fe)
 
 2020-11-09 Robert Tari
 
-        * Merge branch 'sunweaver-pr/data-dir-improvements' (08564148)
+        * Merge branch 'sunweaver-pr/data-dir-improvements' (0856414)
 
 2020-11-09 Mike Gabriel
 
         * data/applications/ayatana-settings.desktop: Don't in-file update
           locale strings, rather use an input and an output file.
-          (ee119c43)
-        * setup.py: Add install_requires key to setup() call. (d4f6f034)
+          (ee119c4)
+        * setup.py: Add install_requires key to setup() call. (d4f6f03)
         * data/: Don't mimick FHS in source tree. Use more commonly used
-          data/ tree structure. (eefc6119)
+          data/ tree structure. (eefc611)
 
 2020-11-07 Mike Gabriel
 
-        * release 20.10.14 (a66c41be) (tag: 20.10.14)
+        * release 20.10.14 (a66c41b) (tag: 20.10.14)
         * debian/control: Be happy with Python 3.6 (instead of 3.8).
-          (4609dd98)
+          (4609dd9)
         * debian/source/format: Upstream DEBs need to be format 1.0.
-          (83be359c)
+          (83be359)
 
 2020-10-30 Robert Tari
 
-        * Fix debian files (662c2307)
+        * Fix debian files (662c230)
 
 2020-10-29 Robert Tari
 
-        * Update translation file (15822446)
-        * Update README.md (c3f9ce66)
-        * Initial commit (b8b23602)
+        * Update translation file (1582244)
+        * Update README.md (c3f9ce6)
+        * Initial commit (b8b2360)
