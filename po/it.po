@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2026-06-13 18:03+0000\n"
-"Last-Translator: Lorenzo Torracchi <lorenzotorracchi@mail.com>\n"
+"PO-Revision-Date: 2026-06-19 09:01+0000\n"
+"Last-Translator: Sylke Vicious <silkevicious@tuta.io>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/ayatana-"
 "indicators/ayatana-settings/it/>\n"
 "Language: it\n"
@@ -86,7 +86,7 @@ msgstr "Mostra il mese e la data sul pannello"
 
 #: data/ayatana-settings.ui:428
 msgid "Date and Time"
-msgstr "Data e ora"
+msgstr "Data e Ora"
 
 #: data/ayatana-settings.ui:451
 msgid "Allow setting the volume above 100%"
