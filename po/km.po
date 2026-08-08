@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2026-08-06 04:01+0000\n"
+"PO-Revision-Date: 2026-08-08 13:51+0000\n"
 "Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/ayatana-"
 "indicators/ayatana-settings/km/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.8.1.dev0\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
@@ -142,7 +142,7 @@ msgstr ""
 
 #: data/ayatana-settings.ui:997
 msgid "Keyboard"
-msgstr ""
+msgstr "ក្ដារចុច"
 
 #: data/ayatana-settings.ui:1010
 msgid "Ayatana Settings"
