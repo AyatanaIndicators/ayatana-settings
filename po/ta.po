@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2026-08-08 13:51+0000\n"
+"PO-Revision-Date: 2026-08-20 14:55+0000\n"
 "Last-Translator: Alagirisamy Rengaraj <radhaalagirisamy@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ayatana-indicators/"
 "ayatana-settings/ta/>\n"
@@ -22,34 +22,34 @@ msgstr ""
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
-msgstr "பலகையில் முழு பயனர் பெயரைக் காட்டுங்கள்"
+msgstr "பலகையில் முழு பயனர் பெயரைக் காட்டு"
 
 #: data/ayatana-settings.ui:134
 msgid "Remove the Log Out item from the menu"
-msgstr "வெளியேறு  உருப்படியை  பட்டியலில் அகற்றவும்"
+msgstr "வெளியேறு உருப்படியை பட்டியலில் அகற்றவும்"
 
 #: data/ayatana-settings.ui:145
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr "வெளியேற்றம் நிறுத்து மீள்தொடங்கு  இயக்க நிறுத்தம் உறுதிப்படுத்து."
+msgstr "வெளியேற்றம்,மறுதொடக்கம் மற்றும் அணைத்தல் முடக்கம் உறுதிப்படுத்தல்"
 
 #: data/ayatana-settings.ui:156
 msgid "Remove the Restart item from the menu"
-msgstr "பட்டியலில் மீள்தொடங்கு  உருப்படியை அகற்று"
+msgstr "பட்டியலில் மறுபடிதொடங்கு உருப்படியை அகற்று"
 
 #: data/ayatana-settings.ui:167
 msgid "Remove the Shut Down item from the menu"
-msgstr "பட்டியலில் இயக்கநிறுத்த உருப்படியை அகற்றவும்"
+msgstr "பட்டியலில் அணைத்தல் உருப்படியை அகற்றவும்"
 
 #: data/ayatana-settings.ui:178
 msgid "Show the user list in the menu"
-msgstr "பட்டியலில் பயனர் அட்டவணையைக் காட்டு"
+msgstr "பட்டியலில் பயனர் அட்டவணை காட்டு"
 
 #: data/ayatana-settings.ui:189 data/ayatana-settings.ui:404
 #: data/ayatana-settings.ui:475 data/ayatana-settings.ui:522
 #: data/ayatana-settings.ui:642 data/ayatana-settings.ui:713
 #: data/ayatana-settings.ui:877 data/ayatana-settings.ui:974
 msgid "Enable this indicator on login"
-msgstr "உள்நுழைவில் இந்த குறிகாட்டியை இயக்கவும்"
+msgstr "உள்நுழைவில் இந்த குறியீடு இயக்கவும்"
 
 #: data/ayatana-settings.ui:213
 msgid "Session"
@@ -57,11 +57,11 @@ msgstr "அமர்வு"
 
 #: data/ayatana-settings.ui:236
 msgid "Show the number of seconds on the panel"
-msgstr "பலகையில் விநாடிகளின் எண்ணிக்கை காட்டவும்."
+msgstr "பலகையில் விநாடி எண்ணிக்கை காட்டவும்"
 
 #: data/ayatana-settings.ui:247
 msgid "Show the calendar in the menu"
-msgstr "பட்டியலில் நாட்காட்டியைக் காட்டு"
+msgstr "நாட்காட்டியை பட்டியலில் காட்டு"
 
 #: data/ayatana-settings.ui:258
 msgid "Show week numbers in the calendar"
@@ -69,27 +69,27 @@ msgstr "நாட்காட்டியில் வார எண்களை�
 
 #: data/ayatana-settings.ui:269
 msgid "Show events in the menu"
-msgstr "பட்டியலில் நிகழ்வுகளைக் காட்டு"
+msgstr "நிகழ்வுகளை பட்டியலில் காட்டு"
 
 #: data/ayatana-settings.ui:371
 msgid "Show the year on the panel"
-msgstr "பட்டியலில் ஆண்டைக் காட்டு"
+msgstr "ஆண்டை பலகையில் காட்டு"
 
 #: data/ayatana-settings.ui:382
 msgid "Show the day of the week on the panel"
-msgstr "பலகையில் வாரத்தின் கிழமையைக் காட்டு"
+msgstr "வாரத்தின் கிழமையை பலகையில் காட்டு"
 
 #: data/ayatana-settings.ui:393
 msgid "Show the month and date on the panel"
-msgstr "பலகையில் மாதம் மற்றும் தேதியைக் காட்டு"
+msgstr "மாதம் மற்றும் தேதியை பலகையில் காட்டு"
 
 #: data/ayatana-settings.ui:428
 msgid "Date and Time"
-msgstr "தேதி மற்றும் நேரம்"
+msgstr "நாளும் பொழுதும்"
 
 #: data/ayatana-settings.ui:451
 msgid "Allow setting the volume above 100%"
-msgstr "ஒலி அளவை 100% க்கு மேல் அமைக்க அனுமதிக்கவும்"
+msgstr "ஒலி அளவை 100% க்கு மேல் அமைத்தல் அனுமதி"
 
 #: data/ayatana-settings.ui:499
 msgid "Sound"
@@ -97,20 +97,20 @@ msgstr "ஒலி"
 
 #: data/ayatana-settings.ui:538
 msgid "Show percentage on the panel"
-msgstr "பலகையில்  சதவீதத்தைக் காட்டு"
+msgstr "சதவீதத்தை பலகையில் காட்டு"
 
 #: data/ayatana-settings.ui:549
 msgid "Show time on the panel"
-msgstr "பலகையில் நேரத்தைக் காட்டு"
+msgstr "நேரத்தை பலகையில் காட்டு"
 
 #: data/ayatana-settings.ui:594
 msgid "Power"
-msgstr "மின்விசை"
+msgstr "மின்ஆற்றல்"
 
 #: data/ayatana-settings.ui:626 data/ayatana-settings.ui:697
 #: data/ayatana-settings.ui:958
 msgid "This indicator has no settings"
-msgstr "இந்த குறியீடு அமைப்புகள் இல்லாதது"
+msgstr "இந்த குறியீடுக்கு அமைப்பு இல்லை"
 
 #: data/ayatana-settings.ui:665
 msgid "Messages"
@@ -118,19 +118,19 @@ msgstr "செய்திகள்"
 
 #: data/ayatana-settings.ui:736
 msgid "Bluetooth"
-msgstr "ஊடலை"
+msgstr "நீலப்பல்அலை"
 
 #: data/ayatana-settings.ui:759
 msgid "Maximum number of visible items"
-msgstr "புலப்படும் உருப்படிகளின் அதிகபட்ச எண்ணிக்கை"
+msgstr "புலப்படும் பொருள்களின் நிறைவு எண்ணிக்கை"
 
 #: data/ayatana-settings.ui:770
 msgid "Discard notifications by application name"
-msgstr "செயலியின்  பெயரால் அறிவிப்புகளை நிராகரிக்கவும்"
+msgstr "செயலி பெயரின் அறிவிப்புகளை கழிக்கவும்"
 
 #: data/ayatana-settings.ui:823
 msgid "Add"
-msgstr "சேர்"
+msgstr "இணை"
 
 #: data/ayatana-settings.ui:852
 msgid "Remove"
