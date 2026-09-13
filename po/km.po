@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2026-08-08 13:51+0000\n"
+"PO-Revision-Date: 2026-09-14 09:51+0000\n"
 "Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/ayatana-"
 "indicators/ayatana-settings/km/>\n"
@@ -18,70 +18,70 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.9.dev0\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
-msgstr ""
+msgstr "បង្ហាញឈ្មោះអ្នកប្រើពេញលេញនៅលើផ្ទាំង"
 
 #: data/ayatana-settings.ui:134
 msgid "Remove the Log Out item from the menu"
-msgstr ""
+msgstr "យកធាតុ 'ចាកចេញ' ចេញពីម៉ឺនុយ"
 
 #: data/ayatana-settings.ui:145
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr ""
+msgstr "មិនបង្ហាញការបញ្ជាក់ពេលចាកចេញ ចាប់ផ្ដើមឡើងវិញ និងបិទម៉ាស៊ីន"
 
 #: data/ayatana-settings.ui:156
 msgid "Remove the Restart item from the menu"
-msgstr ""
+msgstr "យកធាតុ 'ចាប់ផ្ដើមឡើងវិញ' ចេញពីម៉ឺនុយ"
 
 #: data/ayatana-settings.ui:167
 msgid "Remove the Shut Down item from the menu"
-msgstr ""
+msgstr "យកធាតុ 'បិទម៉ាស៊ីន' ចេញពីម៉ឺនុយ"
 
 #: data/ayatana-settings.ui:178
 msgid "Show the user list in the menu"
-msgstr ""
+msgstr "បង្ហាញបញ្ជីអ្នកប្រើនៅក្នុងម៉ឺនុយ"
 
 #: data/ayatana-settings.ui:189 data/ayatana-settings.ui:404
 #: data/ayatana-settings.ui:475 data/ayatana-settings.ui:522
 #: data/ayatana-settings.ui:642 data/ayatana-settings.ui:713
 #: data/ayatana-settings.ui:877 data/ayatana-settings.ui:974
 msgid "Enable this indicator on login"
-msgstr ""
+msgstr "បើកសូចនាករនេះនៅពេលចូលប្រើ"
 
 #: data/ayatana-settings.ui:213
 msgid "Session"
-msgstr ""
+msgstr "សេសសិន​ Session"
 
 #: data/ayatana-settings.ui:236
 msgid "Show the number of seconds on the panel"
-msgstr ""
+msgstr "បង្ហាញចំនួនវិនាទី នៅលើផ្ទាំង"
 
 #: data/ayatana-settings.ui:247
 msgid "Show the calendar in the menu"
-msgstr ""
+msgstr "បង្ហាញប្រតិទិន នៅក្នុងម៉ឺនុយ"
 
 #: data/ayatana-settings.ui:258
 msgid "Show week numbers in the calendar"
-msgstr ""
+msgstr "បង្ហាញលេខសប្ដាហ៍ក្នុងប្រតិទិន"
 
 #: data/ayatana-settings.ui:269
 msgid "Show events in the menu"
-msgstr ""
+msgstr "បង្ហាញព្រឹត្តិការណ៍នៅក្នុងម៉ឺនុយ"
 
 #: data/ayatana-settings.ui:371
 msgid "Show the year on the panel"
-msgstr ""
+msgstr "បង្ហាញឆ្នាំនៅលើផ្ទាំង"
 
 #: data/ayatana-settings.ui:382
 msgid "Show the day of the week on the panel"
-msgstr ""
+msgstr "បង្ហាញថ្ងៃនៃសប្ដាហ៍នៅលើផ្ទាំង"
 
 #: data/ayatana-settings.ui:393
 msgid "Show the month and date on the panel"
-msgstr ""
+msgstr "បង្ហាញខែ និងកាលបរិច្ឆេទនៅលើផ្ទាំង"
 
 #: data/ayatana-settings.ui:428
 msgid "Date and Time"
@@ -89,32 +89,32 @@ msgstr "កាលបរិច្ឆេទ និង ពេលវេលា"
 
 #: data/ayatana-settings.ui:451
 msgid "Allow setting the volume above 100%"
-msgstr ""
+msgstr "អនុញ្ញាតឱ្យកំណត់កម្រិតសំឡេងលើសពី 100%"
 
 #: data/ayatana-settings.ui:499
 msgid "Sound"
-msgstr ""
+msgstr "សំឡេង"
 
 #: data/ayatana-settings.ui:538
 msgid "Show percentage on the panel"
-msgstr ""
+msgstr "បង្ហាញភាគរយនៅលើផ្ទាំង"
 
 #: data/ayatana-settings.ui:549
 msgid "Show time on the panel"
-msgstr ""
+msgstr "បង្ហាញពេលវេលានៅលើផ្ទាំង"
 
 #: data/ayatana-settings.ui:594
 msgid "Power"
-msgstr ""
+msgstr "ថាមពល"
 
 #: data/ayatana-settings.ui:626 data/ayatana-settings.ui:697
 #: data/ayatana-settings.ui:958
 msgid "This indicator has no settings"
-msgstr ""
+msgstr "សូចនាករនេះមិនមានការកំណត់ទេ"
 
 #: data/ayatana-settings.ui:665
 msgid "Messages"
-msgstr ""
+msgstr "សារ"
 
 #: data/ayatana-settings.ui:736
 msgid "Bluetooth"
@@ -122,11 +122,11 @@ msgstr "Bluetooth"
 
 #: data/ayatana-settings.ui:759
 msgid "Maximum number of visible items"
-msgstr ""
+msgstr "ចំនួនអតិបរមានៃធាតុដែលមើលឃើញ"
 
 #: data/ayatana-settings.ui:770
 msgid "Discard notifications by application name"
-msgstr ""
+msgstr "បោះបង់ការជូនដំណឹងតាមឈ្មោះកម្មវិធី"
 
 #: data/ayatana-settings.ui:823
 msgid "Add"
@@ -138,7 +138,7 @@ msgstr "យកចេញ"
 
 #: data/ayatana-settings.ui:926
 msgid "Notifications"
-msgstr ""
+msgstr "ការជូនដំណឹង"
 
 #: data/ayatana-settings.ui:997
 msgid "Keyboard"
@@ -146,12 +146,12 @@ msgstr "ក្ដារចុច"
 
 #: data/ayatana-settings.ui:1010
 msgid "Ayatana Settings"
-msgstr ""
+msgstr "ការកំណត់ Ayatana"
 
 #: data/ayatana-settings.desktop.intl:3
 msgid "Indicators"
-msgstr ""
+msgstr "សូចនាករ"
 
 #: data/ayatana-settings.desktop.intl:4
 msgid "Ayatana Indicators Settings"
-msgstr ""
+msgstr "ការកំណត់សូចនាករ Ayatana"
