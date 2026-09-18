@@ -9,36 +9,36 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2024-10-07 15:16+0000\n"
-"Last-Translator: bittin1ddc447d824349b2 <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/"
-"ayatana-indicators/ayatana-settings/sv/>\n"
+"PO-Revision-Date: 2026-09-19 22:51+0000\n"
+"Last-Translator: Daniel Nylander <yeagersthlm@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/ayatana-"
+"indicators/ayatana-settings/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
-msgstr "Visa fullständigt användarnamn på panelen"
+msgstr "Visa användarens fullständiga namn på panelen"
 
 #: data/ayatana-settings.ui:134
 msgid "Remove the Log Out item from the menu"
-msgstr "Ta bort Logga Ut från menyn"
+msgstr "Ta bort menyalternativet Logga ut från menyn"
 
 #: data/ayatana-settings.ui:145
 msgid "Suppress the Log Out, Restart and Shut Down confirmation"
-msgstr "Undertryck Logga Ut, Omstart och Stäng Av bekräftelse"
+msgstr "Visa inte bekräftelse för Logga ut, Starta om och Stäng av"
 
 #: data/ayatana-settings.ui:156
 msgid "Remove the Restart item from the menu"
-msgstr "Ta bort Omstart från menyn"
+msgstr "Ta bort menyalternativet Starta om från menyn"
 
 #: data/ayatana-settings.ui:167
 msgid "Remove the Shut Down item from the menu"
-msgstr "Ta bort Stäng Av från menyn"
+msgstr "Ta bort menyalternativet Stäng av från menyn"
 
 #: data/ayatana-settings.ui:178
 msgid "Show the user list in the menu"
@@ -49,7 +49,7 @@ msgstr "Visa användarlistan i menyn"
 #: data/ayatana-settings.ui:642 data/ayatana-settings.ui:713
 #: data/ayatana-settings.ui:877 data/ayatana-settings.ui:974
 msgid "Enable this indicator on login"
-msgstr "Aktivera denna indikator vid inloggning"
+msgstr "Aktivera den här indikatorn vid inloggning"
 
 #: data/ayatana-settings.ui:213
 msgid "Session"
@@ -77,7 +77,7 @@ msgstr "Visa året på panelen"
 
 #: data/ayatana-settings.ui:382
 msgid "Show the day of the week on the panel"
-msgstr "Visa veckodag på panelen"
+msgstr "Visa veckodagen på panelen"
 
 #: data/ayatana-settings.ui:393
 msgid "Show the month and date on the panel"
@@ -89,7 +89,7 @@ msgstr "Datum och tid"
 
 #: data/ayatana-settings.ui:451
 msgid "Allow setting the volume above 100%"
-msgstr "Tillåt öka volymen över 100%"
+msgstr "Tillåt att volymen höjs över 100 %"
 
 #: data/ayatana-settings.ui:499
 msgid "Sound"
@@ -118,15 +118,15 @@ msgstr "Meddelanden"
 
 #: data/ayatana-settings.ui:736
 msgid "Bluetooth"
-msgstr "Blåtand"
+msgstr "Bluetooth"
 
 #: data/ayatana-settings.ui:759
 msgid "Maximum number of visible items"
-msgstr "Maximalt antal synlig fält"
+msgstr "Maximalt antal synliga fält"
 
 #: data/ayatana-settings.ui:770
 msgid "Discard notifications by application name"
-msgstr "Kassera aviseringar via applikationens namn"
+msgstr "Avfärda aviseringar efter programnamn"
 
 #: data/ayatana-settings.ui:823
 msgid "Add"
@@ -154,7 +154,7 @@ msgstr "Indikatorer"
 
 #: data/ayatana-settings.desktop.intl:4
 msgid "Ayatana Indicators Settings"
-msgstr "Ayatana Indikator Inställningar"
+msgstr "Inställningar för Ayatana Indicators"
 
 #~ msgid "column"
 #~ msgstr "kolumn"
