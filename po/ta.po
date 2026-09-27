@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2026-09-07 14:51+0000\n"
+"PO-Revision-Date: 2026-09-28 08:51+0000\n"
 "Last-Translator: Alagirisamy Rengaraj <radhaalagirisamy@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ayatana-indicators/"
 "ayatana-settings/ta/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.1.dev0\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
@@ -38,7 +38,7 @@ msgstr "பட்டியலில் மறுபடிதொடங்கு �
 
 #: data/ayatana-settings.ui:167
 msgid "Remove the Shut Down item from the menu"
-msgstr "பட்டியலில் இயக்க நிறுத்த உருப்படியை அகற்றவும்"
+msgstr "பட்டியலில் அணைத்தல் உருப்படியை அகற்றவும்"
 
 #: data/ayatana-settings.ui:178
 msgid "Show the user list in the menu"
@@ -61,11 +61,11 @@ msgstr "பலகையில் விநாடி எண்ணிக்கை 
 
 #: data/ayatana-settings.ui:247
 msgid "Show the calendar in the menu"
-msgstr "பட்டியலில் நாட்காட்டியைக் காட்டு"
+msgstr "பட்டியலில் நாள்காட்டியைக் காட்டு"
 
 #: data/ayatana-settings.ui:258
 msgid "Show week numbers in the calendar"
-msgstr "நாட்காட்டியில் வார எண்களைக் காட்டு"
+msgstr "நாள்காட்டியில் வார எண்களைக் காட்டு"
 
 #: data/ayatana-settings.ui:269
 msgid "Show events in the menu"
