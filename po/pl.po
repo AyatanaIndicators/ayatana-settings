@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/AyatanaIndicators/ayatana-settings/"
 "issues\n"
 "POT-Creation-Date: 2024-08-27 14:40+0200\n"
-"PO-Revision-Date: 2026-06-13 18:03+0000\n"
+"PO-Revision-Date: 2026-11-19 07:58+0000\n"
 "Last-Translator: Grzegorz Szymaszek <gszymaszek@short.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/ayatana-"
 "indicators/ayatana-settings/pl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.7.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: data/ayatana-settings.ui:123
 msgid "Show full user name on the panel"
@@ -86,7 +86,7 @@ msgstr "Pokaż miesiąc i datę na panelu"
 
 #: data/ayatana-settings.ui:428
 msgid "Date and Time"
-msgstr "Data i godzina"
+msgstr "Data i czas"
 
 #: data/ayatana-settings.ui:451
 msgid "Allow setting the volume above 100%"
